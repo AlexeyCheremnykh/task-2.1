@@ -1,0 +1,12 @@
+doctype html
+html(lang="ru")
+	head
+	body
+		include main-info.pug
+		include profile.pug
+		include contact.pug
+		include skills.pug
+		+main-info('name', 'surname', 'vacancy')
+		+profile('sample')
+		+contact('sample', 'sample', 'sample', 'sample')
+		+skills()
