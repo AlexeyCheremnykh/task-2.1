@@ -1,0 +1,17 @@
+mixin contact(address, email, phone, website)
+    include ../block-header/block-header.pug
+    .contact
+        +block-header('contact')
+        table.contact__table 
+            tr.contact__table-row
+                td.contact__name-column= "Address"
+                td.contact__content-column= address
+            tr.contact__table-row
+                td.contact__name-column= "E-mail"
+                td.contact__content-column= email
+            tr.contact__table-row
+                td.contact__name-column= "Phone"
+                td.contact__content-column= email
+            tr.contact__table-row
+                td.contact__name-column= "Website"
+                td.contact__content-column= email

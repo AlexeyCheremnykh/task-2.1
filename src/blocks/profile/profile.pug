@@ -1,0 +1,5 @@
+mixin profile(text)
+    include ../block-header/block-header.pug    
+    .profile
+        +block-header('profile')
+        p.profile__text= text
