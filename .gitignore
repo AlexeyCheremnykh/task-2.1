@@ -1,0 +1,6 @@
+node_modules/
+*.json
+src/blocks/education
+src/blocks/index.html
+src/blocks/second-container/
+src/fonts/

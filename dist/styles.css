@@ -1,0 +1,86 @@
+.first-container {
+  width: 42%;
+  padding-left: 122px;
+  padding-top: 197px;
+}
+.main-info__picture {
+  border-radius: 50%;
+  background-color: #3d6cb0;
+  width: 405px;
+  height: 405px;
+  box-shadow: 0 0 0 26px #fff, 0 0 0 29px #3d6cb0;
+  margin-left: 220px;
+}
+.main-info__text {
+  font-family: 'Conv_myriad_pro_bold';
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 80px;
+}
+.main-info__name {
+  font-size: 104.49px;
+}
+.main-info__surname {
+  font-size: 123.45px;
+}
+.main-info__vacancy {
+  font-size: 49.97px;
+}
+.block-header {
+  display: flex;
+  align-items: center;
+}
+.block-header__picture {
+  border-radius: 50%;
+  background-color: #3d6cb0;
+  width: 135px;
+  height: 135px;
+  box-shadow: 0 0 0 5px #fff, 0 0 0 7px #3d6cb0;
+  margin-right: 24px;
+}
+.block-header__title {
+  font-family: 'Conv_myriad_pro_bold';
+  font-size: 82.3px;
+  text-transform: uppercase;
+  color: #3d6cb0;
+  margin-right: 20px;
+}
+.block-header__line {
+  height: 10px;
+  background-color: #3d6cb0;
+  flex-grow: 1;
+}
+p {
+  font-size: 30.86px;
+}
+.contact__name-column,
+.contact__content-column {
+  font-size: 41.15px;
+  padding: 0;
+  margin: 0;
+}
+.contact__name-column {
+  font-family: 'Conv_myriad_pro_bold';
+  color: #3d6cb0;
+  text-transform: uppercase;
+  padding-right: 85px;
+}
+.contact__content-column {
+  font-family: 'Conv_myriad_pro_regular';
+}
+.skills__title {
+  font-size: 51.44px;
+  text-transform: uppercase;
+}
+.skills__score {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #3d6cb0;
+  box-shadow: 55px 0 0 0 #3d6cb0;
+}
+.second-container {
+  width: 58%;
+}
