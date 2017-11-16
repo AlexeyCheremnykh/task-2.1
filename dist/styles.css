@@ -1,15 +1,17 @@
 .first-container {
+  box-sizing: border-box;
   width: 42%;
-  padding-left: 122px;
-  padding-top: 197px;
+  border: 2px solid #f00;
+  padding-left: 120px;
 }
 .main-info__picture {
   border-radius: 50%;
   background-color: #3d6cb0;
   width: 405px;
   height: 405px;
-  box-shadow: 0 0 0 26px #fff, 0 0 0 29px #3d6cb0;
-  margin-left: 220px;
+  box-shadow: 0 0 0 28px #fff, 0 0 0 30px #3d6cb0;
+  margin-top: 195px;
+  margin-left: 219px;
 }
 .main-info__text {
   font-family: 'Conv_myriad_pro_bold';
