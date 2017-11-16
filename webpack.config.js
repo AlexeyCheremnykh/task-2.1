@@ -23,11 +23,7 @@ module.exports = {
                         'stylus-loader'
                     ]
                 })  
-            },
-            {
-                test: /\.html$/,
-                use: ['html-loader']
-            } 
+            }
         ]
     },
     plugins: [
