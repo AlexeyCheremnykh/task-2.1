@@ -1,24 +1,26 @@
 $blue = #3d6cb0
+
 .block-header
     display: flex
     align-items: center
 
-.block-header__picture    
-    border-radius: 50%
-    background-color: $blue
-    width: 135px
-    height: 135px
-    box-shadow: 0 0 0 5px #fff,
-                0 0 0 7px $blue
-    margin-right: 24px    
+    &__picture
+        border-radius: 50%
+        background-color: $blue
+        width: 135px
+        height: 135px
+        box-shadow: 0 0 0 5px #fff,
+                    0 0 0 7px $blue
+        margin-right: 24px
 
-.block-header__title    
-    font-size: 82.3px
-    text-transform: uppercase
-    color: $blue
-    margin-right: 20px
+    &__title
+        font-family: 'Conv_myriad_pro_bold'    
+        font-size: 82.3px
+        text-transform: uppercase
+        color: $blue
+        margin-right: 20px
 
-.block-header__line
-    height: 10px
-    background-color: $blue
-    flex-grow: 1
+    &__line
+        height: 10px
+        background-color: $blue
+        flex-grow: 1

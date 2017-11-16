@@ -23,13 +23,35 @@ module.exports = {
                         'stylus-loader'
                     ]
                 })  
+            },
+            {
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader'                    
+                ]
+            },
+            {
+                test: /\.(eot|svg|ttf|woff|woff2)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options : {
+                            name: 'fonts/[name].[ext]'
+                        }
+                    }
+                ]
+            },
+            {
+                test: /\.pug$/,
+                use: ['html-loader', 'pug-html-loader']
             }
         ]
     },
     plugins: [
         extractPlugin,
         new HtmlWebpackPlugin({
-            template: 'src/blocks/index.html'    
+            template: 'src/blocks/index.pug'    
         })
     ]
 };
