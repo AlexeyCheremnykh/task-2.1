@@ -1,5 +1,4 @@
-import './src/fonts/myriad_pro_bold/myriad_pro_bold.css';
-import './src/fonts/myriad_pro_regular/myriad_pro_regular.css';
+import './src/fonts/fonts.css';
 import './src/blocks/first-container/first-container.styl';
 import './src/blocks/main-info/main-info.styl';
 import './src/blocks/block-header/block-header.styl';
