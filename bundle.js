@@ -60,11 +60,105 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fonts/PTSansRegular.eot";
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fonts/PTSansItalic.eot";
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fonts/PTSansBold.eot";
+
+/***/ }),
+/* 3 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_fonts_fonts_css__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_fonts_fonts_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__src_fonts_fonts_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_blocks_first_container_first_container_styl__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_blocks_first_container_first_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__src_blocks_first_container_first_container_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_blocks_main_info_main_info_styl__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_blocks_main_info_main_info_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__src_blocks_main_info_main_info_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_blocks_block_header_block_header_styl__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_blocks_block_header_block_header_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__src_blocks_block_header_block_header_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_blocks_profile_profile_styl__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_blocks_profile_profile_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__src_blocks_profile_profile_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_blocks_contact_contact_styl__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_blocks_contact_contact_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__src_blocks_contact_contact_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_blocks_skills_skills_styl__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_blocks_skills_skills_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__src_blocks_skills_skills_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_blocks_second_container_second_container_styl__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_blocks_second_container_second_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__src_blocks_second_container_second_container_styl__);
+
+
+
+
+
+
+
+
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(5);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(13)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../node_modules/css-loader/index.js!./fonts.css", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js!./fonts.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(6)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "@font-face {\r\n\t\t\tfont-family: \"PTSansRegular\";\r\n\t\t\tsrc: url(" + __webpack_require__(0) + ");\r\n\t\t\tsrc: url(" + __webpack_require__(0) + "?#iefix)format(\"embedded-opentype\"),\r\n\t\t\turl(" + __webpack_require__(7) + ") format(\"woff\"),\r\n\t\t\turl(" + __webpack_require__(8) + ") format(\"truetype\");\r\n\t\t\tfont-style: normal;\r\n\t\t\tfont-weight: normal;\r\n\t}\r\n\r\n\t@font-face {\r\n\t\t\tfont-family: \"PTSansItalic\";\r\n\t\t\tsrc: url(" + __webpack_require__(1) + ");\r\n\t\t\tsrc: url(" + __webpack_require__(1) + "?#iefix)format(\"embedded-opentype\"),\r\n\t\t\turl(" + __webpack_require__(9) + ") format(\"woff\"),\r\n\t\t\turl(" + __webpack_require__(10) + ") format(\"truetype\");\r\n\t\t\tfont-style: normal;\r\n\t\t\tfont-weight: normal;\r\n\t}\r\n\r\n\t@font-face {\r\n\t\t\tfont-family: \"PTSansBold\";\r\n\t\t\tsrc: url(" + __webpack_require__(2) + ");\r\n\t\t\tsrc: url(" + __webpack_require__(2) + "?#iefix)format(\"embedded-opentype\"),\r\n\t\t\turl(" + __webpack_require__(11) + ") format(\"woff\"),\r\n\t\t\turl(" + __webpack_require__(12) + ") format(\"truetype\");\r\n\t\t\tfont-style: normal;\r\n\t\t\tfont-weight: normal;\r\n\t}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 6 */
 /***/ (function(module, exports) {
 
 /*
@@ -146,7 +240,43 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 1 */
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fonts/PTSansRegular.woff";
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fonts/PTSansRegular.ttf";
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fonts/PTSansItalic.woff";
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fonts/PTSansItalic.ttf";
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fonts/PTSansBold.woff";
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fonts/PTSansBold.ttf";
+
+/***/ }),
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -202,7 +332,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(9);
+var	fixUrls = __webpack_require__(14);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -518,110 +648,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 2 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_fonts_myriad_pro_bold_myriad_pro_bold_css__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_fonts_myriad_pro_bold_myriad_pro_bold_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__src_fonts_myriad_pro_bold_myriad_pro_bold_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_fonts_myriad_pro_regular_myriad_pro_regular_css__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_fonts_myriad_pro_regular_myriad_pro_regular_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__src_fonts_myriad_pro_regular_myriad_pro_regular_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_blocks_first_container_first_container_styl__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_blocks_first_container_first_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__src_blocks_first_container_first_container_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_blocks_main_info_main_info_styl__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_blocks_main_info_main_info_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__src_blocks_main_info_main_info_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_blocks_block_header_block_header_styl__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_blocks_block_header_block_header_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__src_blocks_block_header_block_header_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_blocks_profile_profile_styl__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_blocks_profile_profile_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__src_blocks_profile_profile_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_blocks_contact_contact_styl__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_blocks_contact_contact_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__src_blocks_contact_contact_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_blocks_skills_skills_styl__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_blocks_skills_skills_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__src_blocks_skills_skills_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_blocks_second_container_second_container_styl__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_blocks_second_container_second_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__src_blocks_second_container_second_container_styl__);
-
-
-
-
-
-
-
-
-
-
-/***/ }),
-/* 3 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(4);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {"hmr":true}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(1)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!./myriad_pro_bold.css", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!./myriad_pro_bold.css");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(0)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "/** Generated by FG **/\n@font-face {\n\tfont-family: 'Conv_myriad_pro_bold';\n\tsrc: url(" + __webpack_require__(5) + ");\n\tsrc: local('\\263A'), url(" + __webpack_require__(6) + ") format('woff'), url(" + __webpack_require__(7) + ") format('truetype'), url(" + __webpack_require__(8) + ") format('svg');\n\tfont-weight: normal;\n\tfont-style: normal;\n}\n\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 5 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fonts/myriad_pro_bold.eot";
-
-/***/ }),
-/* 6 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fonts/myriad_pro_bold.woff";
-
-/***/ }),
-/* 7 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fonts/myriad_pro_bold.ttf";
-
-/***/ }),
-/* 8 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fonts/myriad_pro_bold.svg";
-
-/***/ }),
-/* 9 */
+/* 14 */
 /***/ (function(module, exports) {
 
 
@@ -716,73 +743,10 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(11);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {"hmr":true}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(1)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!./myriad_pro_regular.css", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!./myriad_pro_regular.css");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 11 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(0)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "/** Generated by FG **/\n@font-face {\n\tfont-family: 'Conv_myriad_pro_regular';\n\tsrc: url(" + __webpack_require__(12) + ");\n\tsrc: local('\\263A'), url(" + __webpack_require__(13) + ") format('woff'), url(" + __webpack_require__(14) + ") format('truetype'), url(" + __webpack_require__(15) + ") format('svg');\n\tfont-weight: normal;\n\tfont-style: normal;\n}\n\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 12 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fonts/myriad_pro_regular.eot";
-
-/***/ }),
-/* 13 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fonts/myriad_pro_regular.woff";
-
-/***/ }),
-/* 14 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fonts/myriad_pro_regular.ttf";
-
-/***/ }),
 /* 15 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__.p + "fonts/myriad_pro_regular.svg";
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 16 */
@@ -816,12 +780,6 @@ module.exports = __webpack_require__.p + "fonts/myriad_pro_regular.svg";
 
 /***/ }),
 /* 21 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 22 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
