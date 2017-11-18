@@ -2,6 +2,7 @@
   box-sizing: border-box;
   width: 38.6%;
   padding-left: 53px;
+  display: inline-block;
 }
 .main-info__picture {
   border-radius: 50%;
@@ -9,7 +10,7 @@
   width: 223.06px;
   height: 223px;
   box-shadow: 0 0 0 15.33px #fff, 0 0 0 16.33px #3d6cb0;
-  margin-top: 113px;
+  margin-top: 105px;
   margin-left: 132px;
 }
 .main-info__text {
@@ -127,7 +128,51 @@
   margin-bottom: 18px;
 }
 .second-container {
-  width: 58%;
-  border: 2px solid #f00;
-  height: 100%;
+  box-sizing: border-box;
+  width: 61.4%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 80px;
+  padding-top: 69px;
+  padding-right: 37px;
+}
+.education-list {
+  padding-top: 3px;
+  list-style: none;
+}
+.education-list__secondary-info,
+.education-list__date,
+.education-list__title {
+  font-size: 28.33px;
+}
+.education-list__date,
+.education-list__secondary-info,
+.education-list__text {
+  font-family: "PTSansRegular";
+}
+.education-list__title {
+  padding-left: 22px;
+  position: relative;
+  font-family: "PTSansBold";
+  float: left;
+  text-transform: uppercase;
+  color: #3d6cb0;
+  margin-right: 20px;
+}
+.education-list__title:before {
+  position: absolute;
+  content: "\2022";
+  font-size: 73px;
+  left: -28px;
+  top: -30px;
+  color: #000;
+}
+.education-list__secondary-info {
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+.education-list__text {
+  padding-top: 5px;
+  padding-left: 23px;
+  margin-bottom: 12px;
 }
