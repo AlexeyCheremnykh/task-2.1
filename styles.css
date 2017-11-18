@@ -23,7 +23,7 @@
 .main-info__name {
   font-size: 60px;
   font-family: "PTSansRegular";
-  margin-left: 20px;
+  margin-left: 30px;
   padding-top: 15px;
 }
 .main-info__surname {
@@ -34,12 +34,11 @@
 .main-info__vacancy {
   font-size: 27.52px;
   margin-top: -5px;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 .block-header {
   display: flex;
   align-items: center;
-  border: 1px solid #f00;
   height: 90px;
   margin-left: 6px;
 }
@@ -64,13 +63,13 @@
   flex-grow: 1;
 }
 .profile {
-  margin-top: 75px;
-  margin-left: 3px;
+  margin-top: 76px;
+  margin-left: 4px;
 }
 .profile__text {
-  margin-top: 6px;
+  margin-top: 7px;
   font-size: 16.5px;
-  margin-left: 4px;
+  margin-left: 3px;
   line-height: 20px;
 }
 .profile__text-part-1 {
@@ -80,11 +79,11 @@
   font-family: "PTSansBold";
 }
 .contact {
-  margin-top: 36px;
+  margin-top: 37px;
   margin-left: 3px;
 }
 .contact__dl {
-  padding-top: 12px;
+  padding-top: 13px;
   padding-left: 3px;
 }
 .contact__dt,
@@ -103,19 +102,18 @@
   padding-left: 100px;
 }
 .skills {
-  margin-top: 15px;
-  margin-left: 2px;
+  margin-top: 19px;
+  margin-left: 3px;
   clear: both;
 }
 .skills__all-skills {
   text-align: center;
-  border: 1px solid #00f;
 }
 .skills__title {
   font-size: 28.33px;
   text-transform: uppercase;
   font-family: "PTSansRegular";
-  padding-left: 10px;
+  padding-left: 9px;
   margin-bottom: 10px;
 }
 .skills__score {
@@ -132,47 +130,105 @@
   width: 61.4%;
   display: inline-block;
   vertical-align: top;
-  padding-left: 80px;
+  padding-left: 81px;
   padding-top: 69px;
   padding-right: 37px;
 }
-.education-list {
-  padding-top: 3px;
+.education {
+  padding-top: 1px;
+}
+.education-list__title {
+  color: #3d6cb0;
+}
+.common-list {
+  padding-top: 5px;
   list-style: none;
 }
-.education-list__secondary-info,
-.education-list__date,
-.education-list__title {
+.common-list__secondary-info,
+.common-list__date,
+.common-list__title {
   font-size: 28.33px;
 }
-.education-list__date,
-.education-list__secondary-info,
-.education-list__text {
+.common-list__date,
+.common-list__secondary-info,
+.common-list__text {
   font-family: "PTSansRegular";
 }
-.education-list__title {
+.common-list__title {
   padding-left: 22px;
   position: relative;
   font-family: "PTSansBold";
   float: left;
   text-transform: uppercase;
-  color: #3d6cb0;
   margin-right: 20px;
 }
-.education-list__title:before {
+.common-list__title:before {
   position: absolute;
   content: "\2022";
   font-size: 73px;
-  left: -28px;
-  top: -30px;
+  left: -29px;
+  top: -31px;
   color: #000;
 }
-.education-list__secondary-info {
+.common-list__secondary-info {
   text-transform: uppercase;
   padding-left: 20px;
 }
-.education-list__text {
+.common-list__text {
   padding-top: 5px;
   padding-left: 23px;
   margin-bottom: 12px;
+  padding-right: 24px;
+}
+.experience {
+  margin-top: 52px;
+}
+.experience-list {
+  margin-top: 33px;
+}
+.software {
+  margin-top: 51px;
+}
+.software__second-list,
+.software__first-list {
+  width: 316px;
+}
+.software__second-list {
+  float: right;
+  padding-right: 4px;
+}
+.software__first-list {
+  float: left;
+}
+.software__title {
+  font-size: 28.33px;
+  font-family: "PTSansRegular";
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-top: 4px;
+}
+.software__level {
+  height: 24px;
+  margin: 0;
+  margin-left: 11px;
+  margin-top: 14px;
+  margin-bottom: 16px;
+}
+.software__photoshop-level {
+  background-image: linear-gradient(to right, #3d6cb0 277px, #e6e6e6 277px);
+}
+.software__illustrator-level {
+  background-image: linear-gradient(to right, #3d6cb0 215px, #e6e6e6 215px);
+}
+.software__indesign-level {
+  background-image: linear-gradient(to right, #3d6cb0 171px, #e6e6e6 171px);
+}
+.software__dreamweaver-level {
+  background-image: linear-gradient(to right, #3d6cb0 252.8px, #e6e6e6 252.8px);
+}
+.software__after-effects-level {
+  background-image: linear-gradient(to right, #3d6cb0 188px, #e6e6e6 188px);
+}
+.software__html-css-level {
+  background-image: linear-gradient(to right, #3d6cb0 277px, #e6e6e6 277px);
 }
