@@ -2,16 +2,15 @@ mixin skills()
     include ../block-header/block-header.pug
     .skills
         +block-header('skills')
-        .skills__all-skills
-            .skills__creative
-                h3.skills__title creative
-                .skills__score.skills__score-creative
-            .skills__teamwork
-                h3.skills__title teamwork
-                .skills__score.skills__score-teamwork
-            .skills__innovate
-                h3.skills__title innovate
-                .skills__score.skills__score-innovate
-            .skills__communication
-                h3.skills__title communication
-                .skills__score.skills__score-communication
+        dl.skills__all-skills
+            dt.skills__title creative
+            dd.skills__score.skills__score-creative
+            
+            dt.skills__title teamwork
+            dd.skills__score.skills__score-teamwork
+            
+            dt.skills__title innovate
+            dd.skills__score.skills__score-innovate
+            
+            dt.skills__title communication
+            dd.skills__score.skills__score-communication

@@ -2,16 +2,15 @@ mixin contact(address, email, phone, website)
     include ../block-header/block-header.pug
     .contact
         +block-header('contact')
-        table.contact__table 
-            tr.contact__table-row
-                td.contact__name-column= "Address"
-                td.contact__content-column= address
-            tr.contact__table-row
-                td.contact__name-column= "E-mail"
-                td.contact__content-column= email
-            tr.contact__table-row
-                td.contact__name-column= "Phone"
-                td.contact__content-column= phone
-            tr.contact__table-row
-                td.contact__name-column= "Website"
-                td.contact__content-column= website
+        dl.contact__dl 
+            dt.contact__dt= "Address"
+            dd.contact__dd= address
+            
+            dt.contact__dt= "E-mail"
+            dd.contact__dd= email
+            
+            dt.contact__dt= "Phone"
+            dd.contact__dd= phone
+            
+            dt.contact__dt= "Website"
+            dd.contact__dd= website

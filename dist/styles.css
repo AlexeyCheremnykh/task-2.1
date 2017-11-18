@@ -1,6 +1,6 @@
 .first-container {
   box-sizing: border-box;
-  width: 39.2%;
+  width: 38.6%;
   padding-left: 53px;
 }
 .main-info__picture {
@@ -82,29 +82,29 @@
   margin-top: 36px;
   margin-left: 3px;
 }
-.contact__table {
-  padding-top: 25px;
+.contact__dl {
+  padding-top: 12px;
+  padding-left: 3px;
 }
-.contact__name-column,
-.contact__content-column {
+.contact__dt,
+.contact__dd {
   font-size: 22.66px;
-  padding-bottom: 28px;
+  padding-bottom: 30px;
 }
-.contact__name-column {
+.contact__dt {
+  float: left;
   color: #3d6cb0;
   text-transform: uppercase;
   font-family: "PTSansBold";
 }
-.contact__content-column {
+.contact__dd {
   font-family: "PTSansRegular";
-  padding-left: 43.5px;
+  padding-left: 100px;
 }
 .skills {
   margin-top: 15px;
   margin-left: 2px;
-}
-.skills .block-header {
-  height: 75px;
+  clear: both;
 }
 .skills__all-skills {
   text-align: center;
@@ -114,13 +114,17 @@
   font-size: 28.33px;
   text-transform: uppercase;
   font-family: "PTSansRegular";
+  padding-left: 10px;
+  margin-bottom: 10px;
 }
 .skills__score {
   width: 19.03px;
   height: 19.03px;
   border-radius: 50%;
   background-color: #3d6cb0;
-  box-shadow: 19.03px 0 0 0 #3d6cb0;
+  box-shadow: 30px 0 0 0 #3d6cb0, 59px 0 0 0 #3d6cb0, 89px 0 0 0 #3d6cb0, 119px 0 0 0 #3d6cb0, 152px 0 0 0 #3d6cb0, 182px 0 0 0 #3d6cb0, 212px 0 0 0 #3d6cb0, 242px 0 0 0 #3d6cb0, 272px 0 0 0 #e6e6e6, 304px 0 0 0 #e6e6e6, 334px 0 0 0 #e6e6e6;
+  margin-left: 53px;
+  margin-bottom: 18px;
 }
 .second-container {
   width: 58%;
