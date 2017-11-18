@@ -1,0 +1,6 @@
+include ../block-header/block-header.pug
+include ../common-list/common-list.pug
+mixin experience    
+    .experience
+        +block-header('experience')
+        +common-list('experience', 3, 'Company Name', 'Your Job Here')

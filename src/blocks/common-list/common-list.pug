@@ -1,9 +1,9 @@
-mixin common-list(block_title, length)
-    ul(class=block_title + '-list')     
+mixin common-list(block_title, length, list_title, list_secondary_info)
+    ul(class=block_title + '-list common-list')     
         - for (var i = 0; i < length; i++)
-            li(class=block_title + '-list__item')
-                div(class=block_title + '-list__main-info')
-                    div(class=block_title + '-list__title') Master Degree
-                    div(class=block_title + '-list__date') // Feb 2011 - June 2014
-                div(class=block_title + '-list__secondary-info') University Name
-                div(class=block_title + '-list__text') Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+            li(class=block_title + '-list__item common-list__item')
+                div(class=block_title + '-list__main-info common-list__main-info')
+                    div(class=block_title + '-list__title common-list__title') #{list_title}
+                    div(class=block_title + '-list__date common-list__date') // Feb 2011 - June 2014
+                div(class=block_title + '-list__secondary-info common-list__secondary-info') #{list_secondary_info}
+                div(class=block_title + '-list__text common-list__text') Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
