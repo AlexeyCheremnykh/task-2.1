@@ -1,0 +1,9 @@
+mixin common-list(block_title, length)
+    ul(class=block_title + '-list')     
+        - for (var i = 0; i < length; i++)
+            li(class=block_title + '-list__item')
+                div(class=block_title + '-list__main-info')
+                    div(class=block_title + '-list__title') Master Degree
+                    div(class=block_title + '-list__date') // Feb 2011 - June 2014
+                div(class=block_title + '-list__secondary-info') University Name
+                div(class=block_title + '-list__text') Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.

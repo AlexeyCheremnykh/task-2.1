@@ -6,3 +6,4 @@ import './src/blocks/profile/profile.styl';
 import './src/blocks/contact/contact.styl';
 import './src/blocks/skills/skills.styl';
 import './src/blocks/second-container/second-container.styl';
+import './src/blocks/education/education.styl'
