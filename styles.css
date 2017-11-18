@@ -1,7 +1,7 @@
 .first-container {
   box-sizing: border-box;
   width: 38.6%;
-  padding-left: 53px;
+  padding-left: 4%;
   display: inline-block;
 }
 .main-info__picture {
@@ -11,7 +11,7 @@
   height: 223px;
   box-shadow: 0 0 0 15.33px #fff, 0 0 0 16.33px #3d6cb0;
   margin-top: 105px;
-  margin-left: 132px;
+  margin-left: 28.445%;
 }
 .main-info__text {
   font-family: "PTSansBold";
