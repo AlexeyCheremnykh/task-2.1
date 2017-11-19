@@ -1,16 +1,31 @@
-mixin skills()
+mixin skills()    
+
+    mixin make_circle(cx, fill)
+        circle(r="9.515" cx=cx cy="50%" fill=fill)
+
+    mixin make_circles(score)
+        - var step = 30
+        - for (i = 9.515; i < score * step; i = i + step)
+            +make_circle(i, "#3d6cb0")
+        - for (i = score * step + 9.515; i < 12 * step; i = i + step)
+            +make_circle(i, "#e6e6e6")
+
     include ../block-header/block-header.pug
     .skills
-        +block-header('skills')
-        dl.skills__all-skills
-            dt.skills__title creative
-            dd.skills__score.skills__score-creative
-            
-            dt.skills__title teamwork
-            dd.skills__score.skills__score-teamwork
-            
-            dt.skills__title innovate
-            dd.skills__score.skills__score-innovate
-            
-            dt.skills__title communication
-            dd.skills__score.skills__score-communication
+        +block-header("skills")        
+        .skills__scores
+            .skills__title creative
+            svg.skills__score.skills__score-creative            
+                +make_circles(9)                     
+                
+            .skills__title teamwork
+            svg.skills__score.skills__score-teamwork
+                +make_circles(11)
+                
+            .skills__title innovate
+            svg.skills__score.skills__score-innovate
+                +make_circles(6) 
+                
+            .skills__title communication
+            svg.skills__score.skills__score-communication
+                +make_circles(11) 
