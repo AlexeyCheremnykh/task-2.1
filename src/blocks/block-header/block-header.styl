@@ -1,4 +1,5 @@
-$blue = #3d6cb0
+$icon_color = #0071bb
+$text_color = #3d6cb0
 
 .block-header
     display: flex
@@ -8,22 +9,22 @@ $blue = #3d6cb0
 
     &__picture        
         border-radius: 50%
-        background-color: $blue
+        background-color: $icon_color
         width: 74px
         height: 71px
         box-shadow: 0 0 0 3px #fff,
-                    0 0 0 4px $blue
-        margin-right: 16px     
+                    0 0 0 4px $icon_color
+        margin-right: 16px        
+        background-position: center    
 
     &__title 
         font-size: 45.53px
         text-transform: uppercase
-        color: $blue 
+        color: $text_color 
         font-family: "PTSansBold"
         margin-right: 11px    
 
     &__line
-        height: 5px
-        
-        background-color: $blue
+        height: 5px        
+        background-color: $text_color
         flex-grow: 1
