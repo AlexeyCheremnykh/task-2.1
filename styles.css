@@ -5,19 +5,33 @@
   display: inline-block;
 }
 .main-info__picture {
+  position: relative;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #3d6cb0;
+  width: 55%;
+  padding-top: 55%;
+  margin-top: 88.67px;
+  margin-left: 115.67px;
+}
+.main-info__picture::after {
+  position: absolute;
+  content: '';
+  display: block;
   border-radius: 50%;
   background-color: #3d6cb0;
-  width: 223px;
-  height: 223px;
-  box-shadow: 0 0 0 15.33px #fff, 0 0 0 16.33px #3d6cb0;
-  margin-top: 105px;
-  margin-left: 132px;
+  width: 88.1423%;
+  padding-top: 88.1423%;
+  top: 5.9289%;
+  left: 5.9289%;
 }
 .main-info__text {
+  display: inline-block;
+  margin-left: 60px;
   font-family: "PTSansBold";
   text-align: center;
   text-transform: uppercase;
-  margin-top: 21px;
+  margin-top: 3px;
 }
 .main-info__name {
   font-size: 60px;
@@ -62,6 +76,75 @@
   background-color: #3d6cb0;
   flex-grow: 1;
 }
+.profile {
+  margin-top: 78px;
+  margin-left: 4px;
+}
+.profile .block-header__picture {
+  background-image: url(img/profile_icon.png);
+}
+.profile__text {
+  margin-top: 7px;
+  font-size: 16.5px;
+  margin-left: 3px;
+  line-height: 20px;
+}
+.profile__text-part-1 {
+  font-family: "PTSansRegular";
+}
+.profile__text-part-2 {
+  font-family: "PTSansBold";
+}
+.contact {
+  margin-top: 37px;
+  margin-left: 3px;
+}
+.contact .block-header__picture {
+  background-image: url(img/contact_icon.png);
+}
+.contact__dl {
+  padding-top: 13px;
+  padding-left: 3px;
+}
+.contact__dt,
+.contact__dd {
+  font-size: 22.66px;
+  padding-bottom: 30px;
+}
+.contact__dt {
+  float: left;
+  color: #3d6cb0;
+  text-transform: uppercase;
+  font-family: "PTSansBold";
+}
+.contact__dd {
+  font-family: "PTSansRegular";
+  padding-left: 100px;
+}
+.skills {
+  margin-top: 19px;
+  margin-left: 3px;
+  clear: both;
+  text-align: center;
+}
+.skills .block-header__picture {
+  background-image: url(img/skills_icon.png);
+}
+.skills__title {
+  font-size: 28.33px;
+  text-transform: uppercase;
+  font-family: "PTSansRegular";
+  padding-left: 9px;
+  margin-bottom: 9px;
+}
+.skills__score {
+  width: 353px;
+  height: 19.03px;
+  margin-bottom: 15px;
+}
+.skills__scores {
+  padding-top: 17px;
+}
 .second-container {
   box-sizing: border-box;
   width: 61.4%;
@@ -70,6 +153,15 @@
   padding-left: 81px;
   padding-top: 69px;
   padding-right: 37px;
+}
+.education {
+  padding-top: 1px;
+}
+.education .block-header__picture {
+  background-image: url(img/education_icon.png);
+}
+.education-list__title {
+  color: #3d6cb0;
 }
 .common-list {
   padding-top: 5px;
@@ -110,4 +202,65 @@
   padding-left: 23px;
   margin-bottom: 12px;
   padding-right: 24px;
+}
+.common-list__date {
+  padding-left: 22px;
+}
+.experience {
+  margin-top: 52px;
+}
+.experience .block-header__picture {
+  background-image: url(img/experience_icon.png);
+}
+.experience-list {
+  margin-top: 33px;
+}
+.software {
+  margin-top: 51px;
+}
+.software .block-header__picture {
+  background-image: url(img/software_icon.png);
+}
+.software__second-list,
+.software__first-list {
+  width: 316px;
+}
+.software__second-list {
+  float: right;
+  padding-right: 4px;
+}
+.software__first-list {
+  float: left;
+}
+.software__title {
+  font-size: 28.33px;
+  font-family: "PTSansRegular";
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-top: 4px;
+}
+.software__level {
+  height: 24px;
+  margin: 0;
+  margin-left: 11px;
+  margin-top: 14px;
+  margin-bottom: 16px;
+}
+.software__photoshop-level {
+  background-image: linear-gradient(to right, #3d6cb0 277px, #e6e6e6 277px);
+}
+.software__illustrator-level {
+  background-image: linear-gradient(to right, #3d6cb0 215px, #e6e6e6 215px);
+}
+.software__indesign-level {
+  background-image: linear-gradient(to right, #3d6cb0 171px, #e6e6e6 171px);
+}
+.software__dreamweaver-level {
+  background-image: linear-gradient(to right, #3d6cb0 252.8px, #e6e6e6 252.8px);
+}
+.software__after-effects-level {
+  background-image: linear-gradient(to right, #3d6cb0 188px, #e6e6e6 188px);
+}
+.software__html-css-level {
+  background-image: linear-gradient(to right, #3d6cb0 277px, #e6e6e6 277px);
 }
