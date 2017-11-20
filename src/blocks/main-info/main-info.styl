@@ -2,22 +2,33 @@ $picture_color = #3d6cb0
 
 .main-info
     &__picture
+        position: relative
+        border-radius: 50%
+        background-color: #ffffff
+        border: 1px solid $picture_color
+        width: 55%
+        padding-top: 55%            
+        margin-top: 88.67px
+        margin-left: 115.67px
+
+    &__picture::after
+        position: absolute
+        content: ''
+        display: block
         border-radius: 50%
         background-color: $picture_color
-        width: 223px
-        height: 223px        
-        box-shadow: 0 0 0 15.33px #fff,
-                    0 0 0 16.33px $picture_color        
-        margin-top: 105px
-        margin-left: 132px
-
+        width: 88.1423%
+        padding-top: 88.1423%
+        top: 5.9289%
+        left: 5.9289%        
 
     &__text
+        display: inline-block
+        margin-left: 60px
         font-family: "PTSansBold"               
         text-align: center
         text-transform: uppercase        
-        margin-top: 21px        
-        
+        margin-top: 3px       
 
     &__name
         font-size: 60px
