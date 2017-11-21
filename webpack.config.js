@@ -1,10 +1,10 @@
 var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
+/*var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 var extractPlugin = new ExtractTextPlugin({
     filename: 'styles.css'
-});
+});*/
 
 module.exports = {
     entry: './entry.js',
@@ -16,12 +16,13 @@ module.exports = {
         rules: [
             { 
                 test: /\.styl$/, 
-                use: extractPlugin.extract({
-                    use: [                        
-                        'css-loader',
-                        'stylus-loader'
-                    ]
-                })  
+                //use: extractPlugin.extract({
+                use: [
+                    'style-loader',                        
+                    'css-loader',
+                    'stylus-loader'
+                ]
+                //})  
             },
             {
                 test: /\.css$/,
@@ -59,7 +60,7 @@ module.exports = {
         ]
     },
     plugins: [
-        extractPlugin,
+        //extractPlugin,
         new HtmlWebpackPlugin({
             template: 'src/blocks/index.pug'    
         })
