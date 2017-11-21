@@ -1,13 +1,13 @@
 mixin skills()    
 
     mixin make_circle(cx, fill)
-        circle(r="9.515" cx=cx cy="50%" fill=fill)
+        circle(r="9.5" cx=cx cy="50%" fill=fill)
 
     mixin make_circles(score)
         - var step = 30
-        - for (i = 9.515; i < score * step; i = i + step)
+        - for (i = 9.5; i < score * step; i = i + step)
             +make_circle(i, "#3d6cb0")
-        - for (i = score * step + 9.515; i < 12 * step; i = i + step)
+        - for (i = score * step + 9.5; i < 12 * step; i = i + step)
             +make_circle(i, "#e6e6e6")
 
     include ../block-header/block-header.pug

@@ -4,6 +4,9 @@
   padding-left: 53px;
   display: inline-block;
 }
+html {
+  font-size: 16px;
+}
 .main-info__picture {
   position: relative;
   border-radius: 50%;
@@ -25,27 +28,29 @@
   top: 5.9289%;
   left: 5.9289%;
 }
-.main-info__text {
-  display: inline-block;
+.main-info__text-wrapper {
   margin-left: 60px;
+  margin-top: 5px;
+}
+.main-info__text {
+  width: 85.765%;
   font-family: "PTSansBold";
   text-align: center;
   text-transform: uppercase;
-  margin-top: 3px;
 }
 .main-info__name {
-  font-size: 60px;
+  font-size: 3.75rem;
   font-family: "PTSansRegular";
   margin-left: 30px;
   padding-top: 15px;
 }
 .main-info__surname {
-  font-size: 72px;
+  font-size: 4.5rem;
   margin-top: -26px;
   margin-left: 20px;
 }
 .main-info__vacancy {
-  font-size: 27.52px;
+  font-size: 1.6875rem;
   margin-top: -5px;
   margin-left: 25px;
 }
@@ -65,7 +70,7 @@
   background-position: center;
 }
 .block-header__title {
-  font-size: 45.53px;
+  font-size: 2.8125rem;
   text-transform: uppercase;
   color: #3d6cb0;
   font-family: "PTSansBold";
@@ -85,9 +90,9 @@
 }
 .profile__text {
   margin-top: 7px;
-  font-size: 16.5px;
+  font-size: 1.03125rem;
   margin-left: 3px;
-  line-height: 20px;
+  line-height: 1.25rem;
 }
 .profile__text-part-1 {
   font-family: "PTSansRegular";
@@ -108,7 +113,11 @@
 }
 .contact__dt,
 .contact__dd {
-  font-size: 22.66px;
+  font-size: 1.4375rem;
+  padding-bottom: 31px;
+}
+.contact__dt:last-child,
+.contact__dd:last-child {
   padding-bottom: 30px;
 }
 .contact__dt {
@@ -122,7 +131,6 @@
   padding-left: 100px;
 }
 .skills {
-  margin-top: 19px;
   margin-left: 3px;
   clear: both;
   text-align: center;
@@ -139,7 +147,7 @@
 }
 .skills__score {
   width: 353px;
-  height: 19.03px;
+  height: 19px;
   margin-bottom: 15px;
 }
 .skills__scores {
@@ -170,7 +178,7 @@
 .common-list__secondary-info,
 .common-list__date,
 .common-list__title {
-  font-size: 28.33px;
+  font-size: 1.75rem;
 }
 .common-list__date,
 .common-list__secondary-info,
@@ -188,7 +196,7 @@
 .common-list__title:before {
   position: absolute;
   content: "\2022";
-  font-size: 73px;
+  font-size: 4.5625rem;
   left: -29px;
   top: -31px;
   color: #000;
@@ -233,7 +241,7 @@
   float: left;
 }
 .software__title {
-  font-size: 28.33px;
+  font-size: 1.75rem;
   font-family: "PTSansRegular";
   text-transform: uppercase;
   padding-left: 10px;

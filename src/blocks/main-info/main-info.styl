@@ -1,5 +1,8 @@
 $picture_color = #3d6cb0
 
+html 
+    font-size: 16px
+
 .main-info
     &__picture
         position: relative
@@ -22,26 +25,28 @@ $picture_color = #3d6cb0
         top: 5.9289%
         left: 5.9289%        
 
-    &__text
-        display: inline-block
+    &__text-wrapper
         margin-left: 60px
+        margin-top: 5px
+
+    &__text
+        width: 85.765% 
         font-family: "PTSansBold"               
         text-align: center
-        text-transform: uppercase        
-        margin-top: 3px       
+        text-transform: uppercase      
 
     &__name
-        font-size: 60px
+        font-size: 3.75rem
         font-family: "PTSansRegular"
         margin-left: 30px        
         padding-top: 15px
 
     &__surname
-        font-size: 72px
+        font-size: 4.5rem
         margin-top: -26px
         margin-left: 20px
         
     &__vacancy
-        font-size: 27.52px   
+        font-size: 1.6875rem  
         margin-top: -5px
         margin-left: 25px  
