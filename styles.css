@@ -4,24 +4,27 @@
   padding-left: 53px;
   display: inline-block;
 }
-html {
-  font-size: 16px;
+@media (max-width: 1024px) {
+  .first-container {
+    padding: 0;
+    display: block;
+    width: 61.4%;
+    margin: auto;
+  }
 }
 .main-info {
-  overflow: visible;
-/*&__text-wrapper        
-        margin-left: 60px
-        margin-top: 5px*/
+  padding-left: 25px;
 }
 .main-info__picture {
   position: relative;
   border-radius: 50%;
   background-color: #fff;
   border: 1px solid #3d6cb0;
-  width: 55%;
-  padding-top: 55%;
+  width: 58.002%;
+  padding-top: 58.002%;
   margin-top: 88.67px;
-  margin-left: 115.67px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .main-info__picture::after {
   position: absolute;
@@ -39,7 +42,8 @@ html {
   font-family: "PTSansBold";
   text-align: center;
   text-transform: uppercase;
-  margin-left: 45px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20px;
 }
 .main-info__name {
@@ -54,18 +58,7 @@ html {
   font-size: 1.6875rem;
   line-height: 2.8em;
 }
-@media (max-width: 1340px) {
-  .main-info__name {
-    font-size: 3.5rem;
-  }
-  .main-info__surname {
-    font-size: 4.2rem;
-  }
-  .main-info__vacancy {
-    font-size: 1.575rem;
-  }
-}
-@media (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1160px) {
   .main-info__name {
     font-size: 2.48rem;
   }
@@ -74,6 +67,16 @@ html {
   }
   .main-info__vacancy {
     font-size: 1.125rem;
+  }
+}
+@media (max-width: 1024px) {
+  .main-info__picture {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-info__text {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .block-header {
@@ -184,6 +187,13 @@ html {
   padding-top: 69px;
   padding-right: 37px;
 }
+@media (max-width: 1024px) {
+  .second-container {
+    padding: 0;
+    display: block;
+    margin: auto;
+  }
+}
 .education {
   padding-top: 1px;
 }
@@ -192,6 +202,11 @@ html {
 }
 .education-list__title {
   color: #3d6cb0;
+}
+@media (max-width: 1024px) {
+  .education {
+    margin-top: 40px;
+  }
 }
 .common-list {
   padding-top: 5px;
@@ -293,4 +308,12 @@ html {
 }
 .software__html-css-level {
   background-image: linear-gradient(to right, #3d6cb0 277px, #e6e6e6 277px);
+}
+@media (max-width: 1245px) {
+  .software .software__second-list,
+  .software .software__first-list {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
