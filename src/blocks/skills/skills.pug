@@ -1,4 +1,4 @@
-mixin skills()    
+mixin skills(creative, teamwork, innovate, communication)    
 
     mixin make_circle(cx, fill)
         circle(r="9.5" cx=cx cy="50%" fill=fill)
@@ -16,16 +16,16 @@ mixin skills()
         .skills__scores
             .skills__title creative
             svg.skills__score.skills__score-creative            
-                +make_circles(9)                     
+                +make_circles(creative)                     
                 
             .skills__title teamwork
             svg.skills__score.skills__score-teamwork
-                +make_circles(11)
+                +make_circles(teamwork)
                 
             .skills__title innovate
             svg.skills__score.skills__score-innovate
-                +make_circles(6) 
+                +make_circles(innovate) 
                 
             .skills__title communication
             svg.skills__score.skills__score-communication
-                +make_circles(11) 
+                +make_circles(communication) 

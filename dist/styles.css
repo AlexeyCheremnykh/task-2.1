@@ -1,7 +1,7 @@
 .first-container {
   box-sizing: border-box;
   width: 38.6%;
-  padding-left: 53px;
+  padding-left: 60px;
   display: inline-block;
 }
 @media (max-width: 1024px) {
@@ -9,20 +9,22 @@
     padding: 0;
     display: block;
     width: 61.4%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .main-info {
-  padding-left: 25px;
+  padding-left: 19px;
+  margin-bottom: 58px;
 }
 .main-info__picture {
   position: relative;
   border-radius: 50%;
   background-color: #fff;
   border: 1px solid #3d6cb0;
-  width: 58.002%;
-  padding-top: 58.002%;
-  margin-top: 88.67px;
+  width: 57.907%;
+  padding-top: 57.907%;
+  margin-top: 89px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -83,7 +85,7 @@
   display: flex;
   align-items: center;
   height: 90px;
-  margin-left: 6px;
+  margin-left: 3px;
 }
 .block-header__picture {
   border-radius: 50%;
@@ -107,8 +109,7 @@
   flex-grow: 1;
 }
 .profile {
-  margin-top: 57px;
-  margin-left: 4px;
+  margin-bottom: 37px;
 }
 .profile .block-header__picture {
   background-image: url(img/profile_icon.png);
@@ -116,7 +117,6 @@
 .profile__text {
   margin-top: 7px;
   font-size: 1.03125rem;
-  margin-left: 3px;
   line-height: 1.25rem;
 }
 .profile__text-part-1 {
@@ -125,25 +125,16 @@
 .profile__text-part-2 {
   font-family: "PTSansBold";
 }
-.contact {
-  margin-top: 37px;
-  margin-left: 3px;
-}
 .contact .block-header__picture {
   background-image: url(img/contact_icon.png);
 }
 .contact__dl {
   padding-top: 13px;
-  padding-left: 3px;
 }
 .contact__dt,
 .contact__dd {
   font-size: 1.4375rem;
   padding-bottom: 31px;
-}
-.contact__dt:last-child,
-.contact__dd:last-child {
-  padding-bottom: 30px;
 }
 .contact__dt {
   float: left;
@@ -156,8 +147,6 @@
   padding-left: 100px;
 }
 .skills {
-  margin-left: 3px;
-  clear: both;
   text-align: center;
 }
 .skills .block-header__picture {
@@ -167,7 +156,7 @@
   font-size: 28.33px;
   text-transform: uppercase;
   font-family: "PTSansRegular";
-  padding-left: 9px;
+  margin-left: 9px;
   margin-bottom: 9px;
 }
 .skills__score {
@@ -183,19 +172,20 @@
   width: 61.4%;
   display: inline-block;
   vertical-align: top;
-  padding-left: 81px;
-  padding-top: 69px;
+  padding-left: 84px;
+  padding-top: 70px;
   padding-right: 37px;
 }
 @media (max-width: 1024px) {
   .second-container {
     padding: 0;
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .education {
-  padding-top: 1px;
+  margin-bottom: 52px;
 }
 .education .block-header__picture {
   background-image: url(img/education_icon.png);
@@ -212,47 +202,43 @@
   padding-top: 5px;
   list-style: none;
 }
-.common-list__secondary-info,
-.common-list__date,
 .common-list__title {
-  font-size: 1.75rem;
-}
-.common-list__date,
-.common-list__secondary-info,
-.common-list__text {
-  font-family: "PTSansRegular";
-}
-.common-list__title {
-  padding-left: 22px;
-  position: relative;
   font-family: "PTSansBold";
+  font-size: 1.75rem;
   float: left;
   text-transform: uppercase;
   margin-right: 20px;
+  padding-left: 19px;
+  position: relative;
 }
 .common-list__title:before {
   position: absolute;
   content: "\2022";
   font-size: 4.5625rem;
-  left: -29px;
+  left: -32px;
   top: -31px;
   color: #000;
 }
 .common-list__secondary-info {
+  font-family: "PTSansRegular";
+  font-size: 1.75rem;
   text-transform: uppercase;
-  padding-left: 20px;
-}
-.common-list__text {
-  padding-top: 5px;
-  padding-left: 23px;
-  margin-bottom: 12px;
-  padding-right: 24px;
+  padding-left: 17px;
 }
 .common-list__date {
-  padding-left: 22px;
+  padding-left: 19px;
+  font-family: "PTSansRegular";
+  font-size: 1.75rem;
+}
+.common-list__text {
+  font-family: "PTSansRegular";
+  margin-bottom: 12px;
+  padding-top: 5px;
+  padding-right: 22px;
+  padding-left: 20px;
 }
 .experience {
-  margin-top: 52px;
+  margin-bottom: 51px;
 }
 .experience .block-header__picture {
   background-image: url(img/experience_icon.png);
@@ -260,19 +246,20 @@
 .experience-list {
   margin-top: 33px;
 }
-.software {
-  margin-top: 51px;
-}
 .software .block-header__picture {
   background-image: url(img/software_icon.png);
 }
+.software__levels::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 .software__second-list,
 .software__first-list {
-  width: 316px;
+  width: 45.346%;
 }
 .software__second-list {
   float: right;
-  padding-right: 4px;
 }
 .software__first-list {
   float: left;
@@ -281,39 +268,31 @@
   font-size: 1.75rem;
   font-family: "PTSansRegular";
   text-transform: uppercase;
-  padding-left: 10px;
-  padding-top: 4px;
+  padding-left: 6px;
+  padding-top: 5px;
 }
 .software__level {
+  width: 96.52%;
   height: 24px;
-  margin: 0;
-  margin-left: 11px;
+  margin-left: 7px;
   margin-top: 14px;
   margin-bottom: 16px;
 }
 .software__photoshop-level {
-  background-image: linear-gradient(to right, #3d6cb0 277px, #e6e6e6 277px);
+  background-image: linear-gradient(to right, #3d6cb0 90.8197%, #e6e6e6 90.8197%);
 }
 .software__illustrator-level {
-  background-image: linear-gradient(to right, #3d6cb0 215px, #e6e6e6 215px);
+  background-image: linear-gradient(to right, #3d6cb0 70.4918%, #e6e6e6 70.4918%);
 }
 .software__indesign-level {
-  background-image: linear-gradient(to right, #3d6cb0 171px, #e6e6e6 171px);
+  background-image: linear-gradient(to right, #3d6cb0 56.0656%, #e6e6e6 56.0656%);
 }
 .software__dreamweaver-level {
-  background-image: linear-gradient(to right, #3d6cb0 252.8px, #e6e6e6 252.8px);
+  background-image: linear-gradient(to right, #3d6cb0 82.9508%, #e6e6e6 82.9508%);
 }
 .software__after-effects-level {
-  background-image: linear-gradient(to right, #3d6cb0 188px, #e6e6e6 188px);
+  background-image: linear-gradient(to right, #3d6cb0 61.6393%, #e6e6e6 61.6393%);
 }
 .software__html-css-level {
-  background-image: linear-gradient(to right, #3d6cb0 277px, #e6e6e6 277px);
-}
-@media (max-width: 1245px) {
-  .software .software__second-list,
-  .software .software__first-list {
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  background-image: linear-gradient(to right, #3d6cb0 90.8197%, #e6e6e6 90.8197%);
 }
