@@ -3,7 +3,7 @@ $picture_color = #3d6cb0
 html 
     font-size: 16px
 
-.main-info
+.main-info    
     &__picture
         position: relative
         border-radius: 50%
@@ -25,28 +25,45 @@ html
         top: 5.9289%
         left: 5.9289%        
 
-    &__text-wrapper
+    /*&__text-wrapper        
         margin-left: 60px
-        margin-top: 5px
+        margin-top: 5px*/
 
     &__text
         width: 85.765% 
         font-family: "PTSansBold"               
         text-align: center
-        text-transform: uppercase      
+        text-transform: uppercase
+        margin-left: 45px
+        margin-top: 20px     
 
     &__name
         font-size: 3.75rem
-        font-family: "PTSansRegular"
-        margin-left: 30px        
-        padding-top: 15px
+        font-family: "PTSansRegular"      
 
     &__surname
-        font-size: 4.5rem
-        margin-top: -26px
-        margin-left: 20px
+        font-size: 4.4rem
+        line-height: 0.6em       
         
     &__vacancy
         font-size: 1.6875rem  
-        margin-top: -5px
-        margin-left: 25px  
+        line-height: 2.8em
+
+@media (max-width: 1340px)
+    .main-info
+        &__name
+            font-size: 3.5rem
+        &__surname
+            font-size: 4.2rem
+        &__vacancy
+            font-size: 1.575rem
+        
+
+@media (max-width: 1280px)
+    .main-info
+        &__name
+            font-size: 2.48rem
+        &__surname
+            font-size: 3rem
+        &__vacancy
+            font-size: 1.125rem
