@@ -48,14 +48,32 @@ $picture_color = #3d6cb0
 
 @media (min-width: 1025px) and (max-width: 1160px)
     .main-info
-        &__name
-            font-size: 2.48rem
-        &__surname
+        &__name            
             font-size: 3rem
+        &__surname
+            font-size: 3.52rem
         &__vacancy
-            font-size: 1.125rem
+            font-size: 1.35rem
 
-@media (max-width: 1024px)
+@media (min-width: 801px) and (max-width: 1024px)
+    .main-info
+        &__name
+            font-size: 2rem
+        &__surname
+            font-size: 2.35rem
+        &__vacancy
+            font-size: 0.9rem
+
+@media (min-width: 641px) and (max-width: 800px)
+    .main-info
+        &__name
+            font-size: 1.6rem
+        &__surname
+            font-size: 1.88rem
+        &__vacancy
+            font-size: 0.72rem
+
+@media (max-width: 640px)
     .main-info
         &__picture
             margin-left: auto
@@ -63,3 +81,11 @@ $picture_color = #3d6cb0
         &__text
             margin-left: auto
             margin-right: auto
+        &__name            
+            font-size: 3rem
+        &__surname
+            font-size: 3.52rem
+        &__vacancy
+            font-size: 1.35rem
+        
+    
