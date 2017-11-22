@@ -1,6 +1,7 @@
 .profile
     margin-bottom: 37px
-    .block-header__picture
+    
+    .block-header__picture::after
         background-image: url("profile_icon.png")
 
     &__text 
@@ -15,3 +16,7 @@
         font-family: "PTSansBold"
 
 
+@media (min-width: 641px) and (max-width: 1024px)
+    .profile
+        &__text
+            font-size: 0.73rem

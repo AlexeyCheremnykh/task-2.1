@@ -842,7 +842,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".first-container {\n  box-sizing: border-box;\n  width: 38.6%;\n  padding-left: 60px;\n  display: inline-block;\n}\n@media (max-width: 640px) {\n  .first-container {\n    padding: 0;\n    display: block;\n    width: 61.4%;\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n", ""]);
+exports.push([module.i, ".first-container {\n  box-sizing: border-box;\n  width: 38.6%;\n  padding-left: 60px;\n  display: inline-block;\n}\n@media (max-width: 640px) {\n  .first-container {\n    width: 80%;\n    padding: 0;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n", ""]);
 
 // exports
 
@@ -887,7 +887,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".main-info {\n  padding-left: 19px;\n  margin-bottom: 58px;\n}\n.main-info__picture {\n  position: relative;\n  border-radius: 50%;\n  background-color: #fff;\n  border: 1px solid #3d6cb0;\n  width: 57.907%;\n  padding-top: 57.907%;\n  margin-top: 89px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.main-info__picture::after {\n  position: absolute;\n  content: '';\n  display: block;\n  border-radius: 50%;\n  background-color: #3d6cb0;\n  width: 88.1423%;\n  padding-top: 88.1423%;\n  top: 5.9289%;\n  left: 5.9289%;\n}\n.main-info__text {\n  width: 85.765%;\n  font-family: \"PTSansBold\";\n  text-align: center;\n  text-transform: uppercase;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 20px;\n}\n.main-info__name {\n  font-size: 3.75rem;\n  font-family: \"PTSansRegular\";\n}\n.main-info__surname {\n  font-size: 4.4rem;\n  line-height: 0.6em;\n}\n.main-info__vacancy {\n  font-size: 1.6875rem;\n  line-height: 2.8em;\n}\n@media (min-width: 1025px) and (max-width: 1160px) {\n  .main-info__name {\n    font-size: 3rem;\n  }\n  .main-info__surname {\n    font-size: 3.52rem;\n  }\n  .main-info__vacancy {\n    font-size: 1.35rem;\n  }\n}\n@media (min-width: 801px) and (max-width: 1024px) {\n  .main-info__name {\n    font-size: 2rem;\n  }\n  .main-info__surname {\n    font-size: 2.35rem;\n  }\n  .main-info__vacancy {\n    font-size: 0.9rem;\n  }\n}\n@media (min-width: 641px) and (max-width: 800px) {\n  .main-info__name {\n    font-size: 1.6rem;\n  }\n  .main-info__surname {\n    font-size: 1.88rem;\n  }\n  .main-info__vacancy {\n    font-size: 0.72rem;\n  }\n}\n@media (max-width: 640px) {\n  .main-info__picture {\n    margin-left: auto;\n    margin-right: auto;\n  }\n  .main-info__text {\n    margin-left: auto;\n    margin-right: auto;\n  }\n  .main-info__name {\n    font-size: 3rem;\n  }\n  .main-info__surname {\n    font-size: 3.52rem;\n  }\n  .main-info__vacancy {\n    font-size: 1.35rem;\n  }\n}\n", ""]);
+exports.push([module.i, ".main-info {\n  padding-left: 19px;\n  margin-bottom: 58px;\n}\n.main-info__picture {\n  position: relative;\n  border-radius: 50%;\n  background-color: #fff;\n  border: 1px solid #3d6cb0;\n  width: 57.907%;\n  padding-top: 57.907%;\n  margin-top: 89px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.main-info__picture::after {\n  position: absolute;\n  content: '';\n  display: block;\n  border-radius: 50%;\n  background-color: #3d6cb0;\n  width: 88.1423%;\n  padding-top: 88.1423%;\n  top: 5.9289%;\n  left: 5.9289%;\n}\n.main-info__text {\n  width: 85.765%;\n  font-family: \"PTSansBold\";\n  text-align: center;\n  text-transform: uppercase;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 20px;\n}\n.main-info__name {\n  font-size: 3.75rem;\n  font-family: \"PTSansRegular\";\n}\n.main-info__surname {\n  font-size: 4.4rem;\n  line-height: 0.6em;\n}\n.main-info__vacancy {\n  font-size: 1.6875rem;\n  line-height: 2.8em;\n}\n@media (min-width: 1025px) and (max-width: 1160px) {\n  .main-info {\n    margin-bottom: 46px;\n  }\n  .main-info__name {\n    font-size: 3rem;\n  }\n  .main-info__surname {\n    font-size: 3.52rem;\n  }\n  .main-info__vacancy {\n    font-size: 1.35rem;\n  }\n}\n@media (min-width: 801px) and (max-width: 1024px) {\n  .main-info {\n    margin-bottom: 27px;\n  }\n  .main-info__name {\n    font-size: 2rem;\n  }\n  .main-info__surname {\n    font-size: 2.35rem;\n  }\n  .main-info__vacancy {\n    font-size: 0.9rem;\n  }\n}\n@media (min-width: 641px) and (max-width: 800px) {\n  .main-info {\n    margin-bottom: 21px;\n  }\n  .main-info__name {\n    font-size: 1.6rem;\n  }\n  .main-info__surname {\n    font-size: 1.88rem;\n  }\n  .main-info__vacancy {\n    font-size: 0.72rem;\n  }\n}\n@media (max-width: 640px) {\n  .main-info__picture {\n    margin-left: auto;\n    margin-right: auto;\n  }\n  .main-info__text {\n    margin-left: auto;\n    margin-right: auto;\n  }\n  .main-info__name {\n    font-size: 3rem;\n  }\n  .main-info__surname {\n    font-size: 3.52rem;\n  }\n  .main-info__vacancy {\n    font-size: 1.35rem;\n  }\n}\n", ""]);
 
 // exports
 
@@ -932,7 +932,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".block-header {\n  display: flex;\n  align-items: center;\n  height: 90px;\n  margin-left: 3px;\n}\n.block-header__picture {\n  border-radius: 50%;\n  background-color: #0071bb;\n  width: 74px;\n  height: 71px;\n  box-shadow: 0 0 0 3px #fff, 0 0 0 4px #0071bb;\n  margin-right: 16px;\n  background-position: center;\n}\n.block-header__title {\n  font-size: 2.8125rem;\n  text-transform: uppercase;\n  color: #3d6cb0;\n  font-family: \"PTSansBold\";\n  margin-right: 11px;\n}\n.block-header__line {\n  height: 5px;\n  background-color: #3d6cb0;\n  flex-grow: 1;\n}\n", ""]);
+exports.push([module.i, ".block-header {\n  display: flex;\n  align-items: center;\n  height: 90px;\n}\n.block-header__picture {\n  position: relative;\n  border-radius: 50%;\n  background-color: #fff;\n  border: 1px solid #0071bb;\n  width: 17.135%;\n  padding-top: 17.135%;\n  margin-right: 16px;\n}\n.block-header__picture::after {\n  position: absolute;\n  content: '';\n  display: block;\n  border-radius: 50%;\n  background-color: #0071bb;\n  width: 89.874%;\n  padding-top: 89.874%;\n  top: 5%;\n  left: 5%;\n  background-size: cover;\n  background-position: center;\n}\n.block-header__title {\n  font-size: 2.8125rem;\n  text-transform: uppercase;\n  color: #3d6cb0;\n  font-family: \"PTSansBold\";\n  margin-right: 11px;\n}\n.block-header__line {\n  height: 5px;\n  background-color: #3d6cb0;\n  flex-grow: 1;\n}\n@media (min-width: 1025px) and (max-width: 1160px) {\n  .block-header {\n    height: 72px;\n  }\n  .block-header__picture {\n    margin-right: 13px;\n  }\n  .block-header__line {\n    height: 4px;\n  }\n  .block-header__title {\n    font-size: 2.25rem;\n    margin-right: 9px;\n  }\n}\n@media (min-width: 801px) and (max-width: 1024px) {\n  .block-header {\n    height: 45px;\n  }\n  .block-header__picture {\n    margin-right: 8px;\n  }\n  .block-header__line {\n    height: 3px;\n  }\n  .block-header__title {\n    font-size: 1.4rem;\n    margin-right: 6px;\n  }\n}\n@media (min-width: 641px) and (max-width: 800px) {\n  .block-header {\n    height: 36px;\n  }\n  .block-header__picture {\n    margin-right: 6px;\n  }\n  .block-header__line {\n    height: 2px;\n  }\n  .block-header__title {\n    font-size: 1.12rem;\n    margin-right: 5px;\n  }\n}\n", ""]);
 
 // exports
 
@@ -977,7 +977,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".profile {\n  margin-bottom: 37px;\n}\n.profile .block-header__picture {\n  background-image: url(" + __webpack_require__(25) + ");\n}\n.profile__text {\n  margin-top: 7px;\n  font-size: 1.03125rem;\n  line-height: 1.25rem;\n}\n.profile__text-part-1 {\n  font-family: \"PTSansRegular\";\n}\n.profile__text-part-2 {\n  font-family: \"PTSansBold\";\n}\n", ""]);
+exports.push([module.i, ".profile {\n  margin-bottom: 37px;\n}\n.profile .block-header__picture::after {\n  background-image: url(" + __webpack_require__(25) + ");\n}\n.profile__text {\n  margin-top: 7px;\n  font-size: 1.03125rem;\n  line-height: 1.25rem;\n}\n.profile__text-part-1 {\n  font-family: \"PTSansRegular\";\n}\n.profile__text-part-2 {\n  font-family: \"PTSansBold\";\n}\n@media (min-width: 641px) and (max-width: 1024px) {\n  .profile__text {\n    font-size: 0.73rem;\n  }\n}\n", ""]);
 
 // exports
 
@@ -1028,7 +1028,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".contact .block-header__picture {\n  background-image: url(" + __webpack_require__(28) + ");\n}\n.contact__dl {\n  padding-top: 13px;\n}\n.contact__dt,\n.contact__dd {\n  font-size: 1.4375rem;\n  padding-bottom: 31px;\n}\n.contact__dt {\n  float: left;\n  color: #3d6cb0;\n  text-transform: uppercase;\n  font-family: \"PTSansBold\";\n}\n.contact__dd {\n  font-family: \"PTSansRegular\";\n  padding-left: 100px;\n}\n", ""]);
+exports.push([module.i, ".contact .block-header__picture::after {\n  background-image: url(" + __webpack_require__(28) + ");\n}\n.contact__dl {\n  padding-top: 13px;\n}\n.contact__dt,\n.contact__dd {\n  font-size: 1.4375rem;\n  padding-bottom: 31px;\n}\n.contact__dt {\n  float: left;\n  color: #3d6cb0;\n  text-transform: uppercase;\n  font-family: \"PTSansBold\";\n}\n.contact__dd {\n  font-family: \"PTSansRegular\";\n  padding-left: 100px;\n}\n@media (min-width: 641px) and (max-width: 1024px) {\n  .contact .contact__dt,\n  .contact .contact__dd {\n    font-size: 1.1rem;\n  }\n}\n", ""]);
 
 // exports
 
@@ -1079,7 +1079,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".skills {\n  text-align: center;\n}\n.skills .block-header__picture {\n  background-image: url(" + __webpack_require__(31) + ");\n}\n.skills__title {\n  font-size: 28.33px;\n  text-transform: uppercase;\n  font-family: \"PTSansRegular\";\n  margin-left: 9px;\n  margin-bottom: 9px;\n}\n.skills__score {\n  width: 353px;\n  height: 19px;\n  margin-bottom: 15px;\n}\n.skills__scores {\n  padding-top: 17px;\n}\n", ""]);
+exports.push([module.i, ".skills {\n  text-align: center;\n}\n.skills .block-header__picture::after {\n  background-image: url(" + __webpack_require__(31) + ");\n}\n.skills__title {\n  font-size: 28.33px;\n  text-transform: uppercase;\n  font-family: \"PTSansRegular\";\n  margin-left: 9px;\n  margin-bottom: 9px;\n}\n.skills__score {\n  width: 353px;\n  height: 19px;\n  margin-bottom: 15px;\n}\n.skills__scores {\n  padding-top: 17px;\n}\n", ""]);
 
 // exports
 
@@ -1130,7 +1130,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".second-container {\n  box-sizing: border-box;\n  width: 61.4%;\n  display: inline-block;\n  vertical-align: top;\n  padding-left: 84px;\n  padding-top: 70px;\n  padding-right: 37px;\n}\n@media (max-width: 640px) {\n  .second-container {\n    padding: 0;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n", ""]);
+exports.push([module.i, ".second-container {\n  box-sizing: border-box;\n  width: 61.4%;\n  display: inline-block;\n  vertical-align: top;\n  padding-left: 84px;\n  padding-top: 70px;\n  padding-right: 37px;\n}\n@media (max-width: 640px) {\n  .second-container {\n    width: 80%;\n    padding: 0;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n", ""]);
 
 // exports
 
@@ -1175,7 +1175,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".education {\n  margin-bottom: 52px;\n}\n.education .block-header__picture {\n  background-image: url(" + __webpack_require__(36) + ");\n}\n.education-list__title {\n  color: #3d6cb0;\n}\n@media (max-width: 1024px) {\n  .education {\n    margin-top: 40px;\n  }\n}\n", ""]);
+exports.push([module.i, ".education {\n  margin-bottom: 52px;\n}\n.education .block-header__picture::after {\n  background-image: url(" + __webpack_require__(36) + ");\n}\n.education-list__title {\n  color: #3d6cb0;\n}\n@media (max-width: 1024px) {\n  .education {\n    margin-top: 40px;\n  }\n}\n", ""]);
 
 // exports
 
@@ -1271,7 +1271,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".experience {\n  margin-bottom: 51px;\n}\n.experience .block-header__picture {\n  background-image: url(" + __webpack_require__(41) + ");\n}\n.experience-list {\n  margin-top: 33px;\n}\n", ""]);
+exports.push([module.i, ".experience {\n  margin-bottom: 51px;\n}\n.experience .block-header__picture::after {\n  background-image: url(" + __webpack_require__(41) + ");\n}\n.experience-list {\n  margin-top: 33px;\n}\n", ""]);
 
 // exports
 
@@ -1322,7 +1322,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".software .block-header__picture {\n  background-image: url(" + __webpack_require__(44) + ");\n}\n.software__levels::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n.software__second-list,\n.software__first-list {\n  width: 45.346%;\n}\n.software__second-list {\n  float: right;\n}\n.software__first-list {\n  float: left;\n}\n.software__title {\n  font-size: 1.75rem;\n  font-family: \"PTSansRegular\";\n  text-transform: uppercase;\n  padding-left: 6px;\n  padding-top: 5px;\n}\n.software__level {\n  width: 96.52%;\n  height: 24px;\n  margin-left: 7px;\n  margin-top: 14px;\n  margin-bottom: 16px;\n}\n.software__photoshop-level {\n  background-image: linear-gradient(to right, #3d6cb0 90.8197%, #e6e6e6 90.8197%);\n}\n.software__illustrator-level {\n  background-image: linear-gradient(to right, #3d6cb0 70.4918%, #e6e6e6 70.4918%);\n}\n.software__indesign-level {\n  background-image: linear-gradient(to right, #3d6cb0 56.0656%, #e6e6e6 56.0656%);\n}\n.software__dreamweaver-level {\n  background-image: linear-gradient(to right, #3d6cb0 82.9508%, #e6e6e6 82.9508%);\n}\n.software__after-effects-level {\n  background-image: linear-gradient(to right, #3d6cb0 61.6393%, #e6e6e6 61.6393%);\n}\n.software__html-css-level {\n  background-image: linear-gradient(to right, #3d6cb0 90.8197%, #e6e6e6 90.8197%);\n}\n", ""]);
+exports.push([module.i, ".software .block-header__picture::after {\n  background-image: url(" + __webpack_require__(44) + ");\n}\n.software__levels::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n.software__second-list,\n.software__first-list {\n  width: 45.346%;\n}\n.software__second-list {\n  float: right;\n}\n.software__first-list {\n  float: left;\n}\n.software__title {\n  font-size: 1.75rem;\n  font-family: \"PTSansRegular\";\n  text-transform: uppercase;\n  padding-left: 6px;\n  padding-top: 5px;\n}\n.software__level {\n  width: 96.52%;\n  height: 24px;\n  margin-left: 7px;\n  margin-top: 14px;\n  margin-bottom: 16px;\n}\n.software__photoshop-level {\n  background-image: linear-gradient(to right, #3d6cb0 90.8197%, #e6e6e6 90.8197%);\n}\n.software__illustrator-level {\n  background-image: linear-gradient(to right, #3d6cb0 70.4918%, #e6e6e6 70.4918%);\n}\n.software__indesign-level {\n  background-image: linear-gradient(to right, #3d6cb0 56.0656%, #e6e6e6 56.0656%);\n}\n.software__dreamweaver-level {\n  background-image: linear-gradient(to right, #3d6cb0 82.9508%, #e6e6e6 82.9508%);\n}\n.software__after-effects-level {\n  background-image: linear-gradient(to right, #3d6cb0 61.6393%, #e6e6e6 61.6393%);\n}\n.software__html-css-level {\n  background-image: linear-gradient(to right, #3d6cb0 90.8197%, #e6e6e6 90.8197%);\n}\n", ""]);
 
 // exports
 

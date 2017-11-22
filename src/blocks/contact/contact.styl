@@ -1,7 +1,8 @@
 $text_color = #3d6cb0
 
-.contact    
-    .block-header__picture
+.contact
+
+    .block-header__picture::after
         background-image: url("contact_icon.png")    
 
     &__dl
@@ -20,5 +21,20 @@ $text_color = #3d6cb0
     
     &__dd
         font-family: "PTSansRegular"
-        padding-left: 100px       
+        padding-left: 100px    
+
+    @media (min-width: 641px) and (max-width: 1024px)
+        .contact
+            &__dt,
+            &__dd
+                font-size: 1.1rem
+
+    /*@media (min-width: 641px) and (max-width: 800px)
+        .main-info
+            &__name
+                font-size: 1.6rem
+            &__surname
+                font-size: 1.88rem
+            &__vacancy
+                font-size: 0.72rem */  
         

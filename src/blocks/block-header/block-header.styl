@@ -4,18 +4,29 @@ $text_color = #3d6cb0
 .block-header
     display: flex
     align-items: center
-    height: 90px
-    margin-left: 3px
+    height: 90px    
 
-    &__picture        
+    &__picture
+        position: relative        
+        border-radius: 50%
+        background-color: #ffffff
+        border: 1px solid $icon_color
+        width: 17.135%
+        padding-top: 17.135%
+        margin-right: 16px       
+
+    &__picture::after
+        position: absolute
+        content: ''
+        display: block
         border-radius: 50%
         background-color: $icon_color
-        width: 74px
-        height: 71px
-        box-shadow: 0 0 0 3px #fff,
-                    0 0 0 4px $icon_color
-        margin-right: 16px        
-        background-position: center    
+        width: 89.874%
+        padding-top: 89.874%
+        top: 5%
+        left: 5% 
+        background-size: cover
+        background-position: center  
 
     &__title 
         font-size: 2.8125rem
@@ -28,3 +39,45 @@ $text_color = #3d6cb0
         height: 5px        
         background-color: $text_color
         flex-grow: 1
+
+@media (min-width: 1025px) and (max-width: 1160px)
+    .block-header
+        height: 72px
+
+        &__picture
+            margin-right: 13px
+        
+        &__line
+            height: 4px
+
+        &__title
+            font-size: 2.25rem
+            margin-right: 9px 
+
+@media (min-width: 801px) and (max-width: 1024px)
+    .block-header
+        height: 45px
+
+        &__picture
+            margin-right: 8px 
+
+        &__line
+            height: 3px
+
+        &__title
+            font-size: 1.4rem
+            margin-right: 6px
+
+@media (min-width: 641px) and (max-width: 800px)
+    .block-header
+        height 36px
+
+        &__picture
+            margin-right: 6px
+
+        &__line
+            height: 2px
+        
+        &__title
+            font-size: 1.12rem
+            margin-right: 5px
