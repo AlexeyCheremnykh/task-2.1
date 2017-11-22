@@ -977,7 +977,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".profile {\n  margin-bottom: 37px;\n}\n.profile .block-header__picture::after {\n  background-image: url(" + __webpack_require__(25) + ");\n}\n.profile__text {\n  margin-top: 7px;\n  font-size: 1.03125rem;\n  line-height: 1.25rem;\n}\n.profile__text-part-1 {\n  font-family: \"PTSansRegular\";\n}\n.profile__text-part-2 {\n  font-family: \"PTSansBold\";\n}\n@media (min-width: 641px) and (max-width: 1024px) {\n  .profile__text {\n    font-size: 0.73rem;\n  }\n}\n", ""]);
+exports.push([module.i, ".profile {\n  margin-bottom: 37px;\n}\n.profile .block-header__picture::after {\n  background-image: url(" + __webpack_require__(25) + ");\n}\n.profile__text {\n  margin-top: 7px;\n  font-size: 1.03125rem;\n  line-height: 1.25rem;\n}\n.profile__text-part-1 {\n  font-family: \"PTSansRegular\";\n}\n.profile__text-part-2 {\n  font-family: \"PTSansBold\";\n}\n@media (min-width: 1025px) and (max-width: 1160px) {\n  .profile .profile__text {\n    font-size: 1rem;\n  }\n}\n@media (min-width: 801px) and (max-width: 1024px) {\n  .profile .profile__text {\n    font-size: 0.85rem;\n  }\n}\n@media (min-width: 641px) and (max-width: 800px) {\n  .profile .profile__text {\n    font-size: 0.75rem;\n  }\n}\n", ""]);
 
 // exports
 
@@ -1028,7 +1028,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".contact .block-header__picture::after {\n  background-image: url(" + __webpack_require__(28) + ");\n}\n.contact__dl {\n  padding-top: 13px;\n}\n.contact__dt,\n.contact__dd {\n  font-size: 1.4375rem;\n  padding-bottom: 31px;\n}\n.contact__dt {\n  float: left;\n  color: #3d6cb0;\n  text-transform: uppercase;\n  font-family: \"PTSansBold\";\n}\n.contact__dd {\n  font-family: \"PTSansRegular\";\n  padding-left: 100px;\n}\n@media (min-width: 641px) and (max-width: 1024px) {\n  .contact .contact__dt,\n  .contact .contact__dd {\n    font-size: 1.1rem;\n  }\n}\n", ""]);
+exports.push([module.i, ".contact .block-header__picture::after {\n  background-image: url(" + __webpack_require__(28) + ");\n}\n.contact__dl {\n  padding-top: 13px;\n}\n.contact__dt,\n.contact__dd {\n  font-size: 1.4375rem;\n  padding-bottom: 31px;\n}\n.contact__dt {\n  float: left;\n  color: #3d6cb0;\n  text-transform: uppercase;\n  font-family: \"PTSansBold\";\n}\n.contact__dd {\n  font-family: \"PTSansRegular\";\n  padding-left: 100px;\n}\n@media (min-width: 1025px) and (max-width: 1160px) {\n  .contact .contact__dt,\n  .contact .contact__dd {\n    font-size: 1.3rem;\n  }\n  .contact .contact__dd {\n    padding-left: 90px;\n  }\n}\n@media (min-width: 801px) and (max-width: 1024px) {\n  .contact .contact__dt,\n  .contact .contact__dd {\n    font-size: 1rem;\n  }\n  .contact .contact__dd {\n    padding-left: 65px;\n  }\n}\n@media (min-width: 641px) and (max-width: 800px) {\n  .contact .contact__dt,\n  .contact .contact__dd {\n    font-size: 0.9rem;\n  }\n  .contact .contact__dd {\n    padding-left: 55px;\n  }\n}\n", ""]);
 
 // exports
 
@@ -1079,7 +1079,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".skills {\n  text-align: center;\n}\n.skills .block-header__picture::after {\n  background-image: url(" + __webpack_require__(31) + ");\n}\n.skills__title {\n  font-size: 28.33px;\n  text-transform: uppercase;\n  font-family: \"PTSansRegular\";\n  margin-left: 9px;\n  margin-bottom: 9px;\n}\n.skills__score {\n  width: 353px;\n  height: 19px;\n  margin-bottom: 15px;\n}\n.skills__scores {\n  padding-top: 17px;\n}\n", ""]);
+exports.push([module.i, ".skills {\n  text-align: center;\n}\n.skills .block-header__picture::after {\n  background-image: url(" + __webpack_require__(31) + ");\n}\n.skills__title {\n  font-size: 28.33px;\n  text-transform: uppercase;\n  font-family: \"PTSansRegular\";\n  margin-left: 9px;\n  margin-bottom: 9px;\n}\n.skills__score {\n  width: 353px;\n  height: 19px;\n  margin-bottom: 15px;\n}\n.skills__scores {\n  padding-top: 17px;\n}\n/* @media (min-width: 1025px) and (max-width: 1160px)\n\n    @media (min-width: 801px) and (max-width: 1024px)\n    \n    @media (min-width: 641px) and (max-width: 800px)\n        .contact\n            &__dt,\n            &__dd\n                font-size: 1.1rem */\n", ""]);
 
 // exports
 
