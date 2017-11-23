@@ -1223,7 +1223,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".education {\n  margin-bottom: 52px;\n}\n.education .block-header__picture::after {\n  background-image: url(" + __webpack_require__(38) + ");\n}\n.education-list__title {\n  color: #3d6cb0;\n}\n@media (max-width: 1024px) {\n  .education {\n    margin-top: 40px;\n  }\n}\n", ""]);
+exports.push([module.i, ".education {\n  margin-bottom: 3.25rem;\n}\n.education .block-header__picture::after {\n  background-image: url(" + __webpack_require__(38) + ");\n}\n.education-list__title {\n  color: #3d6cb0;\n}\n", ""]);
 
 // exports
 
@@ -1274,7 +1274,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".common-list {\n  padding-top: 5px;\n  list-style: none;\n}\n.common-list__title {\n  font-family: \"PTSansBold\";\n  font-size: 1.75rem;\n  float: left;\n  text-transform: uppercase;\n  margin-right: 20px;\n  padding-left: 19px;\n  position: relative;\n}\n.common-list__title:before {\n  position: absolute;\n  content: \"\\2022\";\n  font-size: 4.5625rem;\n  left: -32px;\n  top: -31px;\n  color: #000;\n}\n.common-list__secondary-info {\n  font-family: \"PTSansRegular\";\n  font-size: 1.75rem;\n  text-transform: uppercase;\n  padding-left: 17px;\n}\n.common-list__date {\n  padding-left: 19px;\n  font-family: \"PTSansRegular\";\n  font-size: 1.75rem;\n}\n.common-list__text {\n  font-family: \"PTSansRegular\";\n  margin-bottom: 12px;\n  padding-top: 5px;\n  padding-right: 22px;\n  padding-left: 20px;\n}\n", ""]);
+exports.push([module.i, ".common-list {\n  padding-top: 0.3125rem;\n  list-style: none;\n}\n.common-list__title {\n  font-family: \"PTSansBold\";\n  font-size: 1.75rem;\n  float: left;\n  text-transform: uppercase;\n  margin-right: 1.25rem;\n  padding-left: 1.1875rem;\n  position: relative;\n}\n.common-list__title:before {\n  position: absolute;\n  content: \"\\2022\";\n  font-size: 4.5625rem;\n  left: -2rem;\n  top: -1.9375rem;\n  color: #000;\n}\n.common-list__secondary-info {\n  font-family: \"PTSansRegular\";\n  font-size: 1.75rem;\n  text-transform: uppercase;\n  padding-left: 1.0625rem;\n}\n.common-list__date {\n  padding-left: 1.1875rem;\n  font-family: \"PTSansRegular\";\n  font-size: 1.75rem;\n}\n.common-list__text {\n  font-family: \"PTSansRegular\";\n  margin-bottom: 0.75rem;\n  padding-top: 0.3125rem;\n  padding-right: 1.375rem;\n  padding-left: 1.25rem;\n}\n", ""]);
 
 // exports
 
@@ -1319,7 +1319,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".experience {\n  margin-bottom: 51px;\n}\n.experience .block-header__picture::after {\n  background-image: url(" + __webpack_require__(43) + ");\n}\n.experience-list {\n  margin-top: 33px;\n}\n", ""]);
+exports.push([module.i, ".experience {\n  margin-bottom: 3.1875rem;\n}\n.experience .block-header__picture::after {\n  background-image: url(" + __webpack_require__(43) + ");\n}\n.experience-list {\n  margin-top: 2.0625rem;\n}\n", ""]);
 
 // exports
 
@@ -1370,7 +1370,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".software .block-header__picture::after {\n  background-image: url(" + __webpack_require__(46) + ");\n}\n.software__levels::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n.software__second-list,\n.software__first-list {\n  width: 45.346%;\n}\n.software__second-list {\n  float: right;\n}\n.software__first-list {\n  float: left;\n}\n.software__title {\n  font-size: 1.75rem;\n  font-family: \"PTSansRegular\";\n  text-transform: uppercase;\n  padding-left: 6px;\n  padding-top: 5px;\n}\n.software__level {\n  width: 96.52%;\n  height: 24px;\n  margin-left: 7px;\n  margin-top: 14px;\n  margin-bottom: 16px;\n}\n.software__photoshop-level {\n  background-image: linear-gradient(to right, #3d6cb0 90.8197%, #e6e6e6 90.8197%);\n}\n.software__illustrator-level {\n  background-image: linear-gradient(to right, #3d6cb0 70.4918%, #e6e6e6 70.4918%);\n}\n.software__indesign-level {\n  background-image: linear-gradient(to right, #3d6cb0 56.0656%, #e6e6e6 56.0656%);\n}\n.software__dreamweaver-level {\n  background-image: linear-gradient(to right, #3d6cb0 82.9508%, #e6e6e6 82.9508%);\n}\n.software__after-effects-level {\n  background-image: linear-gradient(to right, #3d6cb0 61.6393%, #e6e6e6 61.6393%);\n}\n.software__html-css-level {\n  background-image: linear-gradient(to right, #3d6cb0 90.8197%, #e6e6e6 90.8197%);\n}\n", ""]);
+exports.push([module.i, ".software .block-header__picture::after {\n  background-image: url(" + __webpack_require__(46) + ");\n}\n.software__levels::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n.software__second-list,\n.software__first-list {\n  width: 45.346%;\n}\n.software__second-list {\n  float: right;\n}\n.software__first-list {\n  float: left;\n}\n.software__title {\n  font-size: 1.75rem;\n  font-family: \"PTSansRegular\";\n  text-transform: uppercase;\n  padding-left: 0.375rem;\n  padding-top: 0.3125rem;\n}\n.software__level {\n  width: 96.52%;\n  height: 1.5rem;\n  margin-left: 0.4375rem;\n  margin-top: 0.875rem;\n  margin-bottom: 1rem;\n}\n.software__photoshop-level {\n  background-image: linear-gradient(to right, #3d6cb0 90.8197%, #e6e6e6 90.8197%);\n}\n.software__illustrator-level {\n  background-image: linear-gradient(to right, #3d6cb0 70.4918%, #e6e6e6 70.4918%);\n}\n.software__indesign-level {\n  background-image: linear-gradient(to right, #3d6cb0 56.0656%, #e6e6e6 56.0656%);\n}\n.software__dreamweaver-level {\n  background-image: linear-gradient(to right, #3d6cb0 82.9508%, #e6e6e6 82.9508%);\n}\n.software__after-effects-level {\n  background-image: linear-gradient(to right, #3d6cb0 61.6393%, #e6e6e6 61.6393%);\n}\n.software__html-css-level {\n  background-image: linear-gradient(to right, #3d6cb0 90.8197%, #e6e6e6 90.8197%);\n}\n", ""]);
 
 // exports
 
