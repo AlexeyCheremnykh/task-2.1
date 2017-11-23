@@ -1,3 +1,5 @@
+$circle_radius = 0.59375rem
+
 .skills    
     text-align: center
 
@@ -5,19 +7,34 @@
         background-image: url("skills_icon.png")    
 
     &__title
-        font-size: 28.33px
+        font-size: 1.75rem
         text-transform: uppercase
         font-family: "PTSansRegular"
         margin-left: 9px
         margin-bottom: 9px        
 
     &__score
-        width: 353px
-        height: 19px  
+        width: 22.0625rem         
         margin-bottom: 15px
+        margin-left: auto
+        margin-right: auto 
 
     &__scores
-        padding-top: 17px
+        padding-top: 17px                     
+
+    &__circle        
+        display: inline-block 
+        width: 1.1875rem
+        height: 1.1875rem
+        border-radius: 50%
+        margin-right: 0.625rem
+
+    &__circle-checked
+        background-color: #3d6cb0 
+
+    &__circle-unchecked
+        background-color: #e6e6e6       
+
 
     /*@media (min-width: 1025px) and (max-width: 1160px)        
 

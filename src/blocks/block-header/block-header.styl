@@ -4,28 +4,28 @@ $text_color = #3d6cb0
 .block-header
     display: flex
     align-items: center
-    height: 90px    
+    height: 5.625rem    
 
     &__picture
         position: relative        
         border-radius: 50%
         background-color: #ffffff
         border: 1px solid $icon_color
-        width: 17.135%
-        padding-top: 17.135%
-        margin-right: 16px       
+        width: 4.8125rem
+        height: 4.8125rem
+        margin-right: 0.75rem       
 
     &__picture::after
         position: absolute
         content: ''
         display: block
         border-radius: 50%
-        background-color: $icon_color
-        width: 89.874%
-        padding-top: 89.874%
-        top: 5%
-        left: 5% 
-        background-size: cover
+        background-color: $icon_color        
+        width: 4.4375rem
+        height: 4.4375rem
+        top: 0.1875rem
+        left: 0.1875rem 
+        background-size: 115%
         background-position: center  
 
     &__title 
@@ -33,51 +33,9 @@ $text_color = #3d6cb0
         text-transform: uppercase
         color: $text_color 
         font-family: "PTSansBold"
-        margin-right: 11px    
+        margin-right: 0.6875rem    
 
     &__line
-        height: 5px        
+        height: 0.3125rem        
         background-color: $text_color
         flex-grow: 1
-
-@media (min-width: 1025px) and (max-width: 1160px)
-    .block-header
-        height: 72px
-
-        &__picture
-            margin-right: 13px
-        
-        &__line
-            height: 4px
-
-        &__title
-            //font-size: 2.25rem
-            margin-right: 9px 
-
-@media (min-width: 801px) and (max-width: 1024px)
-    .block-header
-        height: 45px
-
-        &__picture
-            margin-right: 8px 
-
-        &__line
-            height: 3px
-
-        &__title
-            //font-size: 1.4rem
-            margin-right: 6px
-
-@media (min-width: 641px) and (max-width: 800px)
-    .block-header
-        height 36px
-
-        &__picture
-            margin-right: 6px
-
-        &__line
-            height: 2px
-        
-        &__title
-            //font-size: 1.12rem
-            margin-right: 5px
