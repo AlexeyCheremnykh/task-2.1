@@ -845,7 +845,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".main-container {\n  max-width: 1640px;\n}\n", ""]);
+exports.push([module.i, ".main-container {\n  max-width: 1640px;\n}\n@media (min-width: 1641px) {\n  .main-container {\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n", ""]);
 
 // exports
 
