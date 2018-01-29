@@ -2,7 +2,7 @@ import './src/fonts/fonts.css';
 import './src/blocks/index.styl';
 import './src/blocks/cv-column-first/cv-column-first.styl';
 import './src/blocks/main-info/main-info.styl';
-import './src/blocks/block-header/block-header.styl';
+import './src/blocks/cv-section-header/cv-section-header.styl';
 import './src/blocks/profile/profile.styl';
 import './src/blocks/contact/contact.styl';
 import './src/blocks/skills/skills.styl';

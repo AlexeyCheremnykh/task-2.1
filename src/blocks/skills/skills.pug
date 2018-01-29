@@ -1,4 +1,4 @@
-mixin skills(creative, teamwork, innovate, communication)    
+mixin skills(creative, teamwork, innovate, communication)
 
     mixin make_circles(score)
         - for (i=0; i < score; i++)
@@ -6,23 +6,23 @@ mixin skills(creative, teamwork, innovate, communication)
         - for (i=0; i < 12 - score; i++)
             .skills__circle.skills__circle-unchecked
 
-    include ../block-header/block-header.pug
-    
+    include ../cv-section-header/cv-section-header.pug
+
     .skills
-        +block-header("skills")        
+        +cv-section-header("skills")
         .skills__scores
             .skills__title creative
-            .skills__score.skills__score-creative            
-                +make_circles(creative)                     
-                
+            .skills__score.skills__score-creative
+                +make_circles(creative)
+
             .skills__title teamwork
             .skills__score.skills__score-teamwork
                 +make_circles(teamwork)
-                
+
             .skills__title innovate
             .skills__score.skills__score-innovate
-                +make_circles(innovate) 
-                
+                +make_circles(innovate)
+
             .skills__title communication
             .skills__score.skills__score-communication
-                +make_circles(communication) 
+                +make_circles(communication)

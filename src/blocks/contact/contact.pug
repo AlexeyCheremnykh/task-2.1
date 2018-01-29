@@ -1,7 +1,7 @@
 mixin contact(address, email, phone, website)
-    include ../block-header/block-header.pug
+    include ../cv-section-header/cv-section-header.pug
     section.contact
-        +block-header("contact")
+        +cv-section-header("contact")
         dl.contact__data
             dt.contact__data-type="Address"
             dd.contact__data-value=address

@@ -1,7 +1,7 @@
 mixin profile(textRegular, textBold)
-    include ../block-header/block-header.pug
+    include ../cv-section-header/cv-section-header.pug
     section.profile
-        +block-header("profile")
+        +cv-section-header("profile")
         p.profile__text
             span.profile__text-regular=textRegular
             span.profile__text-bold=textBold
