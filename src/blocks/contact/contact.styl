@@ -1,24 +1,21 @@
-$text_color = #3d6cb0
-
 .contact
+  .block-header__picture::after
+    background-image: url("contact_icon.png")
 
-    .block-header__picture::after
-        background-image: url("contact_icon.png")    
+  &__data
+    margin-top: 1.8125rem
 
-    &__dl
-        padding-top: 0.8125rem               
+  &__data-type,
+  &__data-value
+    font-size: 1.4375rem
+    padding-bottom: 1.9375rem
 
-    &__dt,
-    &__dd
-        font-size: 1.4375rem
-        padding-bottom: 1.9375rem  
+  &__data-type
+    float: left
+    color: #3d6cb0
+    text-transform: uppercase
+    font-family: "PTSansBold", "Arial", sans-serif
 
-    &__dt
-        float: left     
-        color: $text_color
-        text-transform: uppercase
-        font-family: "PTSansBold"                
-    
-    &__dd
-        font-family: "PTSansRegular"
-        padding-left: 6.25rem
+  &__data-value
+    font-family: "PTSansRegular", "Arial", sans-serif
+    padding-left: 6.25rem
