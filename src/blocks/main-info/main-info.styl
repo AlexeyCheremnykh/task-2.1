@@ -1,69 +1,46 @@
-$picture_color = #3d6cb0
-
 .main-info
-    padding-left: 19px
-    margin-bottom: 58px  
-    &__picture
-        position: relative
-        border-radius: 50%
-        background-color: #ffffff
-        border: 1px solid $picture_color
-        width: 57.907%
-        padding-top: 57.907%        
-        margin-top: 89px
-        margin-left: auto
-        margin-right: auto
+  padding-left: 19px
+  margin-bottom: 4.25rem
 
-    &__picture::after
-        position: absolute
-        content: ''
-        display: block
-        border-radius: 50%
-        background-color: $picture_color
-        width: 88.1423%
-        padding-top: 88.1423%
-        top: 5.9289%
-        left: 5.9289%        
+  &__picture
+    position: relative
+    border-radius: 50%
+    background-color: #ffffff
+    border: 1px solid #3d6cb0
+    width: 57.907%
+    padding-top: 57.907%
+    margin-left: auto
+    margin-right: auto
 
-    &__text        
-        font-family: "PTSansBold"               
-        text-align: center
-        text-transform: uppercase
-        margin-left: auto
-        margin-right: auto
-        margin-top: 20px     
+  &__picture::after
+    position: absolute
+    content: ""
+    display: block
+    border-radius: 50%
+    background-color: #3d6cb0
+    width: 88.1423%
+    padding-top: 88.1423%
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
 
-    &__name
-        font-size: 3.75rem
-        font-family: "PTSansRegular"      
+  &__text
+    font-family: "PTSansBold", "Arial", sans-serif
+    text-align: center
+    text-transform: uppercase
+    margin-left: auto
+    margin-right: auto
+    margin-top: 2.125rem
 
-    &__surname
-        font-size: 4.4rem
-        line-height: 0.6em       
-        
-    &__vacancy
-        font-size: 1.6875rem  
-        line-height: 2.8em
+  &__name
+    font-size: 3.75rem
+    line-height: 0.9em
+    font-family: "PTSansRegular", "Arial", sans-serif
 
-@media (min-width: 1025px) and (max-width: 1160px)
-    .main-info        
-        margin-bottom: 46px
+  &__surname
+    font-size: 4.4rem
+    line-height: 0.9em
 
-@media (min-width: 801px) and (max-width: 1024px)
-    .main-info
-        margin-bottom: 27px
-
-@media (min-width: 651px) and (max-width: 800px)
-    .main-info
-        margin-bottom: 21px
-
-@media (max-width: 650px)
-    .main-info
-        &__picture
-            margin-left: auto
-            margin-right: auto
-        &__text
-            margin-left: auto
-            margin-right: auto
-        
-    
+  &__vacancy
+    font-size: 1.6875rem
+    line-height: 2em
