@@ -1,4 +1,5 @@
-mixin cv-list(itemsArray, mixClass = "")
+mixin cv-list({itemsArray, color="", mixClass = ""})
+    - color = color ? " cv-list__item-info-first_color_" + color : "";
     - mixClass = mixClass ? " " + mixClass : "";
     ul(class="cv-list" + mixClass)
         - for (item of itemsArray) {
@@ -8,7 +9,7 @@ mixin cv-list(itemsArray, mixClass = "")
         -   const secondary = item.secondary;
             li.cv-list__item
                 .cv-list__item-main
-                    span.cv-list__item-info-first=infoFirst
+                    span(class="cv-list__item-info-first" + color)=infoFirst
                     span.cv-list__item-period="// " + date
                     .cv-list__item-info-second=infoSecond
                 p.cv-list__item-secondary=secondary

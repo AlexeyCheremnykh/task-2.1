@@ -1,7 +1,7 @@
 include ../cv-section-header/cv-section-header.pug
 include ../cv-list/cv-list.pug
 mixin education
-    .education
+    section.education
         +cv-section-header("education")
         - const listItem = {
         -   infoFirst: "Master Degree",
@@ -11,4 +11,4 @@ mixin education
         -   "ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes," +
         -   " nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
         - }
-        +cv-list([listItem, listItem, listItem, listItem], "education__list")
+        +cv-list({itemsArray: [listItem, listItem, listItem, listItem], color: "blue", mixClass: "education__list"})
