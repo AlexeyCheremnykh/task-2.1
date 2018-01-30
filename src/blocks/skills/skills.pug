@@ -1,28 +1,28 @@
-mixin skills(creative, teamwork, innovate, communication)
-
-    mixin make_circles(score)
-        - for (i=0; i < score; i++)
-            .skills__circle.skills__circle-checked
-        - for (i=0; i < 12 - score; i++)
-            .skills__circle.skills__circle-unchecked
-
+mixin skills({creative, teamwork, innovate, communication})
     include ../cv-section-header/cv-section-header.pug
 
-    .skills
+    mixin draw-skill-score(score)
+        - for (let i = 0; i < score; i++)
+            .skills__skill-point.skills__skill-point_checked
+        - for (let i = 0; i < 12 - score; i++)
+            .skills__skill-point.skills__skill-point_unchecked
+
+    section.skills
         +cv-section-header("skills")
-        .skills__scores
-            .skills__title creative
-            .skills__score.skills__score-creative
-                +make_circles(creative)
-
-            .skills__title teamwork
-            .skills__score.skills__score-teamwork
-                +make_circles(teamwork)
-
-            .skills__title innovate
-            .skills__score.skills__score-innovate
-                +make_circles(innovate)
-
-            .skills__title communication
-            .skills__score.skills__score-communication
-                +make_circles(communication)
+        ul.skills__scores
+            li.skills__skill
+                .skills__title creative
+                .skills__score
+                    +draw-skill-score(creative)
+            li.skills__skill
+                .skills__title teamwork
+                .skills__score
+                    +draw-skill-score(teamwork)
+            li.skills__skill
+                .skills__title innovate
+                .skills__score
+                    +draw-skill-score(innovate)
+            li.skills__skill
+                .skills__title communication
+                .skills__score
+                    +draw-skill-score(communication)

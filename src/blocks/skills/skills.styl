@@ -1,33 +1,32 @@
-$circle_radius = 0.59375rem
-
 .skills
+  &__title
+    font-size: 1.75rem
+    text-transform: uppercase
+    font-family: "PTSansRegular", "Arial", sans-serif
+    padding-left: 0.5625rem
+    margin-bottom: 0.5625rem
     text-align: center
 
-    &__title
-        font-size: 1.75rem
-        text-transform: uppercase
-        font-family: "PTSansRegular"
-        margin-left: 0.5625rem
-        margin-bottom: 0.5625rem
+   &__scores
+    padding-top: 1.0625rem
+    list-style: none
+    padding: 0
 
-    &__score
-        width: 22.0625rem
-        margin-bottom: 0.9375rem
-        margin-left: auto
-        margin-right: auto
+  &__score
+    width: 22.0625rem
+    margin-bottom: 0.9375rem
+    margin-left: auto
+    margin-right: auto
 
-    &__scores
-        padding-top: 1.0625rem
+  &__skill-point
+    display: inline-block
+    width: 1.1875rem
+    height: 1.1875rem
+    border-radius: 50%
+    margin-right: 0.625rem
 
-    &__circle
-        display: inline-block
-        width: 1.1875rem
-        height: 1.1875rem
-        border-radius: 50%
-        margin-right: 0.625rem
+    &_checked
+      background-color: #3d6cb0
 
-    &__circle-checked
-        background-color: #3d6cb0
-
-    &__circle-unchecked
-        background-color: #e6e6e6
+    &_unchecked
+      background-color: #e6e6e6
