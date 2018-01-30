@@ -9,20 +9,19 @@ mixin skills({creative, teamwork, innovate, communication})
 
     section.skills
         +cv-section-header("skills")
-        ul.skills__scores
-            li.skills__skill
-                .skills__title creative
-                .skills__score
-                    +draw-skill-score(creative)
-            li.skills__skill
-                .skills__title teamwork
-                .skills__score
-                    +draw-skill-score(teamwork)
-            li.skills__skill
-                .skills__title innovate
-                .skills__score
-                    +draw-skill-score(innovate)
-            li.skills__skill
-                .skills__title communication
-                .skills__score
-                    +draw-skill-score(communication)
+        dl.skills__scores
+            dt.skills__title creative
+            dd.skills__score
+                +draw-skill-score(creative)
+
+            dt.skills__title teamwork
+            dd.skills__score
+                +draw-skill-score(teamwork)
+
+            dt.skills__title innovate
+            dd.skills__score
+                +draw-skill-score(innovate)
+
+            dt.skills__title communication
+            dd.skills__score
+                +draw-skill-score(communication)
