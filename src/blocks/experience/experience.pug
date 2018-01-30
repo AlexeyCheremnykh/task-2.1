@@ -1,5 +1,5 @@
 include ../cv-section-header/cv-section-header.pug
-include ../common-list/common-list.pug
+include ../cv-list/cv-list.pug
 mixin experience
     .experience
         +cv-section-header("experience")
@@ -11,4 +11,4 @@ mixin experience
         -   "ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes," +
         -   " nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
         - }
-        +cv-list([listItem, listItem, listItem, listItem])
+        +cv-list([listItem, listItem, listItem, listItem], "experience__list")

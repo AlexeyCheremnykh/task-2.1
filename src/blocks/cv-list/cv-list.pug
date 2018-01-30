@@ -1,5 +1,6 @@
-mixin cv-list(itemsArray)
-    ul(class="cv-list")
+mixin cv-list(itemsArray, mixClass = "")
+    - mixClass = mixClass ? " " + mixClass : "";
+    ul(class="cv-list" + mixClass)
         - for (item of itemsArray) {
         -   const infoFirst = item.infoFirst;
         -   const infoSecond = item.infoSecond;
