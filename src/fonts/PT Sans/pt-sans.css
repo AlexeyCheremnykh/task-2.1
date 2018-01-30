@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'PT Sans';
+  src: url('PTSansBold.woff') format('woff'),
+    url('PTSansBold.ttf') format('truetype'),
+    url('PTSansBold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('PTSansRegular.woff') format('woff'),
+    url('PTSansRegular.ttf') format('truetype'),
+    url('PTSansRegular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}

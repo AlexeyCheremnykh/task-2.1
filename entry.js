@@ -1,4 +1,4 @@
-import './src/fonts/fonts.css';
+import './src/fonts/PT Sans/pt-sans.css';
 import './src/pages/index.styl';
 import './src/blocks/cv-column-first/cv-column-first.styl';
 import './src/blocks/main-info/main-info.styl';
