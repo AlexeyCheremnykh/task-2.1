@@ -1,23 +1,25 @@
 include ../cv-section-header/cv-section-header.pug
+
 mixin software
-    .software
-        +cv-section-header('software')
+
+    mixin draw-level(value)
+        dd(class=`software__level` style=`background-image: linear-gradient(to right, #3d6cb0 ${value}, #e6e6e6 ${value})`)
+
+    section.software
+        +cv-section-header("software")
         .software__levels
-            dl.software__first-list
+            dl.software__col-first
                 dt.software__title Photoshop
-                dd.software__level.software__photoshop-level
-
+                +draw-level("90.8197%")
                 dt.software__title Illustrator
-                dd.software__level.software__illustrator-level
-
+                +draw-level("70.4918%")
                 dt.software__title Indesign
-                dd.software__level.software__indesign-level
-            dl.software__second-list
+                +draw-level("56.0656%")
+
+            dl.software__col-second
                 dt.software__title Dreamweaver
-                dd.software__level.software__dreamweaver-level
-
+                +draw-level("82.9508%")
                 dt.software__title After Effects
-                dd.software__level.software__after-effects-level
-
+                +draw-level("61.6393%")
                 dt.software__title HTML&CSS
-                dd.software__level.software__html-css-level
+                +draw-level("90.8197%")
