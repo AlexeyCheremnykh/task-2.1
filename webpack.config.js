@@ -9,26 +9,26 @@ var extractPlugin = new ExtractTextPlugin({
 module.exports = {
     entry: './entry.js',
     output: {
-        path: path.resolve(__dirname, 'dist'), 
+        path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
-    },      
+    },
     module: {
         rules: [
-            { 
-                test: /\.styl$/, 
+            {
+                test: /\.styl$/,
                 //use: extractPlugin.extract({
                 use: [
-                    'style-loader',                        
+                    'style-loader',
                     'css-loader',
                     'stylus-loader'
                 ]
-                //})  
+                //})
             },
             {
                 test: /\.css$/,
                 use: [
                     'style-loader',
-                    'css-loader'                    
+                    'css-loader'
                 ]
             },
             {
@@ -62,7 +62,7 @@ module.exports = {
     plugins: [
         //extractPlugin,
         new HtmlWebpackPlugin({
-            template: 'src/blocks/index.pug'    
+            template: 'src/pages/index.pug'
         })
     ]
 };

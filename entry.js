@@ -1,5 +1,5 @@
 import './src/fonts/fonts.css';
-import './src/blocks/index.styl';
+import './src/pages/index.styl';
 import './src/blocks/cv-column-first/cv-column-first.styl';
 import './src/blocks/main-info/main-info.styl';
 import './src/blocks/cv-section-header/cv-section-header.styl';
