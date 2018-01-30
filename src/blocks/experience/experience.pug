@@ -2,5 +2,13 @@ include ../cv-section-header/cv-section-header.pug
 include ../common-list/common-list.pug
 mixin experience
     .experience
-        +cv-section-header('experience')
-        +common-list('experience', 3, 'Company Name', 'Your Job Here')
+        +cv-section-header("experience")
+        - const listItem = {
+        -   infoFirst: "Company Name",
+        -   infoSecond: "Your job here",
+        -   date: "Feb 2011 - Jun 2014",
+        -   secondary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo " +
+        -   "ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes," +
+        -   " nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
+        - }
+        +cv-list([listItem, listItem, listItem, listItem])

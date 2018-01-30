@@ -1,38 +1,30 @@
-.common-list    
-    padding-top: 0.3125rem
-    list-style: none
+.cv-list
+  //padding-top: 0.3125rem
+  list-style: none
+  font-family: "PTSansRegular"
 
-    &__title       
-        font-family: "PTSansBold"
-        font-size: 1.75rem
-        float: left
-        text-transform: uppercase        
-        margin-right: 1.25rem
-        padding-left: 1.1875rem
-        position: relative
+  &__item-main
+    font-size: 1.75rem
 
-        &:before
-            position: absolute
-            content: "•"
-            font-size: 4.5625rem
-            left: -2rem
-            top: -1.9375rem
-            color: #000000        
+  &__item-info-first
+    font-family: "PTSansBold"
+    text-transform: uppercase
+    margin-right: 1.25rem
+    padding-left: 1.1875rem
+    position: relative
 
-    &__secondary-info
-        font-family: "PTSansRegular"
-        font-size: 1.75rem
-        text-transform: uppercase
-        padding-left: 1.0625rem
-        
-    &__date
-        padding-left: 1.1875rem
-        font-family: "PTSansRegular"
-        font-size: 1.75rem              
+    &:before
+      position: absolute
+      content: "•"
+      font-size: 4.5625rem
+      left: -2rem
+      top: -1.9375rem
+      color: #000000
 
-    &__text
-        font-family: "PTSansRegular"
-        margin-bottom: 0.75rem
-        padding-top: 0.3125rem
-        padding-right: 1.375rem
-        padding-left: 1.25rem
+  &__item-info-second
+    text-transform: uppercase
+    padding-left: 1.0625rem
+
+  &__item-secondary
+    margin: 0 0 0.75rem
+    padding: 0.3125rem 1.375rem 0 1.25rem

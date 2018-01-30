@@ -2,5 +2,13 @@ include ../cv-section-header/cv-section-header.pug
 include ../common-list/common-list.pug
 mixin education
     .education
-        +cv-section-header('education')
-        +common-list('education', 4, 'Master Degree', 'University Name')
+        +cv-section-header("education")
+        - const listItem = {
+        -   infoFirst: "Master Degree",
+        -   infoSecond: "University Name",
+        -   date: "Feb 2011 - Jun 2014",
+        -   secondary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo " +
+        -   "ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes," +
+        -   " nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
+        - }
+        +cv-list([listItem, listItem, listItem, listItem])
