@@ -1,8 +1,8 @@
-.main-info
+.applicant
   padding-left: 19px
   margin-bottom: 4.25rem
 
-  &__picture
+  &__photo-border
     position: relative
     border-radius: 50%
     background-color: #ffffff
@@ -12,10 +12,8 @@
     margin-left: auto
     margin-right: auto
 
-  &__picture::after
+  &__photo
     position: absolute
-    content: ""
-    display: block
     border-radius: 50%
     background-color: #3d6cb0
     width: 88.1423%
@@ -24,7 +22,7 @@
     left: 50%
     transform: translate(-50%, -50%)
 
-  &__text
+  &__info
     font-family: "PT Sans", "Arial", sans-serif
     font-weight: 700
     text-align: center
@@ -36,7 +34,6 @@
   &__name
     font-size: 3.75rem
     line-height: 0.9em
-    font-family: "PT Sans", "Arial", sans-serif
     font-weight: 400
 
   &__surname

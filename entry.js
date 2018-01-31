@@ -1,7 +1,7 @@
 import './src/fonts/PT Sans/pt-sans.css';
 import './src/pages/index.styl';
 import './src/blocks/cv-column-first/cv-column-first.styl';
-import './src/blocks/main-info/main-info.styl';
+import './src/blocks/applicant/applicant.styl';
 import './src/blocks/cv-section-header/cv-section-header.styl';
 import './src/blocks/profile/profile.styl';
 import './src/blocks/contact/contact.styl';
