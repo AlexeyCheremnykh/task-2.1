@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -202,7 +202,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(14);
+var	fixUrls = __webpack_require__(11);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -519,79 +519,58 @@ function updateLink (link, options, obj) {
 
 /***/ }),
 /* 2 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "fonts/PTSansRegular.eot";
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_fonts_PT_Sans_pt_sans_css__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_fonts_PT_Sans_pt_sans_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__src_fonts_PT_Sans_pt_sans_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_pages_index_styl__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_pages_index_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__src_pages_index_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_blocks_cv_column_first_cv_column_first_styl__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_blocks_cv_column_first_cv_column_first_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__src_blocks_cv_column_first_cv_column_first_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_blocks_applicant_applicant_styl__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_blocks_applicant_applicant_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__src_blocks_applicant_applicant_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_blocks_cv_section_header_cv_section_header_styl__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_blocks_cv_section_header_cv_section_header_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__src_blocks_cv_section_header_cv_section_header_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_blocks_profile_profile_styl__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_blocks_profile_profile_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__src_blocks_profile_profile_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_blocks_contact_contact_styl__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_blocks_contact_contact_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__src_blocks_contact_contact_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_blocks_skills_skills_styl__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_blocks_skills_skills_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__src_blocks_skills_skills_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_blocks_cv_column_second_cv_column_second_styl__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_blocks_cv_column_second_cv_column_second_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__src_blocks_cv_column_second_cv_column_second_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_blocks_education_education_styl__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_blocks_education_education_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__src_blocks_education_education_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_blocks_cv_list_cv_list_styl__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_blocks_cv_list_cv_list_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__src_blocks_cv_list_cv_list_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_blocks_experience_experience_styl__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_blocks_experience_experience_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__src_blocks_experience_experience_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_blocks_software_software_styl__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_blocks_software_software_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__src_blocks_software_software_styl__);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /***/ }),
 /* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "fonts/PTSansItalic.eot";
-
-/***/ }),
-/* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fonts/PTSansBold.eot";
-
-/***/ }),
-/* 5 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_fonts_fonts_css__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_fonts_fonts_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__src_fonts_fonts_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_blocks_index_styl__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_blocks_index_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__src_blocks_index_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_blocks_main_container_main_container_styl__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_blocks_main_container_main_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__src_blocks_main_container_main_container_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_blocks_first_container_first_container_styl__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_blocks_first_container_first_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__src_blocks_first_container_first_container_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_blocks_main_info_main_info_styl__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_blocks_main_info_main_info_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__src_blocks_main_info_main_info_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_blocks_block_header_block_header_styl__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_blocks_block_header_block_header_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__src_blocks_block_header_block_header_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_blocks_profile_profile_styl__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_blocks_profile_profile_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__src_blocks_profile_profile_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_blocks_contact_contact_styl__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_blocks_contact_contact_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__src_blocks_contact_contact_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_blocks_skills_skills_styl__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_blocks_skills_skills_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__src_blocks_skills_skills_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_blocks_second_container_second_container_styl__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_blocks_second_container_second_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__src_blocks_second_container_second_container_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_blocks_education_education_styl__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_blocks_education_education_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__src_blocks_education_education_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_blocks_common_list_common_list_styl__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_blocks_common_list_common_list_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__src_blocks_common_list_common_list_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_blocks_experience_experience_styl__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_blocks_experience_experience_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__src_blocks_experience_experience_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_blocks_software_software_styl__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_blocks_software_software_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__src_blocks_software_software_styl__);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
-/* 6 */
-/***/ (function(module, exports, __webpack_require__) {
-
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(7);
+var content = __webpack_require__(4);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -605,8 +584,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../node_modules/css-loader/index.js!./fonts.css", function() {
-			var newContent = require("!!../../node_modules/css-loader/index.js!./fonts.css");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!./pt-sans.css", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!./pt-sans.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -616,7 +595,7 @@ if(false) {
 }
 
 /***/ }),
-/* 7 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -624,10 +603,28 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "@font-face {\r\n\t\t\tfont-family: \"PTSansRegular\";\r\n\t\t\tsrc: url(" + __webpack_require__(2) + ");\r\n\t\t\tsrc: url(" + __webpack_require__(2) + "?#iefix)format(\"embedded-opentype\"),\r\n\t\t\turl(" + __webpack_require__(8) + ") format(\"woff\"),\r\n\t\t\turl(" + __webpack_require__(9) + ") format(\"truetype\");\r\n\t\t\tfont-style: normal;\r\n\t\t\tfont-weight: normal;\r\n\t}\r\n\r\n\t@font-face {\r\n\t\t\tfont-family: \"PTSansItalic\";\r\n\t\t\tsrc: url(" + __webpack_require__(3) + ");\r\n\t\t\tsrc: url(" + __webpack_require__(3) + "?#iefix)format(\"embedded-opentype\"),\r\n\t\t\turl(" + __webpack_require__(10) + ") format(\"woff\"),\r\n\t\t\turl(" + __webpack_require__(11) + ") format(\"truetype\");\r\n\t\t\tfont-style: normal;\r\n\t\t\tfont-weight: normal;\r\n\t}\r\n\r\n\t@font-face {\r\n\t\t\tfont-family: \"PTSansBold\";\r\n\t\t\tsrc: url(" + __webpack_require__(4) + ");\r\n\t\t\tsrc: url(" + __webpack_require__(4) + "?#iefix)format(\"embedded-opentype\"),\r\n\t\t\turl(" + __webpack_require__(12) + ") format(\"woff\"),\r\n\t\t\turl(" + __webpack_require__(13) + ") format(\"truetype\");\r\n\t\t\tfont-style: normal;\r\n\t\t\tfont-weight: normal;\r\n\t}", ""]);
+exports.push([module.i, "@font-face {\n  font-family: 'PT Sans';\n  src: url(" + __webpack_require__(5) + ") format('woff'),\n    url(" + __webpack_require__(6) + ") format('truetype'),\n    url(" + __webpack_require__(7) + ") format('svg');\n  font-weight: 700;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'PT Sans';\n  src: url(" + __webpack_require__(8) + ") format('woff'),\n    url(" + __webpack_require__(9) + ") format('truetype'),\n    url(" + __webpack_require__(10) + ") format('svg');\n  font-weight: 400;\n  font-style: normal;\n}\n", ""]);
 
 // exports
 
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fonts/PTSansBold.woff";
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fonts/PTSansBold.ttf";
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fonts/PTSansBold.svg";
 
 /***/ }),
 /* 8 */
@@ -645,28 +642,10 @@ module.exports = __webpack_require__.p + "fonts/PTSansRegular.ttf";
 /* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "fonts/PTSansItalic.woff";
+module.exports = __webpack_require__.p + "fonts/PTSansRegular.svg";
 
 /***/ }),
 /* 11 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fonts/PTSansItalic.ttf";
-
-/***/ }),
-/* 12 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fonts/PTSansBold.woff";
-
-/***/ }),
-/* 13 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fonts/PTSansBold.ttf";
-
-/***/ }),
-/* 14 */
 /***/ (function(module, exports) {
 
 
@@ -761,13 +740,13 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 15 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(16);
+var content = __webpack_require__(13);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -792,7 +771,7 @@ if(false) {
 }
 
 /***/ }),
-/* 16 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -800,199 +779,190 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "@media (min-width: 1161px) {\n  html {\n    font-size: 16px;\n  }\n}\n@media (min-width: 1025px) and (max-width: 1115px) {\n  html {\n    font-size: 15px;\n  }\n}\n@media (min-width: 801px) and (max-width: 1024px) {\n  html {\n    font-size: 11px;\n  }\n}\n@media (min-width: 650px) and (max-width: 800px) {\n  html {\n    font-size: 8px;\n  }\n}\n", ""]);
+exports.push([module.i, "html {\n  font-size: 16px;\n  font-family: \"PTSansRegular\", \"Arial\", sans-serif;\n  color: #000;\n  background-color: #fff;\n}\n@media (min-width: 1025px) and (max-width: 1115px) {\n  html {\n    font-size: 15px;\n  }\n}\n@media (min-width: 801px) and (max-width: 1024px) {\n  html {\n    font-size: 11px;\n  }\n}\n@media (min-width: 651px) and (max-width: 800px) {\n  html {\n    font-size: 8px;\n  }\n}\n.cv {\n  max-width: 1640px;\n}\n@media (min-width: 1641px) {\n  .cv {\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n.cv::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n", ""]);
 
 // exports
 
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(15);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-column-first.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-column-first.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".cv-column-first {\n  box-sizing: border-box;\n  width: 38.6%;\n  padding-left: 3.75rem;\n  padding-top: 89px;\n  float: left;\n}\n@media (max-width: 650px) {\n  .cv-column-first {\n    width: 80%;\n    padding-left: 0;\n    float: none;\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(17);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./applicant.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./applicant.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
 
 /***/ }),
 /* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
-// style-loader: Adds some css to the DOM by adding a <style> tag
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
 
-// load the styles
-var content = __webpack_require__(18);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
 
-var options = {"hmr":true}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(1)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./main-container.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./main-container.styl");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
+// module
+exports.push([module.i, ".applicant {\n  padding-left: 19px;\n  margin-bottom: 4.25rem;\n}\n.applicant__photo-border {\n  position: relative;\n  border-radius: 50%;\n  background-color: #fff;\n  border: 1px solid #3d6cb0;\n  width: 57.907%;\n  padding-top: 57.907%;\n  margin-left: auto;\n  margin-right: auto;\n}\n.applicant__photo {\n  position: absolute;\n  border-radius: 50%;\n  background-color: #3d6cb0;\n  width: 88.1423%;\n  padding-top: 88.1423%;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.applicant__info {\n  font-family: \"PT Sans\", \"Arial\", sans-serif;\n  font-weight: 700;\n  text-align: center;\n  text-transform: uppercase;\n  word-break: break-word;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 2.125rem;\n}\n.applicant__name {\n  font-size: 3.75rem;\n  line-height: 0.9em;\n  font-weight: 400;\n}\n.applicant__surname {\n  font-size: 4.4rem;\n  line-height: 0.9em;\n}\n.applicant__vacancy {\n  font-size: 1.6875rem;\n  line-height: 2em;\n}\n", ""]);
+
+// exports
+
 
 /***/ }),
 /* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(0)(undefined);
-// imports
+// style-loader: Adds some css to the DOM by adding a <style> tag
 
+// load the styles
+var content = __webpack_require__(19);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
 
-// module
-exports.push([module.i, ".main-container {\n  max-width: 1640px;\n}\n@media (min-width: 1641px) {\n  .main-container {\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n", ""]);
-
-// exports
-
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-section-header.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-section-header.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
 
 /***/ }),
 /* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
-// style-loader: Adds some css to the DOM by adding a <style> tag
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
 
-// load the styles
-var content = __webpack_require__(20);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
 
-var options = {"hmr":true}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(1)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./first-container.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./first-container.styl");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
+// module
+exports.push([module.i, ".cv-section-header {\n  display: flex;\n  align-items: center;\n  height: 5.625rem;\n}\n.cv-section-header__picture-border {\n  position: relative;\n  border-radius: 50%;\n  background-color: #fff;\n  border: 1px solid #0071bb;\n  width: 4.875rem;\n  height: 4.875rem;\n  margin-right: 0.75rem;\n}\n.cv-section-header__picture {\n  position: absolute;\n  border-radius: 50%;\n  background-color: #0071bb;\n  width: 4.4375rem;\n  height: 4.4375rem;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-size: 115%;\n  background-position: center;\n}\n.cv-section-header__picture_profile {\n  background-image: url(" + __webpack_require__(20) + ");\n}\n.cv-section-header__picture_contact {\n  background-image: url(" + __webpack_require__(21) + ");\n}\n.cv-section-header__picture_skills {\n  background-image: url(" + __webpack_require__(22) + ");\n}\n.cv-section-header__picture_education {\n  background-image: url(" + __webpack_require__(23) + ");\n}\n.cv-section-header__picture_experience {\n  background-image: url(" + __webpack_require__(24) + ");\n}\n.cv-section-header__picture_software {\n  background-image: url(" + __webpack_require__(25) + ");\n}\n.cv-section-header__title {\n  font-size: 2.8125rem;\n  text-transform: uppercase;\n  color: #3d6cb0;\n  font-family: \"PT Sans\", \"Arial\", sans-serif;\n  font-weight: 700;\n  margin-right: 0.6875rem;\n}\n.cv-section-header__line {\n  height: 0.3125rem;\n  background-color: #3d6cb0;\n  flex-grow: 1;\n}\n", ""]);
+
+// exports
+
 
 /***/ }),
 /* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(0)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, ".first-container {\n  box-sizing: border-box;\n  width: 38.6%;\n  padding-left: 60px;\n  display: inline-block;\n}\n@media (max-width: 650px) {\n  .first-container {\n    width: 80%;\n    padding: 0;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n", ""]);
-
-// exports
-
+module.exports = __webpack_require__.p + "img/profile-icon.png";
 
 /***/ }),
 /* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(22);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {"hmr":true}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(1)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./main-info.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./main-info.styl");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
+module.exports = __webpack_require__.p + "img/contact-icon.png";
 
 /***/ }),
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(0)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, ".main-info {\n  padding-left: 19px;\n  margin-bottom: 58px;\n}\n.main-info__picture {\n  position: relative;\n  border-radius: 50%;\n  background-color: #fff;\n  border: 1px solid #3d6cb0;\n  width: 57.907%;\n  padding-top: 57.907%;\n  margin-top: 89px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.main-info__picture::after {\n  position: absolute;\n  content: '';\n  display: block;\n  border-radius: 50%;\n  background-color: #3d6cb0;\n  width: 88.1423%;\n  padding-top: 88.1423%;\n  top: 5.9289%;\n  left: 5.9289%;\n}\n.main-info__text {\n  font-family: \"PTSansBold\";\n  text-align: center;\n  text-transform: uppercase;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 20px;\n}\n.main-info__name {\n  font-size: 3.75rem;\n  font-family: \"PTSansRegular\";\n}\n.main-info__surname {\n  font-size: 4.4rem;\n  line-height: 0.6em;\n}\n.main-info__vacancy {\n  font-size: 1.6875rem;\n  line-height: 2.8em;\n}\n@media (min-width: 1025px) and (max-width: 1160px) {\n  .main-info {\n    margin-bottom: 46px;\n  }\n}\n@media (min-width: 801px) and (max-width: 1024px) {\n  .main-info {\n    margin-bottom: 27px;\n  }\n}\n@media (min-width: 651px) and (max-width: 800px) {\n  .main-info {\n    margin-bottom: 21px;\n  }\n}\n@media (max-width: 650px) {\n  .main-info__picture {\n    margin-left: auto;\n    margin-right: auto;\n  }\n  .main-info__text {\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n", ""]);
-
-// exports
-
+module.exports = __webpack_require__.p + "img/skills-icon.png";
 
 /***/ }),
 /* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(24);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {"hmr":true}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(1)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./block-header.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./block-header.styl");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
+module.exports = __webpack_require__.p + "img/education-icon.png";
 
 /***/ }),
 /* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(0)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, ".block-header {\n  display: flex;\n  align-items: center;\n  height: 5.625rem;\n}\n.block-header__picture {\n  position: relative;\n  border-radius: 50%;\n  background-color: #fff;\n  border: 1px solid #0071bb;\n  width: 4.8125rem;\n  height: 4.8125rem;\n  margin-right: 0.75rem;\n}\n.block-header__picture::after {\n  position: absolute;\n  content: '';\n  display: block;\n  border-radius: 50%;\n  background-color: #0071bb;\n  width: 4.4375rem;\n  height: 4.4375rem;\n  top: 0.1875rem;\n  left: 0.1875rem;\n  background-size: 115%;\n  background-position: center;\n}\n.block-header__title {\n  font-size: 2.8125rem;\n  text-transform: uppercase;\n  color: #3d6cb0;\n  font-family: \"PTSansBold\";\n  margin-right: 0.6875rem;\n}\n.block-header__line {\n  height: 0.3125rem;\n  background-color: #3d6cb0;\n  flex-grow: 1;\n}\n", ""]);
-
-// exports
-
+module.exports = __webpack_require__.p + "img/experience-icon.png";
 
 /***/ }),
 /* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "img/software-icon.png";
+
+/***/ }),
+/* 26 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(26);
+var content = __webpack_require__(27);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -1017,7 +987,7 @@ if(false) {
 }
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -1025,16 +995,10 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".profile {\n  margin-bottom: 2.3125rem;\n}\n.profile .block-header__picture::after {\n  background-image: url(" + __webpack_require__(27) + ");\n}\n.profile__text {\n  margin-top: 7px;\n  font-size: 1.03125rem;\n  line-height: 1.25rem;\n}\n.profile__text-part-1 {\n  font-family: \"PTSansRegular\";\n}\n.profile__text-part-2 {\n  font-family: \"PTSansBold\";\n}\n", ""]);
+exports.push([module.i, ".profile {\n  margin-bottom: 2.3125rem;\n}\n.profile__description {\n  margin-top: 7px;\n  margin-bottom: 0;\n  font-size: 1.03125rem;\n  line-height: 1.35rem;\n  font-family: \"PT Sans\", \"Arial\", sans-serif;\n}\n.profile__description-part {\n  font-weight: 400;\n}\n.profile__description-part_important {\n  font-weight: 700;\n}\n", ""]);
 
 // exports
 
-
-/***/ }),
-/* 27 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/profile_icon.png";
 
 /***/ }),
 /* 28 */
@@ -1076,7 +1040,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".contact .block-header__picture::after {\n  background-image: url(" + __webpack_require__(30) + ");\n}\n.contact__dl {\n  padding-top: 0.8125rem;\n}\n.contact__dt,\n.contact__dd {\n  font-size: 1.4375rem;\n  padding-bottom: 1.9375rem;\n}\n.contact__dt {\n  float: left;\n  color: #3d6cb0;\n  text-transform: uppercase;\n  font-family: \"PTSansBold\";\n}\n.contact__dd {\n  font-family: \"PTSansRegular\";\n  padding-left: 6.25rem;\n}\n", ""]);
+exports.push([module.i, ".contact__data {\n  margin-top: 1.8125rem;\n}\n.contact__data-type,\n.contact__data-value {\n  font-family: \"PT Sans\", \"Arial\", sans-serif;\n  font-size: 1.4375rem;\n  padding-bottom: 1.9375rem;\n}\n.contact__data-type {\n  float: left;\n  color: #3d6cb0;\n  text-transform: uppercase;\n  font-weight: 700;\n}\n.contact__data-value {\n  padding-left: 6.25rem;\n}\n.contact__link {\n  text-decoration: none;\n  color: #000;\n}\n", ""]);
 
 // exports
 
@@ -1085,16 +1049,10 @@ exports.push([module.i, ".contact .block-header__picture::after {\n  background-
 /* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/contact_icon.png";
-
-/***/ }),
-/* 31 */
-/***/ (function(module, exports, __webpack_require__) {
-
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(32);
+var content = __webpack_require__(31);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -1119,7 +1077,7 @@ if(false) {
 }
 
 /***/ }),
-/* 32 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -1127,16 +1085,55 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".skills {\n  text-align: center;\n}\n.skills .block-header__picture::after {\n  background-image: url(" + __webpack_require__(33) + ");\n}\n.skills__title {\n  font-size: 1.75rem;\n  text-transform: uppercase;\n  font-family: \"PTSansRegular\";\n  margin-left: 0.5625rem;\n  margin-bottom: 0.5625rem;\n}\n.skills__score {\n  width: 22.0625rem;\n  margin-bottom: 0.9375rem;\n  margin-left: auto;\n  margin-right: auto;\n}\n.skills__scores {\n  padding-top: 1.0625rem;\n}\n.skills__circle {\n  display: inline-block;\n  width: 1.1875rem;\n  height: 1.1875rem;\n  border-radius: 50%;\n  margin-right: 0.625rem;\n}\n.skills__circle-checked {\n  background-color: #3d6cb0;\n}\n.skills__circle-unchecked {\n  background-color: #e6e6e6;\n}\n", ""]);
+exports.push([module.i, ".skills__title {\n  font-size: 1.75rem;\n  text-transform: uppercase;\n  font-family: \"PT Sans\", \"Arial\", sans-serif;\n  font-weight: 400;\n  padding-left: 0.5625rem;\n  margin-bottom: 0.5625rem;\n  text-align: center;\n}\n.skills__scores {\n  padding-top: 1.0625rem;\n  list-style: none;\n  padding: 0;\n}\n.skills__score {\n  width: 22.0625rem;\n  margin-bottom: 0.9375rem;\n  margin-left: auto;\n  margin-right: auto;\n}\n.skills__skill-point {\n  display: inline-block;\n  width: 1.1875rem;\n  height: 1.1875rem;\n  border-radius: 50%;\n  margin-right: 0.625rem;\n}\n.skills__skill-point_checked {\n  background-color: #3d6cb0;\n}\n.skills__skill-point_unchecked {\n  background-color: #e6e6e6;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
+/* 32 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(33);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-column-second.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-column-second.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
 /* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/skills_icon.png";
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".cv-column-second {\n  box-sizing: border-box;\n  width: 61.4%;\n  float: right;\n  padding-left: 5.25rem;\n  padding-top: 70px;\n  padding-right: 2.3125rem;\n}\n@media (max-width: 650px) {\n  .cv-column-second {\n    width: 80%;\n    padding: 0;\n    float: none;\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n", ""]);
+
+// exports
+
 
 /***/ }),
 /* 34 */
@@ -1159,8 +1156,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./second-container.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./second-container.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./education.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./education.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -1178,7 +1175,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".second-container {\n  box-sizing: border-box;\n  width: 61.4%;\n  display: inline-block;\n  vertical-align: top;\n  padding-left: 84px;\n  padding-top: 70px;\n  padding-right: 37px;\n}\n@media (max-width: 650px) {\n  .second-container {\n    width: 80%;\n    padding: 0;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n", ""]);
+exports.push([module.i, ".education {\n  margin-bottom: 3.25rem;\n}\n.education__list {\n  margin-top: 1.3125rem;\n}\n", ""]);
 
 // exports
 
@@ -1204,8 +1201,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./education.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./education.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-list.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-list.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -1223,7 +1220,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".education {\n  margin-bottom: 3.25rem;\n}\n.education .block-header__picture::after {\n  background-image: url(" + __webpack_require__(38) + ");\n}\n.education-list__title {\n  color: #3d6cb0;\n}\n", ""]);
+exports.push([module.i, ".cv-list {\n  list-style: none;\n  font-family: \"PT Sans\", \"Arial\", sans-serif;\n  font-weight: 400;\n  padding-left: 3.5625rem;\n}\n.cv-list__item-main {\n  font-size: 1.75rem;\n}\n.cv-list__item-info-first {\n  font-weight: 700;\n  margin-right: 1.25rem;\n  padding-left: 0.125rem;\n  text-transform: uppercase;\n  position: relative;\n}\n.cv-list__item-info-first:before {\n  position: absolute;\n  content: \"\\2022\";\n  font-size: 4.5625rem;\n  left: -3.0625rem;\n  top: -1.9375rem;\n  color: #000;\n}\n.cv-list__item-info-first_color_blue {\n  color: #3d6cb0;\n}\n.cv-list__item-info-second {\n  text-transform: uppercase;\n}\n.cv-list__item-comment {\n  margin: 0 0 0.75rem;\n  padding: 0.3125rem 1.375rem 0 0.1875rem;\n}\n", ""]);
 
 // exports
 
@@ -1232,61 +1229,10 @@ exports.push([module.i, ".education {\n  margin-bottom: 3.25rem;\n}\n.education 
 /* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/education_icon.png";
-
-/***/ }),
-/* 39 */
-/***/ (function(module, exports, __webpack_require__) {
-
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(40);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {"hmr":true}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(1)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./common-list.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./common-list.styl");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 40 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(0)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, ".common-list {\n  padding-top: 0.3125rem;\n  list-style: none;\n}\n.common-list__title {\n  font-family: \"PTSansBold\";\n  font-size: 1.75rem;\n  float: left;\n  text-transform: uppercase;\n  margin-right: 1.25rem;\n  padding-left: 1.1875rem;\n  position: relative;\n}\n.common-list__title:before {\n  position: absolute;\n  content: \"\\2022\";\n  font-size: 4.5625rem;\n  left: -2rem;\n  top: -1.9375rem;\n  color: #000;\n}\n.common-list__secondary-info {\n  font-family: \"PTSansRegular\";\n  font-size: 1.75rem;\n  text-transform: uppercase;\n  padding-left: 1.0625rem;\n}\n.common-list__date {\n  padding-left: 1.1875rem;\n  font-family: \"PTSansRegular\";\n  font-size: 1.75rem;\n}\n.common-list__text {\n  font-family: \"PTSansRegular\";\n  margin-bottom: 0.75rem;\n  padding-top: 0.3125rem;\n  padding-right: 1.375rem;\n  padding-left: 1.25rem;\n}\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 41 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(42);
+var content = __webpack_require__(39);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -1311,7 +1257,7 @@ if(false) {
 }
 
 /***/ }),
-/* 42 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -1319,25 +1265,19 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".experience {\n  margin-bottom: 3.1875rem;\n}\n.experience .block-header__picture::after {\n  background-image: url(" + __webpack_require__(43) + ");\n}\n.experience-list {\n  margin-top: 2.0625rem;\n}\n", ""]);
+exports.push([module.i, ".experience {\n  margin-bottom: 3.1875rem;\n}\n.experience__list {\n  margin-top: 2.375rem;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 43 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/experience_icon.png";
-
-/***/ }),
-/* 44 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(45);
+var content = __webpack_require__(41);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -1362,7 +1302,7 @@ if(false) {
 }
 
 /***/ }),
-/* 45 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -1370,16 +1310,10 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".software .block-header__picture::after {\n  background-image: url(" + __webpack_require__(46) + ");\n}\n.software__levels::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n.software__second-list,\n.software__first-list {\n  width: 45.346%;\n}\n.software__second-list {\n  float: right;\n}\n.software__first-list {\n  float: left;\n}\n.software__title {\n  font-size: 1.75rem;\n  font-family: \"PTSansRegular\";\n  text-transform: uppercase;\n  padding-left: 0.375rem;\n  padding-top: 0.3125rem;\n}\n.software__level {\n  width: 96.52%;\n  height: 1.5rem;\n  margin-left: 0.4375rem;\n  margin-top: 0.875rem;\n  margin-bottom: 1rem;\n}\n.software__photoshop-level {\n  background-image: linear-gradient(to right, #3d6cb0 90.8197%, #e6e6e6 90.8197%);\n}\n.software__illustrator-level {\n  background-image: linear-gradient(to right, #3d6cb0 70.4918%, #e6e6e6 70.4918%);\n}\n.software__indesign-level {\n  background-image: linear-gradient(to right, #3d6cb0 56.0656%, #e6e6e6 56.0656%);\n}\n.software__dreamweaver-level {\n  background-image: linear-gradient(to right, #3d6cb0 82.9508%, #e6e6e6 82.9508%);\n}\n.software__after-effects-level {\n  background-image: linear-gradient(to right, #3d6cb0 61.6393%, #e6e6e6 61.6393%);\n}\n.software__html-css-level {\n  background-image: linear-gradient(to right, #3d6cb0 90.8197%, #e6e6e6 90.8197%);\n}\n", ""]);
+exports.push([module.i, ".software__levels::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n.software__col-first {\n  margin-top: 1.3125rem;\n  float: left;\n  width: 45.346%;\n}\n.software__col-second {\n  margin-top: 1.3125rem;\n  float: right;\n  width: 45.346%;\n}\n.software__title {\n  font-size: 1.75rem;\n  font-family: \"PT Sans\", \"Arial\", sans-serif;\n  font-weight: 400;\n  text-transform: uppercase;\n  margin-left: 0.375rem;\n}\n.software__level {\n  width: 96.52%;\n  height: 1.5rem;\n  margin-left: 0.4375rem;\n  margin-top: 0.875rem;\n  margin-bottom: 1.25rem;\n}\n", ""]);
 
 // exports
 
-
-/***/ }),
-/* 46 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/software_icon.png";
 
 /***/ })
 /******/ ]);
