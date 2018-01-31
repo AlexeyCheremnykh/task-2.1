@@ -1,5 +1,6 @@
 mixin cv-section-header(blockTitle)
-    header(class=`cv-section-header cv-section-header_${blockTitle}`)
-        div(class="cv-section-header__picture")
+    header.cv-section-header
+        .cv-section-header__picture-border
+            div(class=`cv-section-header__picture cv-section-header__picture_${blockTitle}`)
         h2.cv-section-header__title=blockTitle
         .cv-section-header__line
