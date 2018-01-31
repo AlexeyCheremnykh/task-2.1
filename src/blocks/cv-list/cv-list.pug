@@ -1,16 +1,16 @@
-mixin cv-list({itemsArray, color="", mixClass = ""})
+mixin cv-list({listItems, color="", mixClass = ""})
     - color = color ? " cv-list__item-info-first_color_" + color : "";
     - mixClass = mixClass ? " " + mixClass : "";
     ul(class="cv-list" + mixClass)
-        - for (item of itemsArray) {
+        - for (item of listItems) {
         -   const infoFirst = item.infoFirst;
         -   const infoSecond = item.infoSecond;
         -   const date = item.date;
-        -   const secondary = item.secondary;
+        -   const comment = item.comment;
             li.cv-list__item
                 .cv-list__item-main
                     span(class="cv-list__item-info-first" + color)=infoFirst
                     span.cv-list__item-period="// " + date
                     .cv-list__item-info-second=infoSecond
-                p.cv-list__item-secondary=secondary
+                p.cv-list__item-comment=comment
         - }

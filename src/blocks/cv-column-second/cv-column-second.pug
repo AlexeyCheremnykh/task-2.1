@@ -2,6 +2,22 @@ include ../education/education.pug
 include ../experience/experience.pug
 include ../software/software.pug
 .cv-column-second
-    +education()
-    +experience()
-    +software()
+    - const degree = {
+    -   infoFirst: "Master Degree",
+    -   infoSecond: "University Name",
+    -   date: "Feb 2011 - Jun 2014",
+    -   comment: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo " +
+    -   "ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes," +
+    -   " nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
+    - }
+    +education([degree, degree, degree, degree])
+    - const position = {
+    -   infoFirst: "Company Name",
+    -   infoSecond: "Your job here",
+    -   date: "Feb 2011 - Jun 2014",
+    -   comment: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo " +
+    -   "ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes," +
+    -   " nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
+    - }
+    +experience([position, position, position])
+    +software({photoshop: 90.8197, illustrator: 70.4918, indesign: 56.0656, dreamweaver: 82.9508, afterEffects: 61.6393, htmlCss: 90.8197})
