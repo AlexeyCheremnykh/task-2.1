@@ -523,32 +523,37 @@ function updateLink (link, options, obj) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_fonts_PT_Sans_pt_sans_css__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_fonts_PT_Sans_pt_sans_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__src_fonts_PT_Sans_pt_sans_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_pages_index_styl__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_pages_index_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__src_pages_index_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_blocks_cv_column_first_cv_column_first_styl__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_blocks_cv_column_first_cv_column_first_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__src_blocks_cv_column_first_cv_column_first_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_blocks_applicant_applicant_styl__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_blocks_applicant_applicant_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__src_blocks_applicant_applicant_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_blocks_cv_section_header_cv_section_header_styl__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_blocks_cv_section_header_cv_section_header_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__src_blocks_cv_section_header_cv_section_header_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_blocks_profile_profile_styl__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_blocks_profile_profile_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__src_blocks_profile_profile_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_blocks_contact_contact_styl__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_blocks_contact_contact_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__src_blocks_contact_contact_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_blocks_skills_skills_styl__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_blocks_skills_skills_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__src_blocks_skills_skills_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_blocks_cv_column_second_cv_column_second_styl__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_blocks_cv_column_second_cv_column_second_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__src_blocks_cv_column_second_cv_column_second_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_blocks_education_education_styl__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_blocks_education_education_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__src_blocks_education_education_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_blocks_cv_list_cv_list_styl__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_blocks_cv_list_cv_list_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__src_blocks_cv_list_cv_list_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_blocks_experience_experience_styl__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_blocks_experience_experience_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__src_blocks_experience_experience_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_blocks_software_software_styl__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_blocks_software_software_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__src_blocks_software_software_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fonts_PT_Sans_pt_sans_css__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fonts_PT_Sans_pt_sans_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__fonts_PT_Sans_pt_sans_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pages_index_styl__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pages_index_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__pages_index_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__blocks_cv_section_header_cv_section_header_styl__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__blocks_cv_section_header_cv_section_header_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__blocks_cv_section_header_cv_section_header_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__blocks_cv_applicant_cv_applicant_styl__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__blocks_cv_applicant_cv_applicant_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__blocks_cv_applicant_cv_applicant_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__blocks_cv_profile_cv_profile_styl__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__blocks_cv_profile_cv_profile_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__blocks_cv_profile_cv_profile_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__blocks_cv_contact_cv_contact_styl__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__blocks_cv_contact_cv_contact_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__blocks_cv_contact_cv_contact_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__blocks_cv_skills_cv_skills_styl__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__blocks_cv_skills_cv_skills_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__blocks_cv_skills_cv_skills_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__blocks_cv_column_first_cv_column_first_styl__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__blocks_cv_column_first_cv_column_first_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__blocks_cv_column_first_cv_column_first_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__blocks_cv_list_cv_list_styl__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__blocks_cv_list_cv_list_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__blocks_cv_list_cv_list_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__blocks_cv_education_cv_education_styl__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__blocks_cv_education_cv_education_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__blocks_cv_education_cv_education_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__blocks_cv_experience_cv_experience_styl__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__blocks_cv_experience_cv_experience_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__blocks_cv_experience_cv_experience_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__blocks_cv_software_cv_software_styl__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__blocks_cv_software_cv_software_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__blocks_cv_software_cv_software_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__blocks_cv_column_second_cv_column_second_styl__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__blocks_cv_column_second_cv_column_second_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__blocks_cv_column_second_cv_column_second_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__blocks_cv_cv_styl__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__blocks_cv_cv_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__blocks_cv_cv_styl__);
+
+
+
 
 
 
@@ -779,7 +784,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "html {\n  font-size: 16px;\n  font-family: \"PTSansRegular\", \"Arial\", sans-serif;\n  color: #000;\n  background-color: #fff;\n}\n@media (min-width: 1025px) and (max-width: 1115px) {\n  html {\n    font-size: 15px;\n  }\n}\n@media (min-width: 801px) and (max-width: 1024px) {\n  html {\n    font-size: 11px;\n  }\n}\n@media (min-width: 651px) and (max-width: 800px) {\n  html {\n    font-size: 8px;\n  }\n}\n.cv {\n  max-width: 1640px;\n}\n@media (min-width: 1641px) {\n  .cv {\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n.cv::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n", ""]);
+exports.push([module.i, "html {\n  font-size: 16px;\n  font-family: \"PT Sans\", \"Arial\", sans-serif;\n  font-weight: 400;\n  color: #000;\n  background-color: #fff;\n}\n@media (min-width: 1025px) and (max-width: 1115px) {\n  html {\n    font-size: 15px;\n  }\n}\n@media (min-width: 801px) and (max-width: 1024px) {\n  html {\n    font-size: 11px;\n  }\n}\n@media (min-width: 651px) and (max-width: 800px) {\n  html {\n    font-size: 8px;\n  }\n}\n", ""]);
 
 // exports
 
@@ -805,8 +810,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-column-first.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-column-first.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-section-header.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-section-header.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -824,7 +829,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".cv-column-first {\n  box-sizing: border-box;\n  width: 38.6%;\n  padding-left: 3.75rem;\n  padding-top: 89px;\n  float: left;\n}\n@media (max-width: 650px) {\n  .cv-column-first {\n    width: 80%;\n    padding-left: 0;\n    float: none;\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n", ""]);
+exports.push([module.i, ".cv-section-header {\n  display: flex;\n  align-items: center;\n  height: 5.625rem;\n}\n.cv-section-header__picture-container {\n  position: relative;\n  border-radius: 50%;\n  background-color: #fff;\n  border: 1px solid #0071bb;\n  width: 4.875rem;\n  height: 4.875rem;\n  margin-right: 0.75rem;\n}\n.cv-section-header__picture {\n  position: absolute;\n  border-radius: 50%;\n  background-color: #0071bb;\n  width: 4.4375rem;\n  height: 4.4375rem;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-size: 115%;\n  background-position: center;\n}\n.cv-section-header__picture_profile {\n  background-image: url(" + __webpack_require__(16) + ");\n}\n.cv-section-header__picture_contact {\n  background-image: url(" + __webpack_require__(17) + ");\n}\n.cv-section-header__picture_skills {\n  background-image: url(" + __webpack_require__(18) + ");\n}\n.cv-section-header__picture_education {\n  background-image: url(" + __webpack_require__(19) + ");\n}\n.cv-section-header__picture_experience {\n  background-image: url(" + __webpack_require__(20) + ");\n}\n.cv-section-header__picture_software {\n  background-image: url(" + __webpack_require__(21) + ");\n}\n.cv-section-header__title {\n  font-size: 2.8125rem;\n  text-transform: uppercase;\n  color: #3d6cb0;\n  font-weight: 700;\n  margin-right: 0.6875rem;\n}\n.cv-section-header__line {\n  height: 0.3125rem;\n  background-color: #3d6cb0;\n  flex-grow: 1;\n}\n", ""]);
 
 // exports
 
@@ -833,55 +838,46 @@ exports.push([module.i, ".cv-column-first {\n  box-sizing: border-box;\n  width:
 /* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(17);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {"hmr":true}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(1)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./applicant.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./applicant.styl");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
+module.exports = __webpack_require__.p + "img/cv-profile-icon.png";
 
 /***/ }),
 /* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(0)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, ".applicant {\n  padding-left: 19px;\n  margin-bottom: 4.25rem;\n}\n.applicant__photo-border {\n  position: relative;\n  border-radius: 50%;\n  background-color: #fff;\n  border: 1px solid #3d6cb0;\n  width: 57.907%;\n  padding-top: 57.907%;\n  margin-left: auto;\n  margin-right: auto;\n}\n.applicant__photo {\n  position: absolute;\n  border-radius: 50%;\n  background-color: #3d6cb0;\n  width: 88.1423%;\n  padding-top: 88.1423%;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.applicant__info {\n  font-family: \"PT Sans\", \"Arial\", sans-serif;\n  font-weight: 700;\n  text-align: center;\n  text-transform: uppercase;\n  word-break: break-word;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 2.125rem;\n}\n.applicant__name {\n  font-size: 3.75rem;\n  line-height: 0.9em;\n  font-weight: 400;\n}\n.applicant__surname {\n  font-size: 4.4rem;\n  line-height: 0.9em;\n}\n.applicant__vacancy {\n  font-size: 1.6875rem;\n  line-height: 2em;\n}\n", ""]);
-
-// exports
-
+module.exports = __webpack_require__.p + "img/cv-contact-icon.png";
 
 /***/ }),
 /* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "img/cv-skills-icon.png";
+
+/***/ }),
+/* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/cv-education-icon.png";
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/cv-experience-icon.png";
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/cv-software-icon.png";
+
+/***/ }),
+/* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(19);
+var content = __webpack_require__(23);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -895,8 +891,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-section-header.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-section-header.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-applicant.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-applicant.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -906,7 +902,7 @@ if(false) {
 }
 
 /***/ }),
-/* 19 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -914,46 +910,55 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".cv-section-header {\n  display: flex;\n  align-items: center;\n  height: 5.625rem;\n}\n.cv-section-header__picture-border {\n  position: relative;\n  border-radius: 50%;\n  background-color: #fff;\n  border: 1px solid #0071bb;\n  width: 4.875rem;\n  height: 4.875rem;\n  margin-right: 0.75rem;\n}\n.cv-section-header__picture {\n  position: absolute;\n  border-radius: 50%;\n  background-color: #0071bb;\n  width: 4.4375rem;\n  height: 4.4375rem;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-size: 115%;\n  background-position: center;\n}\n.cv-section-header__picture_profile {\n  background-image: url(" + __webpack_require__(20) + ");\n}\n.cv-section-header__picture_contact {\n  background-image: url(" + __webpack_require__(21) + ");\n}\n.cv-section-header__picture_skills {\n  background-image: url(" + __webpack_require__(22) + ");\n}\n.cv-section-header__picture_education {\n  background-image: url(" + __webpack_require__(23) + ");\n}\n.cv-section-header__picture_experience {\n  background-image: url(" + __webpack_require__(24) + ");\n}\n.cv-section-header__picture_software {\n  background-image: url(" + __webpack_require__(25) + ");\n}\n.cv-section-header__title {\n  font-size: 2.8125rem;\n  text-transform: uppercase;\n  color: #3d6cb0;\n  font-family: \"PT Sans\", \"Arial\", sans-serif;\n  font-weight: 700;\n  margin-right: 0.6875rem;\n}\n.cv-section-header__line {\n  height: 0.3125rem;\n  background-color: #3d6cb0;\n  flex-grow: 1;\n}\n", ""]);
+exports.push([module.i, ".cv-applicant {\n  padding-left: 19px;\n  margin-bottom: 4.25rem;\n}\n.cv-applicant__photo-border {\n  position: relative;\n  border-radius: 50%;\n  background-color: #fff;\n  border: 1px solid #3d6cb0;\n  width: 57.907%;\n  padding-top: 57.907%;\n  margin-left: auto;\n  margin-right: auto;\n}\n.cv-applicant__photo {\n  position: absolute;\n  border-radius: 50%;\n  background-color: #3d6cb0;\n  width: 88.1423%;\n  padding-top: 88.1423%;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.cv-applicant__info {\n  font-weight: 700;\n  text-align: center;\n  text-transform: uppercase;\n  word-break: break-word;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 2.125rem;\n}\n.cv-applicant__name {\n  font-size: 3.75rem;\n  line-height: 0.9em;\n}\n.cv-applicant__surname {\n  font-size: 4.4rem;\n  line-height: 0.9em;\n}\n.cv-applicant__vacancy {\n  font-size: 1.6875rem;\n  line-height: 2em;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 20 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/profile-icon.png";
-
-/***/ }),
-/* 21 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/contact-icon.png";
-
-/***/ }),
-/* 22 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/skills-icon.png";
-
-/***/ }),
-/* 23 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/education-icon.png";
-
-/***/ }),
 /* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/experience-icon.png";
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(25);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-profile.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-profile.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
 
 /***/ }),
 /* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/software-icon.png";
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".cv-profile {\n  margin-bottom: 2.3125rem;\n}\n.cv-profile__description {\n  margin-top: 7px;\n  margin-bottom: 0;\n  font-size: 1.03125rem;\n  line-height: 1.35rem;\n}\n.cv-profile__description-part_important {\n  font-weight: 700;\n}\n", ""]);
+
+// exports
+
 
 /***/ }),
 /* 26 */
@@ -976,8 +981,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./profile.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./profile.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-contact.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-contact.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -995,7 +1000,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".profile {\n  margin-bottom: 2.3125rem;\n}\n.profile__description {\n  margin-top: 7px;\n  margin-bottom: 0;\n  font-size: 1.03125rem;\n  line-height: 1.35rem;\n  font-family: \"PT Sans\", \"Arial\", sans-serif;\n}\n.profile__description-part {\n  font-weight: 400;\n}\n.profile__description-part_important {\n  font-weight: 700;\n}\n", ""]);
+exports.push([module.i, ".cv-contact__data {\n  margin-top: 1.8125rem;\n}\n.cv-contact__data-type,\n.cv-contact__data-value {\n  font-size: 1.4375rem;\n  padding-bottom: 1.9375rem;\n}\n.cv-contact__data-type {\n  float: left;\n  color: #3d6cb0;\n  text-transform: uppercase;\n  font-weight: 700;\n}\n.cv-contact__data-value {\n  padding-left: 6.25rem;\n}\n.cv-contact__link {\n  text-decoration: none;\n  color: #000;\n}\n", ""]);
 
 // exports
 
@@ -1021,8 +1026,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./contact.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./contact.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-skills.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-skills.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -1040,7 +1045,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".contact__data {\n  margin-top: 1.8125rem;\n}\n.contact__data-type,\n.contact__data-value {\n  font-family: \"PT Sans\", \"Arial\", sans-serif;\n  font-size: 1.4375rem;\n  padding-bottom: 1.9375rem;\n}\n.contact__data-type {\n  float: left;\n  color: #3d6cb0;\n  text-transform: uppercase;\n  font-weight: 700;\n}\n.contact__data-value {\n  padding-left: 6.25rem;\n}\n.contact__link {\n  text-decoration: none;\n  color: #000;\n}\n", ""]);
+exports.push([module.i, ".cv-skills__title {\n  font-size: 1.75rem;\n  text-transform: uppercase;\n  padding-left: 0.5625rem;\n  margin-bottom: 0.5625rem;\n  text-align: center;\n}\n.cv-skills__scores {\n  padding-top: 1.0625rem;\n  list-style: none;\n  padding: 0;\n}\n.cv-skills__score {\n  width: 22.0625rem;\n  margin-bottom: 0.9375rem;\n  margin-left: auto;\n  margin-right: auto;\n}\n.cv-skills__skill-point {\n  display: inline-block;\n  width: 1.1875rem;\n  height: 1.1875rem;\n  border-radius: 50%;\n  margin-right: 0.625rem;\n}\n.cv-skills__skill-point_checked {\n  background-color: #3d6cb0;\n}\n.cv-skills__skill-point_unchecked {\n  background-color: #e6e6e6;\n}\n", ""]);
 
 // exports
 
@@ -1066,8 +1071,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./skills.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./skills.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-column-first.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-column-first.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -1085,7 +1090,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".skills__title {\n  font-size: 1.75rem;\n  text-transform: uppercase;\n  font-family: \"PT Sans\", \"Arial\", sans-serif;\n  font-weight: 400;\n  padding-left: 0.5625rem;\n  margin-bottom: 0.5625rem;\n  text-align: center;\n}\n.skills__scores {\n  padding-top: 1.0625rem;\n  list-style: none;\n  padding: 0;\n}\n.skills__score {\n  width: 22.0625rem;\n  margin-bottom: 0.9375rem;\n  margin-left: auto;\n  margin-right: auto;\n}\n.skills__skill-point {\n  display: inline-block;\n  width: 1.1875rem;\n  height: 1.1875rem;\n  border-radius: 50%;\n  margin-right: 0.625rem;\n}\n.skills__skill-point_checked {\n  background-color: #3d6cb0;\n}\n.skills__skill-point_unchecked {\n  background-color: #e6e6e6;\n}\n", ""]);
+exports.push([module.i, ".cv-column-first {\n  box-sizing: border-box;\n  width: 38.6%;\n  padding-left: 3.75rem;\n  padding-top: 89px;\n  float: left;\n}\n@media (max-width: 650px) {\n  .cv-column-first {\n    width: 80%;\n    padding-left: 0;\n    float: none;\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n", ""]);
 
 // exports
 
@@ -1111,8 +1116,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-column-second.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-column-second.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-list.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-list.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -1130,7 +1135,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".cv-column-second {\n  box-sizing: border-box;\n  width: 61.4%;\n  float: right;\n  padding-left: 5.25rem;\n  padding-top: 70px;\n  padding-right: 2.3125rem;\n}\n@media (max-width: 650px) {\n  .cv-column-second {\n    width: 80%;\n    padding: 0;\n    float: none;\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n", ""]);
+exports.push([module.i, ".cv-list {\n  list-style: none;\n  font-weight: 400;\n  padding-left: 3.5625rem;\n}\n.cv-list__item-main {\n  font-size: 1.75rem;\n}\n.cv-list__item-info-first {\n  font-weight: 700;\n  margin-right: 1.25rem;\n  padding-left: 0.125rem;\n  text-transform: uppercase;\n  position: relative;\n}\n.cv-list__item-info-first:before {\n  position: absolute;\n  content: \"\\2022\";\n  font-size: 4.5625rem;\n  left: -3.0625rem;\n  top: -1.9375rem;\n  color: #000;\n}\n.cv-list__item-info-first_blue {\n  color: #3d6cb0;\n}\n.cv-list__item-info-second {\n  text-transform: uppercase;\n}\n.cv-list__item-comment {\n  margin: 0 0 0.75rem;\n  padding: 0.3125rem 1.375rem 0 0.1875rem;\n}\n", ""]);
 
 // exports
 
@@ -1156,8 +1161,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./education.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./education.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-education.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-education.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -1175,7 +1180,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".education {\n  margin-bottom: 3.25rem;\n}\n.education__list {\n  margin-top: 1.3125rem;\n}\n", ""]);
+exports.push([module.i, ".cv-education {\n  margin-bottom: 3.25rem;\n}\n.cv-education__list {\n  margin-top: 1.3125rem;\n}\n", ""]);
 
 // exports
 
@@ -1201,8 +1206,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-list.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-list.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-experience.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-experience.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -1220,7 +1225,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".cv-list {\n  list-style: none;\n  font-family: \"PT Sans\", \"Arial\", sans-serif;\n  font-weight: 400;\n  padding-left: 3.5625rem;\n}\n.cv-list__item-main {\n  font-size: 1.75rem;\n}\n.cv-list__item-info-first {\n  font-weight: 700;\n  margin-right: 1.25rem;\n  padding-left: 0.125rem;\n  text-transform: uppercase;\n  position: relative;\n}\n.cv-list__item-info-first:before {\n  position: absolute;\n  content: \"\\2022\";\n  font-size: 4.5625rem;\n  left: -3.0625rem;\n  top: -1.9375rem;\n  color: #000;\n}\n.cv-list__item-info-first_color_blue {\n  color: #3d6cb0;\n}\n.cv-list__item-info-second {\n  text-transform: uppercase;\n}\n.cv-list__item-comment {\n  margin: 0 0 0.75rem;\n  padding: 0.3125rem 1.375rem 0 0.1875rem;\n}\n", ""]);
+exports.push([module.i, ".cv-experience {\n  margin-bottom: 3.1875rem;\n}\n.cv-experience__list {\n  margin-top: 2.375rem;\n}\n", ""]);
 
 // exports
 
@@ -1246,8 +1251,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./experience.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./experience.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-software.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-software.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -1265,7 +1270,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".experience {\n  margin-bottom: 3.1875rem;\n}\n.experience__list {\n  margin-top: 2.375rem;\n}\n", ""]);
+exports.push([module.i, ".cv-software__levels::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n.cv-software__col-first {\n  margin-top: 1.3125rem;\n  float: left;\n  width: 45.346%;\n}\n.cv-software__col-second {\n  margin-top: 1.3125rem;\n  float: right;\n  width: 45.346%;\n}\n.cv-software__title {\n  font-size: 1.75rem;\n  font-weight: 400;\n  text-transform: uppercase;\n  margin-left: 0.375rem;\n}\n.cv-software__level {\n  width: 96.52%;\n  height: 1.5rem;\n  margin-left: 0.4375rem;\n  margin-top: 0.875rem;\n  margin-bottom: 1.25rem;\n}\n", ""]);
 
 // exports
 
@@ -1291,8 +1296,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./software.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./software.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-column-second.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv-column-second.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -1310,7 +1315,52 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".software__levels::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n.software__col-first {\n  margin-top: 1.3125rem;\n  float: left;\n  width: 45.346%;\n}\n.software__col-second {\n  margin-top: 1.3125rem;\n  float: right;\n  width: 45.346%;\n}\n.software__title {\n  font-size: 1.75rem;\n  font-family: \"PT Sans\", \"Arial\", sans-serif;\n  font-weight: 400;\n  text-transform: uppercase;\n  margin-left: 0.375rem;\n}\n.software__level {\n  width: 96.52%;\n  height: 1.5rem;\n  margin-left: 0.4375rem;\n  margin-top: 0.875rem;\n  margin-bottom: 1.25rem;\n}\n", ""]);
+exports.push([module.i, ".cv-column-second {\n  box-sizing: border-box;\n  width: 61.4%;\n  float: right;\n  padding-left: 5.25rem;\n  padding-top: 70px;\n  padding-right: 2.3125rem;\n}\n@media (max-width: 650px) {\n  .cv-column-second {\n    width: 80%;\n    padding: 0;\n    float: none;\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 42 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(43);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./cv.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 43 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".cv {\n  max-width: 1640px;\n}\n@media (min-width: 1641px) {\n  .cv {\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n.cv::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n", ""]);
 
 // exports
 
