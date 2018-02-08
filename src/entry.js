@@ -12,3 +12,4 @@ import './blocks/cv-education/cv-education.styl';
 import './blocks/cv-experience/cv-experience.styl';
 import './blocks/cv-software/cv-software.styl';
 import './blocks/cv-column-second/cv-column-second.styl';
+import './blocks/cv/cv.styl';
