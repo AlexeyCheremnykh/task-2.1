@@ -1,0 +1,27 @@
+mixin cv-skills({creative, teamwork, innovate, communication})
+    include ../cv-section-header/cv-section-header.pug
+
+    mixin drawSkillScore(score)
+        - for (let i = 0; i < score; i++)
+            .cv-skills__skill-point.cv-skills__skill-point_checked
+        - for (let i = 0; i < 12 - score; i++)
+            .cv-skills__skill-point.cv-skills__skill-point_unchecked
+
+    section.cv-skills
+        +cv-section-header("skills")
+        dl.cv-skills__scores
+            dt.cv-skills__title creative
+            dd.cv-skills__score
+                +drawSkillScore(creative)
+
+            dt.cv-skills__title teamwork
+            dd.cv-skills__score
+                +drawSkillScore(teamwork)
+
+            dt.cv-skills__title innovate
+            dd.cv-skills__score
+                +drawSkillScore(innovate)
+
+            dt.cv-skills__title communication
+            dd.cv-skills__score
+                +drawSkillScore(communication)

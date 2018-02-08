@@ -1,0 +1,6 @@
+include ../cv-section-header/cv-section-header.pug
+include ../cv-list/cv-list.pug
+mixin cv-education(degrees)
+    section.cv-education
+        +cv-section-header("education")
+        +cv-list({listItems: degrees, color: "blue", mixClass: "cv-education__list"})

@@ -1,0 +1,7 @@
+mixin cv-profile(descriptionPart, importantDescriptionPart)
+    include ../cv-section-header/cv-section-header.pug
+    section.cv-profile
+        +cv-section-header("profile")
+        p.cv-profile__description
+            span.cv-profile__description-part=descriptionPart
+            span.cv-profile__description-part_important=importantDescriptionPart

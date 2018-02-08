@@ -1,10 +1,10 @@
-include ../applicant/applicant.pug
-include ../profile/profile.pug
-include ../contact/contact.pug
-include ../skills/skills.pug
+include ../cv-applicant/cv-applicant.pug
+include ../cv-profile/cv-profile.pug
+include ../cv-contact/cv-contact.pug
+include ../cv-skills/cv-skills.pug
 .cv-column-first
-    +applicant({name: "name here", surname: "surname", vacancy: "graphic designer"})
-    +profile("Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula " +
+    +cv-applicant({name: "name here", surname: "surname", vacancy: "graphic designer"})
+    +cv-profile("Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula " +
         "eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur " +
         "ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat " +
         "massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, "+
@@ -12,5 +12,5 @@ include ../skills/skills.pug
         "pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean " +
         "vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. " +
         "Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.")
-    +contact({address: "Main Street, City.", email: "contact@domain.com", phone: "555-555-555", website: "www.yourweb.com"})
-    +skills({creative: 3, teamwork: 4, innovate: 5, communication: 6})
+    +cv-contact({address: "Main Street, City.", email: "contact@domain.com", phone: "555-555-555", website: "www.yourweb.com"})
+    +cv-skills({creative: 3, teamwork: 4, innovate: 5, communication: 6})

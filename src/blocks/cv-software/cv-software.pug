@@ -1,0 +1,25 @@
+include ../cv-section-header/cv-section-header.pug
+
+mixin cv-software({photoshop, illustrator, indesign, dreamweaver, afterEffects, htmlCss})
+
+    mixin drawLevel(value)
+        dd(class=`cv-software__level` style=`background-image: linear-gradient(to right, #3d6cb0 ${value}%, #e6e6e6 ${value}%)`)
+
+    section.cv-software
+        +cv-section-header("software")
+        .cv-software__levels
+            dl.cv-software__col-first
+                dt.cv-software__title Photoshop
+                +drawLevel(photoshop)
+                dt.cv-software__title Illustrator
+                +drawLevel(illustrator)
+                dt.cv-software__title Indesign
+                +drawLevel(indesign)
+
+            dl.cv-software__col-second
+                dt.cv-software__title Dreamweaver
+                +drawLevel(dreamweaver)
+                dt.cv-software__title After Effects
+                +drawLevel(afterEffects)
+                dt.cv-software__title HTML&CSS
+                +drawLevel(htmlCss)

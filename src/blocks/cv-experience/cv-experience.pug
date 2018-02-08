@@ -1,0 +1,6 @@
+include ../cv-section-header/cv-section-header.pug
+include ../cv-list/cv-list.pug
+mixin cv-experience(positions)
+    section.cv-experience
+        +cv-section-header("experience")
+        +cv-list({listItems: positions, mixClass: "cv-experience__list"})
