@@ -1,4 +1,5 @@
 import './fonts/PT Sans/pt-sans.css';
+import './favicons/favicons';
 import './pages/index.styl';
 
 import './blocks/cv-section-header/cv-section-header.styl';
