@@ -1359,7 +1359,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".cv-software__levels::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n.cv-software__col-first {\n  margin-top: 1.3125rem;\n  float: left;\n  width: 45.346%;\n}\n.cv-software__col-second {\n  margin-top: 1.3125rem;\n  float: right;\n  width: 45.346%;\n}\n.cv-software__title {\n  font-size: 1.75rem;\n  font-weight: 400;\n  text-transform: uppercase;\n  margin-left: 0.375rem;\n}\n.cv-software__level {\n  width: 96.52%;\n  height: 1.5rem;\n  margin-left: 0.4375rem;\n  margin-top: 0.875rem;\n  margin-bottom: 1.25rem;\n}\n", ""]);
+exports.push([module.i, ".cv-software__levels {\n  margin-top: 1.3125rem;\n  padding: 0;\n  list-style: none;\n  display: flex;\n  justify-content: space-between;\n  flex-wrap: wrap;\n  width: 100%;\n}\n.cv-software__software {\n  width: 45.346%;\n}\n.cv-software__title {\n  font-size: 1.75rem;\n  font-weight: 400;\n  text-transform: uppercase;\n  margin-left: 0.375rem;\n}\n.cv-software__level {\n  height: 1.5rem;\n  width: 96.52%;\n  margin-left: 0.4375rem;\n  margin-top: 0.875rem;\n  margin-bottom: 1.25rem;\n}\n", ""]);
 
 // exports
 

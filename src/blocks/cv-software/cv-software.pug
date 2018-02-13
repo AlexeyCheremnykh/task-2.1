@@ -3,20 +3,12 @@ include ../cv-section-header/cv-section-header.pug
 mixin cv-software(softwareList)
 
     mixin drawLevel(value)
-        dd(class=`cv-software__level` style=`background-image: linear-gradient(to right, #3d6cb0 ${value}%, #e6e6e6 ${value}%)`)
+        div(class=`cv-software__level` style=`background-image: linear-gradient(to right, #3d6cb0 ${value}%, #e6e6e6 ${value}%)`)
 
     section.cv-software
         +cv-section-header("software")
-        .cv-software__levels
-            dl.cv-software__col-first
-                - for (let software of softwareList)
-                    dt.cv-software__title=software.title
+        ul.cv-software__levels
+            - for (let software of softwareList)
+                li.cv-software__software
+                    .cv-software__title=software.title
                     +drawLevel(software.level)
-
-            //dl.cv-software__col-second
-                dt.cv-software__title Dreamweaver
-                +drawLevel(dreamweaver)
-                dt.cv-software__title After Effects
-                +drawLevel(afterEffects)
-                dt.cv-software__title HTML&CSS
-                +drawLevel(htmlCss)
