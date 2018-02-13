@@ -13,4 +13,8 @@ include ../cv-skills/cv-skills.pug
         "vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. " +
         "Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.")
     +cv-contact({address: "Main Street, City.", email: "contact@domain.com", phone: "555-555-555", website: "www.yourweb.com"})
-    +cv-skills({creative: 3, teamwork: 4, innovate: 5, communication: 6})
+    - const creative = {title: "creative", level: 3};
+    - const teamwork = {title: "teamwork", level: 4};
+    - const innovative = {title: "innovative", level: 5};
+    - const communication = {title: "communication", level: 6};
+    +cv-skills([creative, teamwork, innovative, communication])
