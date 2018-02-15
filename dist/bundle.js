@@ -1044,7 +1044,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".cv-profile {\n  margin-bottom: 2.3125rem;\n}\n.cv-profile__description {\n  margin-top: 7px;\n  margin-bottom: 0;\n  font-size: 1.03125rem;\n  line-height: 1.35rem;\n}\n.cv-profile__description-part_important {\n  font-weight: 700;\n}\n", ""]);
+exports.push([module.i, ".cv-profile {\n  margin-bottom: 2.3125rem;\n}\n.cv-profile__description {\n  margin-top: 7px;\n  margin-bottom: 0;\n  font-size: 1.03125rem;\n  line-height: 1.35rem;\n}\n", ""]);
 
 // exports
 
