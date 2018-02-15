@@ -1224,7 +1224,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".cv-list {\n  list-style: none;\n  font-weight: 400;\n  padding-left: 3.5625rem;\n}\n.cv-list__item-main {\n  font-size: 1.75rem;\n}\n.cv-list__item-info-first {\n  font-weight: 700;\n  margin-right: 1.25rem;\n  padding-left: 0.125rem;\n  text-transform: uppercase;\n  position: relative;\n}\n.cv-list__item-info-first:before {\n  position: absolute;\n  content: \"\\2022\";\n  font-size: 4.5625rem;\n  left: -3.0625rem;\n  top: -1.9375rem;\n  color: #000;\n}\n.cv-list__item-info-first_blue {\n  color: #3d6cb0;\n}\n.cv-list__item-info-second {\n  text-transform: uppercase;\n}\n.cv-list__item-comment {\n  margin: 0 0 0.75rem;\n  padding: 0.3125rem 1.375rem 0 0.1875rem;\n}\n", ""]);
+exports.push([module.i, ".cv-list {\n  list-style: none;\n  font-weight: 400;\n  padding-left: 3.5625rem;\n}\n.cv-list__item-main {\n  font-size: 1.75rem;\n}\n.cv-list__item-info-first {\n  margin-right: 1.25rem;\n  padding-left: 0.125rem;\n  text-transform: uppercase;\n  position: relative;\n}\n.cv-list__item-info-first:before {\n  position: absolute;\n  content: \"\\2022\";\n  font-size: 4.5625rem;\n  left: -3.0625rem;\n  top: -1.9375rem;\n  color: #000;\n}\n.cv-list__item-info-first_blue {\n  color: #3d6cb0;\n}\n.cv-list__item-info-second {\n  text-transform: uppercase;\n}\n.cv-list__item-comment {\n  margin: 0 0 0.75rem;\n  padding: 0.3125rem 1.375rem 0 0.1875rem;\n}\n", ""]);
 
 // exports
 

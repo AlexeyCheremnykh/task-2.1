@@ -8,7 +8,7 @@ mixin cv-list({listItems, color=""})
         -   const comment = item.comment;
             li.cv-list__item
                 .cv-list__item-main
-                    span(class="cv-list__item-info-first" + color)=infoFirst
+                    b(class="cv-list__item-info-first" + color)=infoFirst
                     span.cv-list__item-period="// " + date
                     .cv-list__item-info-second=infoSecond
                 p.cv-list__item-comment=comment
