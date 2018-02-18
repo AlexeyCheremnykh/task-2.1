@@ -1,3 +1,5 @@
+@import "../../colors"
+
 .cv-section-header
   display: flex
   align-items: center
@@ -6,8 +8,8 @@
   &__picture-container
     position: relative
     border-radius: 50%
-    background-color: #ffffff
-    border: 1px solid #0071bb
+    background-color: $white
+    border: 1px solid $secondary-blue
     width: 4.875rem
     height: 4.875rem
     margin-right: 0.75rem
@@ -15,7 +17,7 @@
   &__picture
     position: absolute
     border-radius: 50%
-    background-color: #0071bb
+    background-color: $secondary-blue
     width: 4.4375rem
     height: 4.4375rem
     top: 50%
@@ -45,11 +47,10 @@
   &__title
     font-size: 2.8125rem
     text-transform: uppercase
-    color: #3d6cb0
-    font-weight: 700
+    color: $main-blue
     margin-right: 0.6875rem
 
   &__line
     height: 0.3125rem
-    background-color: #3d6cb0
+    background-color: $main-blue
     flex-grow: 1
