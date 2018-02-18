@@ -1,6 +1,6 @@
 mixin cv-list({listItems, color=""})
     - color = color ? " cv-list__item-info-first_" + color : "";
-    ul(class="cv-list")
+    ul.cv-list
         - for (item of listItems) {
         -   const infoFirst = item.infoFirst;
         -   const infoSecond = item.infoSecond;

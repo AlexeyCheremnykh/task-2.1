@@ -3,7 +3,7 @@ include ../cv-section-header/cv-section-header.pug
 mixin cv-software(softwareList)
 
     mixin drawLevel(value)
-        div(class=`cv-software__level` style=`background-image: linear-gradient(to right, #3d6cb0 ${value}%, #e6e6e6 ${value}%)`)
+        .cv-software__level(style=`background-image: linear-gradient(to right, #3d6cb0 ${value}%, #e6e6e6 ${value}%)`)
 
     section.cv-software
         +cv-section-header("software")

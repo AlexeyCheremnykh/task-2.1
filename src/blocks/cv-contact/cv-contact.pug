@@ -8,12 +8,12 @@ mixin cv-contact({address, email, phone, website})
 
             dt.cv-contact__data-type="E-mail"
             dd.cv-contact__data-value
-                a(class=`cv-contact__link` href=`mailto: ${email}`)=email
+                a.cv-contact__link(href=`mailto: ${email}`)=email
 
             dt.cv-contact__data-type="Phone"
             dd.cv-contact__data-value
-                a(class=`cv-contact__link` href=`tel: ${phone}`)=phone
+                a.cv-contact__link(href=`tel: ${phone}`)=phone
 
             dt.cv-contact__data-type="Website"
             dd.cv-contact__data-value
-                a(class="cv-contact__link" href=`//${website}` target="_blank" rel="noopener noreferrer")=website
+                a.cv-contact__link(href=`//${website}` target="_blank" rel="noopener noreferrer")=website
