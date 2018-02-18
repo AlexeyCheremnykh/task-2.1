@@ -1134,7 +1134,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".cv-skills__title {\n  font-size: 1.75rem;\n  text-transform: uppercase;\n  padding-left: 0.5625rem;\n  margin-bottom: 0.5625rem;\n  text-align: center;\n}\n.cv-skills__levels {\n  padding-top: 1.0625rem;\n  list-style: none;\n  padding: 0;\n}\n.cv-skills__level {\n  width: 22.0625rem;\n  margin-bottom: 0.9375rem;\n  margin-left: auto;\n  margin-right: auto;\n}\n.cv-skills__skill-point {\n  display: inline-block;\n  width: 1.1875rem;\n  height: 1.1875rem;\n  border-radius: 50%;\n  margin-right: 0.625rem;\n}\n.cv-skills__skill-point_checked {\n  background-color: #3d6cb0;\n}\n.cv-skills__skill-point_unchecked {\n  background-color: #e6e6e6;\n}\n", ""]);
+exports.push([module.i, ".cv-skills__title {\n  font-size: 1.75rem;\n  text-transform: uppercase;\n  padding-left: 0.5625rem;\n  margin-bottom: 0.5625rem;\n  text-align: center;\n}\n.cv-skills__levels {\n  padding-top: 1.0625rem;\n  list-style: none;\n  padding: 0;\n}\n.cv-skills__level {\n  margin: 0 0 0.9375rem;\n  text-align: center;\n}\n.cv-skills__skill-point {\n  display: inline-block;\n  width: 1.1875rem;\n  height: 1.1875rem;\n  border-radius: 50%;\n  margin-right: 0.625rem;\n}\n.cv-skills__skill-point_checked {\n  background-color: #3d6cb0;\n}\n.cv-skills__skill-point_unchecked {\n  background-color: #e6e6e6;\n}\n", ""]);
 
 // exports
 
