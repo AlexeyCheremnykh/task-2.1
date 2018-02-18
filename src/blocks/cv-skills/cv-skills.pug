@@ -1,10 +1,10 @@
-mixin cv-skills(skillsList)
+mixin cv-skills({skillsList, maxSkillLevel})
     include ../cv-section-header/cv-section-header.pug
 
     mixin drawSkillLevel(level)
         - for (let i = 0; i < level; i++)
             .cv-skills__skill-point.cv-skills__skill-point_checked
-        - for (let i = 0; i < 12 - level; i++)
+        - for (let i = 0; i < maxSkillLevel - level; i++)
             .cv-skills__skill-point.cv-skills__skill-point_unchecked
 
     section.cv-skills
