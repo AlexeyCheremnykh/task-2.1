@@ -1,15 +1,15 @@
-include ../cv-applicant/cv-applicant.pug
-include ../cv-profile/cv-profile.pug
-include ../cv-contact/cv-contact.pug
-include ../cv-skills/cv-skills.pug
+include ../applicant/applicant.pug
+include ../profile/profile.pug
+include ../contact/contact.pug
+include ../skills/skills.pug
 
-.cv-column-left
-    - const leftColParametersPath = "src/blocks/cv-column-left/mixin-parameters/";
+.column-left
+    - const leftColParametersPath = "src/blocks/column-left/mixin-parameters/";
     - const applicant = JSON.parse(fs.readFileSync(`${leftColParametersPath}applicant.json`), "utf8");
     - const profile = JSON.parse(fs.readFileSync(`${leftColParametersPath}profile.json`), "utf8");
     - const contact = JSON.parse(fs.readFileSync(`${leftColParametersPath}contact.json`), "utf8");
     - const skills = JSON.parse(fs.readFileSync(`${leftColParametersPath}skills.json`), "utf8");
-    +cv-applicant(applicant)
-    +cv-profile(profile)
-    +cv-contact(contact)
-    +cv-skills(skills)
+    +applicant(applicant)
+    +profile(profile)
+    +contact(contact)
+    +skills(skills)

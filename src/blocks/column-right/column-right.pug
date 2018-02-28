@@ -1,12 +1,12 @@
-include ../cv-education/cv-education.pug
-include ../cv-experience/cv-experience.pug
-include ../cv-software/cv-software.pug
+include ../education/education.pug
+include ../experience/experience.pug
+include ../software/software.pug
 
-.cv-column-right
-    - const rightColParametersPath = "src/blocks/cv-column-right/mixin-parameters/";
+.column-right
+    - const rightColParametersPath = "src/blocks/column-right/mixin-parameters/";
     - const education = JSON.parse(fs.readFileSync(`${rightColParametersPath}education.json`, "utf8"));
     - const experience = JSON.parse(fs.readFileSync(`${rightColParametersPath}experience.json`, "utf8"));
     - const software = JSON.parse(fs.readFileSync(`${rightColParametersPath}software.json`, "utf8"));
-    +cv-education(education)
-    +cv-experience(experience)
-    +cv-software(software)
+    +education(education)
+    +experience(experience)
+    +software(software)

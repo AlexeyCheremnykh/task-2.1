@@ -1,0 +1,11 @@
+include ../cv-section-header/cv-section-header.pug
+include pug-mixins/drawSoftwareLevel.pug
+
+mixin software(softwareList)
+    section.software
+        +cv-section-header("software")
+        ul.software__levels
+            each software in softwareList
+                li.software__software
+                    .software__title=software.title
+                    +drawSoftwareLevel(software.level)
