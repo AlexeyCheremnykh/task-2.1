@@ -10,7 +10,7 @@ mixin cv-skills({skillsList, maxSkillLevel})
     section.cv-skills
         +cv-section-header("skills")
         dl.cv-skills__levels
-            - for (let skill of skillsList)
+            each skill in skillsList
                 dt.cv-skills__title=skill.title
                 dd.cv-skills__level
                     +drawSkillLevel(skill.level)

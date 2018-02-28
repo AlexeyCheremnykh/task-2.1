@@ -7,7 +7,7 @@ mixin cv-software(softwareList)
     section.cv-software
         +cv-section-header("software")
         ul.cv-software__levels
-            - for (let software of softwareList)
+            each software in softwareList
                 li.cv-software__software
                     .cv-software__title=software.title
                     +drawLevel(software.level)

@@ -1,15 +1,10 @@
 mixin cv-list({listItems, color=""})
     - color = color ? " cv-list__item-info-first_" + color : "";
     ul.cv-list
-        - for (item of listItems) {
-        -   const infoFirst = item.infoFirst;
-        -   const infoSecond = item.infoSecond;
-        -   const date = item.date;
-        -   const comment = item.comment;
+        each item in listItems
             li.cv-list__item
                 .cv-list__item-main
-                    b(class="cv-list__item-info-first" + color)=infoFirst
-                    span.cv-list__item-period="// " + date
-                    .cv-list__item-info-second=infoSecond
-                p.cv-list__item-comment=comment
-        - }
+                    b(class="cv-list__item-info-first" + color)=item.infoFirst
+                    span.cv-list__item-period="// " + item.date
+                    .cv-list__item-info-second=item.infoSecond
+                p.cv-list__item-comment=item.comment
