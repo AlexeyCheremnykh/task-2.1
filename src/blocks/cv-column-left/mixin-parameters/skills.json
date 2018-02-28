@@ -1,0 +1,21 @@
+{
+    "skillsList": [
+        {
+            "title": "creative",
+            "level": 3
+        },
+        {
+            "title": "teamwork",
+            "level": 4
+        },
+        {
+            "title": "innovative",
+            "level": 5
+        },
+        {
+            "title": "communication",
+            "level": 6
+        }
+    ],
+    "maxSkillLevel": 12
+}

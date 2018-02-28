@@ -1,25 +1,12 @@
 include ../cv-education/cv-education.pug
 include ../cv-experience/cv-experience.pug
 include ../cv-software/cv-software.pug
+
 .cv-column-right
-    - const degree = {
-    -   title: "Master Degree",
-    -   subtitle: "University Name",
-    -   period: "Feb 2011 - Jun 2014",
-    -   content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.",
-    - }
-    +cv-education([degree, degree, degree, degree])
-    - const position = {
-    -   title: "Company Name",
-    -   subtitle: "Your job here",
-    -   period: "Feb 2011 - Jun 2014",
-    -   content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.",
-    - }
-    +cv-experience([position, position, position])
-    - const photoshop = {title: "Photoshop", level: 90.8197};
-    - const illustrator = {title: "Illustrator", level: 70.4918};
-    - const indesign = {title: "Indesign", level: 56.0656}
-    - const dreamweaver = {title: "Dreamweaver", level: 82.9508};
-    - const afterEffects = {title: "After Effects", level: 61.6393};
-    - const htmlCss = {title: "HTML&CSS", level: 90.8197};
-    +cv-software([photoshop, dreamweaver, illustrator, afterEffects, indesign, htmlCss])
+    - const rightColParametersPath = "src/blocks/cv-column-right/mixin-parameters/";
+    - const education = JSON.parse(fs.readFileSync(`${rightColParametersPath}education.json`, "utf8"));
+    - const experience = JSON.parse(fs.readFileSync(`${rightColParametersPath}experience.json`, "utf8"));
+    - const software = JSON.parse(fs.readFileSync(`${rightColParametersPath}software.json`, "utf8"));
+    +cv-education(education)
+    +cv-experience(experience)
+    +cv-software(software)
