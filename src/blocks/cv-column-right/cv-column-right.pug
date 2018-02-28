@@ -3,21 +3,17 @@ include ../cv-experience/cv-experience.pug
 include ../cv-software/cv-software.pug
 .cv-column-right
     - const degree = {
-    -   infoFirst: "Master Degree",
-    -   infoSecond: "University Name",
-    -   date: "Feb 2011 - Jun 2014",
-    -   comment: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo " +
-    -   "ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes," +
-    -   " nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
+    -   title: "Master Degree",
+    -   subtitle: "University Name",
+    -   period: "Feb 2011 - Jun 2014",
+    -   content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.",
     - }
     +cv-education([degree, degree, degree, degree])
     - const position = {
-    -   infoFirst: "Company Name",
-    -   infoSecond: "Your job here",
-    -   date: "Feb 2011 - Jun 2014",
-    -   comment: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo " +
-    -   "ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes," +
-    -   " nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
+    -   title: "Company Name",
+    -   subtitle: "Your job here",
+    -   period: "Feb 2011 - Jun 2014",
+    -   content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.",
     - }
     +cv-experience([position, position, position])
     - const photoshop = {title: "Photoshop", level: 90.8197};

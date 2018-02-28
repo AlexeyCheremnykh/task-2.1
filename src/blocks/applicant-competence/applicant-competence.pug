@@ -1,0 +1,8 @@
+mixin applicant-competence({title, period, subtitle, content, titleColor = ""})
+    - const titleColorClass = titleColor ? ` applicant-competence__title_${titleColor}` : "";
+    article.applicant-competence
+        header.applicant-competence__header
+            h3(class="applicant-competence__title" + titleColorClass)=title
+                span.applicant-competence__period="// " + period
+            .applicant-competence__subtitle=subtitle
+        p.applicant-competence__content=content

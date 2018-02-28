@@ -8,6 +8,7 @@ import './blocks/cv-profile/cv-profile.styl';
 import './blocks/cv-contact/cv-contact.styl';
 import './blocks/cv-skills/cv-skills.styl';
 import './blocks/cv-column-left/cv-column-left.styl';
+import './blocks/applicant-competence/applicant-competence.styl';
 import './blocks/cv-list/cv-list.styl';
 import './blocks/cv-education/cv-education.styl';
 import './blocks/cv-experience/cv-experience.styl';

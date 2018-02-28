@@ -1,10 +1,7 @@
+include ../applicant-competence/applicant-competence.pug
+
 mixin cv-list({listItems, color=""})
-    - color = color ? " cv-list__item-info-first_" + color : "";
     ul.cv-list
         each item in listItems
             li.cv-list__item
-                .cv-list__item-main
-                    b(class="cv-list__item-info-first" + color)=item.infoFirst
-                    span.cv-list__item-period="// " + item.date
-                    .cv-list__item-info-second=item.infoSecond
-                p.cv-list__item-comment=item.comment
+                +applicant-competence({title: item.title, period: item.period, subtitle: item.subtitle, content: item.content, titleColor: color})
