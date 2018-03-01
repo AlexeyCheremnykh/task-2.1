@@ -5,10 +5,10 @@ include ../skills/skills.pug
 
 .column-left
     - const leftColParametersPath = "src/blocks/column-left/mixin-parameters/";
-    - const applicant = JSON.parse(fs.readFileSync(`${leftColParametersPath}applicant.json`), "utf8");
-    - const profile = JSON.parse(fs.readFileSync(`${leftColParametersPath}profile.json`), "utf8");
-    - const contact = JSON.parse(fs.readFileSync(`${leftColParametersPath}contact.json`), "utf8");
-    - const skills = JSON.parse(fs.readFileSync(`${leftColParametersPath}skills.json`), "utf8");
+    - const applicant = JSON.parse(fs.readFileSync(`${leftColParametersPath}applicant.json`, "utf8"));
+    - const profile = JSON.parse(fs.readFileSync(`${leftColParametersPath}profile.json`, "utf8"));
+    - const contact = JSON.parse(fs.readFileSync(`${leftColParametersPath}contact.json`, "utf8"));
+    - const skills = JSON.parse(fs.readFileSync(`${leftColParametersPath}skills.json`, "utf8"));
     +applicant(applicant)
     +profile(profile)
     +contact(contact)
