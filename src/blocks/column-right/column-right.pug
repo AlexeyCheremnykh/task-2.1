@@ -2,10 +2,11 @@ include ../education/education.pug
 include ../experience/experience.pug
 include ../software/software.pug
 
-.column-right
-    - const education = require("../blocks/column-right/block-data/education.json");
-    - const experience = require("../blocks/column-right/block-data/experience.json");
-    - const software = require("../blocks/column-right/block-data/software.json");
-    +education(education)
-    +experience(experience)
-    +software(software)
+mixin column-right
+    .column-right
+        - const education = require("../blocks/column-right/block-data/education.json");
+        - const experience = require("../blocks/column-right/block-data/experience.json");
+        - const software = require("../blocks/column-right/block-data/software.json");
+        +education(education)
+        +experience(experience)
+        +software(software)

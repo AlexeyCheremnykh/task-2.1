@@ -3,12 +3,13 @@ include ../profile/profile.pug
 include ../contact/contact.pug
 include ../skills/skills.pug
 
-.column-left
-    - const applicant = require("../blocks/column-left/block-data/applicant.json");
-    - const profile = require("../blocks/column-left/block-data/profile.json");
-    - const contact = require("../blocks/column-left/block-data/contact.json");
-    - const skills = require("../blocks/column-left/block-data/skills.json");
-    +applicant(applicant)
-    +profile(profile)
-    +contact(contact)
-    +skills(skills)
+mixin column-left
+    .column-left
+        - const applicant = require("../blocks/column-left/block-data/applicant.json");
+        - const profile = require("../blocks/column-left/block-data/profile.json");
+        - const contact = require("../blocks/column-left/block-data/contact.json");
+        - const skills = require("../blocks/column-left/block-data/skills.json");
+        +applicant(applicant)
+        +profile(profile)
+        +contact(contact)
+        +skills(skills)
