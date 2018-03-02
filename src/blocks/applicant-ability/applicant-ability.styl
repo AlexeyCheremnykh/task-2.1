@@ -1,0 +1,40 @@
+@import "../../colors"
+
+.applicant-ability
+  margin 0
+
+  &__title
+    font-size 1.75rem
+    text-transform uppercase
+
+  &_type_progress &__title
+    margin-left 0.375rem
+
+  &_type_progress &__value
+    height 1.5rem
+    width 96.52%
+    margin-left 0.4375rem
+    margin-top 0.875rem
+
+  &_type_points
+    text-align center
+
+  &_type_points &__value
+    margin 0
+
+  &_type_points &__title
+    padding-left 0.5625rem
+    margin-bottom 0.5625rem
+
+  &__value-point
+    display inline-block
+    width 1.1875rem
+    height 1.1875rem
+    border-radius 50%
+    margin-right 0.625rem
+
+    &_checked
+      background-color $main-blue
+
+    &_unchecked
+      background-color $unchecked-grey

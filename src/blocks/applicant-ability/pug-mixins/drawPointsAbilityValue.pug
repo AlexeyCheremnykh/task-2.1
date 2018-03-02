@@ -1,0 +1,6 @@
+mixin drawPointsAbilityValue({value = "0", maxValue = "10"} = {})
+    dd.applicant-ability__value
+        - for (let i = 0; i < value; i++)
+            .applicant-ability__value-point.applicant-ability__value-point_checked
+        - for (let i = 0; i < maxValue - value; i++)
+            .applicant-ability__value-point.applicant-ability__value-point_unchecked

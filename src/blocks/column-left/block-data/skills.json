@@ -2,20 +2,20 @@
     "skillsList": [
         {
             "title": "creative",
-            "level": 3
+            "value": 3
         },
         {
             "title": "teamwork",
-            "level": 4
+            "value": 4
         },
         {
             "title": "innovative",
-            "level": 5
+            "value": 5
         },
         {
             "title": "communication",
-            "level": 6
+            "value": 6
         }
     ],
-    "maxSkillLevel": 12
+    "maxSkillValue": 12
 }

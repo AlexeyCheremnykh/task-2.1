@@ -4,6 +4,7 @@ import './pages/index.styl';
 
 import './blocks/section-header/section-header.styl';
 import './blocks/applicant/applicant.styl';
+import './blocks/applicant-ability/applicant-ability.styl';
 import './blocks/profile/profile.styl';
 import './blocks/contact/contact.styl';
 import './blocks/skills/skills.styl';

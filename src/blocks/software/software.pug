@@ -1,11 +1,10 @@
 include ../section-header/section-header.pug
-include pug-mixins/drawSoftwareLevel.pug
+include ../applicant-ability/applicant-ability.pug
 
 mixin software(softwareList)
     section.software
         +section-header("software")
-        ul.software__levels
+        ul.software__list
             each software in softwareList
                 li.software__software
-                    .software__title=software.title
-                    +drawSoftwareLevel(software.level)
+                    +applicant-ability({title: software.title, value: software.value, type: "progress"})

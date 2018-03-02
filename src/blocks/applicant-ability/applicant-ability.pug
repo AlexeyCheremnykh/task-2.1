@@ -1,0 +1,12 @@
+include pug-mixins/drawProgressAbilityValue.pug
+include pug-mixins/drawPointsAbilityValue.pug
+
+mixin applicant-ability({title, value, maxValue, type = "points"} = {})
+    if (type === "progress")
+        dl.applicant-ability.applicant-ability_type_progress
+            dt.applicant-ability__title=title
+            +drawProgressAbilityValue(value)
+    else
+        dl.applicant-ability.applicant-ability_type_points
+            dt.applicant-ability__title=title
+            +drawPointsAbilityValue({value: value, maxValue: maxValue})
