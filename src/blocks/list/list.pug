@@ -1,7 +1,7 @@
 include ../applicant-competence/applicant-competence.pug
 
-mixin cv-list({listItems, color=""})
-    ul.cv-list
+mixin list({listItems, color=""})
+    ul.list
         each item in listItems
-            li.cv-list__item
+            li.list__item
                 +applicant-competence({title: item.title, period: item.period, subtitle: item.subtitle, content: item.content, titleColor: color})

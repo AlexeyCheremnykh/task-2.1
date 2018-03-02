@@ -1,9 +1,9 @@
-include ../cv-section-header/cv-section-header.pug
+include ../section-header/section-header.pug
 include pug-mixins/drawSkillLevel.pug
 
 mixin skills({skillsList, maxSkillLevel})
     section.skills
-        +cv-section-header("skills")
+        +section-header("skills")
         dl.skills__levels
             each skill in skillsList
                 dt.skills__title=skill.title

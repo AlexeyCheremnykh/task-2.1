@@ -1,8 +1,8 @@
-include ../cv-section-header/cv-section-header.pug
+include ../section-header/section-header.pug
 
 mixin profile({descriptionPart, importantDescriptionPart})
     section.profile
-        +cv-section-header("profile")
+        +section-header("profile")
         p.profile__description
             span.profile__description-part=descriptionPart
             strong.profile__description-part_important=importantDescriptionPart
