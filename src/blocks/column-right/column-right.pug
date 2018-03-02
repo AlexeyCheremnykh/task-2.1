@@ -3,10 +3,9 @@ include ../experience/experience.pug
 include ../software/software.pug
 
 .column-right
-    - const rightColDataPath = "src/blocks/column-right/block-data/";
-    - const education = JSON.parse(fs.readFileSync(`${rightColDataPath}education.json`, "utf8"));
-    - const experience = JSON.parse(fs.readFileSync(`${rightColDataPath}experience.json`, "utf8"));
-    - const software = JSON.parse(fs.readFileSync(`${rightColDataPath}software.json`, "utf8"));
+    - const education = require("../blocks/column-right/block-data/education.json");
+    - const experience = require("../blocks/column-right/block-data/experience.json");
+    - const software = require("../blocks/column-right/block-data/software.json");
     +education(education)
     +experience(experience)
     +software(software)

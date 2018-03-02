@@ -4,11 +4,10 @@ include ../contact/contact.pug
 include ../skills/skills.pug
 
 .column-left
-    - const leftColDataPath = "src/blocks/column-left/block-data/";
-    - const applicant = JSON.parse(fs.readFileSync(`${leftColDataPath}applicant.json`, "utf8"));
-    - const profile = JSON.parse(fs.readFileSync(`${leftColDataPath}profile.json`, "utf8"));
-    - const contact = JSON.parse(fs.readFileSync(`${leftColDataPath}contact.json`, "utf8"));
-    - const skills = JSON.parse(fs.readFileSync(`${leftColDataPath}skills.json`, "utf8"));
+    - const applicant = require("../blocks/column-left/block-data/applicant.json");
+    - const profile = require("../blocks/column-left/block-data/profile.json");
+    - const contact = require("../blocks/column-left/block-data/contact.json");
+    - const skills = require("../blocks/column-left/block-data/skills.json");
     +applicant(applicant)
     +profile(profile)
     +contact(contact)
