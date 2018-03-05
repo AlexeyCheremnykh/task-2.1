@@ -20,9 +20,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "webpack-dev-server",
-    "build": "webpack",
-    "watch": "webpack --watch"
+    "server": "node_modules/.bin/webpack-dev-server",
+    "build": "node_modules/.bin/webpack",
+    "watch": "node_modules/.bin/webpack --watch"
   },
   "author": "",
   "license": "ISC"
