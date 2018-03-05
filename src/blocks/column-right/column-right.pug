@@ -4,9 +4,6 @@ include ../software/software.pug
 
 mixin column-right
     .column-right
-        - const education = require("../blocks/column-right/block-data/education.json");
-        - const experience = require("../blocks/column-right/block-data/experience.json");
-        - const software = require("../blocks/column-right/block-data/software.json");
-        +education(education)
-        +experience(experience)
-        +software(software)
+        +education(data.education)
+        +experience(data.experience)
+        +software(data.software)

@@ -5,11 +5,7 @@ include ../skills/skills.pug
 
 mixin column-left
     .column-left
-        - const applicant = require("../blocks/column-left/block-data/applicant.json");
-        - const profile = require("../blocks/column-left/block-data/profile.json");
-        - const contact = require("../blocks/column-left/block-data/contact.json");
-        - const skills = require("../blocks/column-left/block-data/skills.json");
-        +applicant(applicant)
-        +profile(profile)
-        +contact(contact)
-        +skills(skills)
+        +applicant(data.applicant)
+        +profile(data.profile)
+        +contact(data.contact)
+        +skills(data.skills)
