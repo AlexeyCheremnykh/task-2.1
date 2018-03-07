@@ -205,6 +205,7 @@ html {
 }
 .contact__data-value {
   padding-left: 6.25rem;
+  word-wrap: break-word;
 }
 .contact__link {
   text-decoration: none;
