@@ -1,6 +1,6 @@
 include ../applicant-competence/applicant-competence.pug
 
-mixin list({listItems, color=""})
+mixin list({listItems, color = ""} = {})
     ul.list
         each item in listItems
             li.list__item

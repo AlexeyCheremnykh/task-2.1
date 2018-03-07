@@ -1,6 +1,6 @@
-mixin section-header(blockTitle)
+mixin section-header({title} = {})
     header.section-header
         .section-header__picture-container
-            div(class=`section-header__picture section-header__picture_${blockTitle}`)
-        h2.section-header__title=blockTitle
+            div(class=`section-header__picture section-header__picture_${title}`)
+        h2.section-header__title=title
         .section-header__line

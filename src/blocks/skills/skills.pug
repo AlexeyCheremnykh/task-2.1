@@ -1,9 +1,9 @@
 include ../section-header/section-header.pug
 include ../applicant-ability/applicant-ability.pug
 
-mixin skills({skillsList, maxSkillValue})
+mixin skills({maxSkillValue, skillsList = []} = {})
     section.skills
-        +section-header("skills")
+        +section-header({title: "skills"})
         ul.skills__list
             each skill in skillsList
                 li.skills__skill

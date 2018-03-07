@@ -1,9 +1,9 @@
 include ../section-header/section-header.pug
 include ../applicant-ability/applicant-ability.pug
 
-mixin software(softwareList)
+mixin software({softwareList = []} = {})
     section.software
-        +section-header("software")
+        +section-header({title: "software"})
         ul.software__list
             each software in softwareList
                 li.software__software

@@ -1,8 +1,8 @@
 include ../section-header/section-header.pug
 include ../list/list.pug
 
-mixin education(degrees)
+mixin education({degrees = []} = {})
     section.education
-        +section-header("education")
+        +section-header({title: "education"})
         .education__list
             +list({listItems: degrees, color: "blue"})

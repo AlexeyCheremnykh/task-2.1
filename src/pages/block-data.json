@@ -10,52 +10,56 @@
         "phone": "555-555-555",
         "website": "www.yourweb.com"
     },
-    "education": [
-        {
-            "title": "Master Degree",
-            "subtitle": "University Name",
-            "period": "Feb 2011 - Jun 2014",
-            "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
-        },
-        {
-            "title": "Master Degree",
-            "subtitle": "University Name",
-            "period": "Feb 2011 - Jun 2014",
-            "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
-        },
-        {
-            "title": "Master Degree",
-            "subtitle": "University Name",
-            "period": "Feb 2011 - Jun 2014",
-            "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
-        },
-        {
-            "title": "Master Degree",
-            "subtitle": "University Name",
-            "period": "Feb 2011 - Jun 2014",
-            "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
-        }
-    ],
-    "experience": [
-        {
-            "title": "Company Name",
-            "subtitle": "Your job here",
-            "period": "Feb 2011 - Jun 2014",
-            "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
-        },
-        {
-            "title": "Company Name",
-            "subtitle": "Your job here",
-            "period": "Feb 2011 - Jun 2014",
-            "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
-        },
-        {
-            "title": "Company Name",
-            "subtitle": "Your job here",
-            "period": "Feb 2011 - Jun 2014",
-            "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
-        }
-    ],
+    "education": {
+        "degrees": [
+            {
+                "title": "Master Degree",
+                "subtitle": "University Name",
+                "period": "Feb 2011 - Jun 2014",
+                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
+            },
+            {
+                "title": "Master Degree",
+                "subtitle": "University Name",
+                "period": "Feb 2011 - Jun 2014",
+                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
+            },
+            {
+                "title": "Master Degree",
+                "subtitle": "University Name",
+                "period": "Feb 2011 - Jun 2014",
+                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
+            },
+            {
+                "title": "Master Degree",
+                "subtitle": "University Name",
+                "period": "Feb 2011 - Jun 2014",
+                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
+            }
+        ]
+    },
+    "experience": {
+            "positions": [
+            {
+                "title": "Company Name",
+                "subtitle": "Your job here",
+                "period": "Feb 2011 - Jun 2014",
+                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
+            },
+            {
+                "title": "Company Name",
+                "subtitle": "Your job here",
+                "period": "Feb 2011 - Jun 2014",
+                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
+            },
+            {
+                "title": "Company Name",
+                "subtitle": "Your job here",
+                "period": "Feb 2011 - Jun 2014",
+                "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque."
+            }
+        ]
+    },
     "profile": {
         "descriptionPart": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu ",
         "importantDescriptionPart": "pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum."
@@ -81,30 +85,32 @@
         ],
         "maxSkillValue": 12
     },
-    "software": [
-        {
-            "title": "photoshop",
-            "value": 90.8197
-        },
-        {
-            "title": "Dreamweaver",
-            "value": 82.9508
-        },
-        {
-            "title": "Illustrator",
-            "value": 70.4918
-        },
-        {
-            "title": "After Effects",
-            "value": 61.6393
-        },
-        {
-            "title": "Indesign",
-            "value": 56.0656
-        },
-        {
-            "title": "HTML&CSS",
-            "value": 90.8197
-        }
-    ]
+    "software": {
+        "softwareList": [
+            {
+                "title": "photoshop",
+                "value": 90.8197
+            },
+            {
+                "title": "Dreamweaver",
+                "value": 82.9508
+            },
+            {
+                "title": "Illustrator",
+                "value": 70.4918
+            },
+            {
+                "title": "After Effects",
+                "value": 61.6393
+            },
+            {
+                "title": "Indesign",
+                "value": 56.0656
+            },
+            {
+                "title": "HTML&CSS",
+                "value": 90.8197
+            }
+        ]
+    }
 }

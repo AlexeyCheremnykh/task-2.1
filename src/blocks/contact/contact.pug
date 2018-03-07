@@ -1,8 +1,8 @@
 include ../section-header/section-header.pug
 
-mixin contact({address, email, phone, website})
+mixin contact({address, email, phone, website} = {})
     section.contact
-        +section-header("contact")
+        +section-header({title: "contact"})
         dl.contact__data
             dt.contact__data-type="Address"
             dd.contact__data-value=address

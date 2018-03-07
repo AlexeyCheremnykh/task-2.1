@@ -1,8 +1,8 @@
 include ../section-header/section-header.pug
 include ../list/list.pug
 
-mixin experience(positions)
+mixin experience({positions = []} = {})
     section.experience
-        +section-header("experience")
+        +section-header({title: "experience"})
         .experience__list
             +list({listItems: positions})
