@@ -4,3 +4,12 @@
 
   &__item
     margin-bottom 0.75rem
+    position relative
+
+    &:before
+      position absolute
+      content "•"
+      font-size 5rem
+      left -3.125rem
+      top -2.25rem
+      color $black
