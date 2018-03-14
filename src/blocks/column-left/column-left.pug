@@ -5,7 +5,9 @@ include ../skills/skills.pug
 
 mixin column-left
     .column-left
-        +applicant(data.applicant)
-        +profile(data.profile)
+        .column-left__applicant
+            +applicant(data.applicant)
+        .column-left__profile
+            +profile(data.profile)
         +contact(data.contact)
         +skills(data.skills)

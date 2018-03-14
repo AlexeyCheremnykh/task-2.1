@@ -4,6 +4,8 @@ include ../software/software.pug
 
 mixin column-right
     .column-right
-        +education(data.education)
-        +experience(data.experience)
+        .column-right__education
+            +education(data.education)
+        .column-right__experience
+            +experience(data.experience)
         +software(data.software)
