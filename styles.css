@@ -95,10 +95,6 @@ html {
   background-color: #3d6cb0;
   flex-grow: 1;
 }
-.applicant {
-  padding-left: 19px;
-  margin-bottom: 4.25rem;
-}
 .applicant__photo-border {
   position: relative;
   border-radius: 50%;
@@ -180,9 +176,6 @@ html {
 .applicant-ability__value-point_unchecked {
   background-color: #e6e6e6;
 }
-.profile {
-  margin-bottom: 2.3125rem;
-}
 .profile__description {
   margin-top: 7px;
   margin-bottom: 0;
@@ -218,21 +211,12 @@ html {
 .skills__skill {
   margin-bottom: 0.9375rem;
 }
-.column-left {
-  box-sizing: border-box;
-  width: 38.6%;
-  padding-left: 3.75rem;
-  padding-top: 89px;
-  float: left;
+.column-left__applicant {
+  margin-bottom: 4.25rem;
+  padding-left: 19px;
 }
-@media (max-width: 650px) {
-  .column-left {
-    width: 80%;
-    padding-left: 0;
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.column-left__profile {
+  margin-bottom: 2.3125rem;
 }
 .applicant-competence__header {
   padding-left: 0.125rem;
@@ -278,14 +262,8 @@ html {
   top: -2.25rem;
   color: $black;
 }
-.education {
-  margin-bottom: 3.25rem;
-}
 .education__list {
   margin-top: 1.3125rem;
-}
-.experience {
-  margin-bottom: 3.1875rem;
 }
 .experience__list {
   margin-top: 2.375rem;
@@ -303,22 +281,11 @@ html {
   width: 45.346%;
   margin-bottom: 1.25rem;
 }
-.column-right {
-  box-sizing: border-box;
-  width: 61.4%;
-  float: right;
-  padding-left: 5.25rem;
-  padding-top: 70px;
-  padding-right: 2.3125rem;
+.column-right__education {
+  margin-bottom: 3.25rem;
 }
-@media (max-width: 650px) {
-  .column-right {
-    width: 80%;
-    padding: 0;
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.column-right__experience {
+  margin-bottom: 3.1875rem;
 }
 .cv {
   max-width: 1640px;
@@ -333,4 +300,37 @@ html {
   content: "";
   display: block;
   clear: both;
+}
+.cv__column-left {
+  box-sizing: border-box;
+  width: 38.6%;
+  padding-top: 89px;
+  float: left;
+  padding-left: 3.75rem;
+}
+@media (max-width: 650px) {
+  .cv__column-left {
+    width: 80%;
+    padding-left: 0;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.cv__column-right {
+  box-sizing: border-box;
+  width: 61.4%;
+  float: right;
+  padding-left: 5.25rem;
+  padding-top: 70px;
+  padding-right: 2.3125rem;
+}
+@media (max-width: 650px) {
+  .cv__column-right {
+    width: 80%;
+    padding: 0;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
