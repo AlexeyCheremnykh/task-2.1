@@ -2,10 +2,10 @@ include ../education/education.pug
 include ../experience/experience.pug
 include ../software/software.pug
 
-mixin column-right
+mixin column-right({educationData = {}, experienceData = {}, softwareData = {}} = {})
     .column-right
         .column-right__education
-            +education(data.education)
+            +education(educationData)
         .column-right__experience
-            +experience(data.experience)
-        +software(data.software)
+            +experience(experienceData)
+        +software(softwareData)

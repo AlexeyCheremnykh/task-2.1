@@ -3,11 +3,11 @@ include ../profile/profile.pug
 include ../contact/contact.pug
 include ../skills/skills.pug
 
-mixin column-left
+mixin column-left({applicantData = {}, profileData = {}, contactData = {}, skillsData = {}} = {})
     .column-left
         .column-left__applicant
-            +applicant(data.applicant)
+            +applicant(applicantData)
         .column-left__profile
-            +profile(data.profile)
-        +contact(data.contact)
-        +skills(data.skills)
+            +profile(profileData)
+        +contact(contactData)
+        +skills(skillsData)

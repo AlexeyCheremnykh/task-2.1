@@ -1,9 +1,9 @@
 include ../column-left/column-left.pug
 include ../column-right/column-right.pug
 
-mixin cv
+mixin cv(cvData)
     .cv
         .cv__column-left
-            +column-left
+            +column-left({applicantData: cvData.applicant, profileData: cvData.profile, contactData: cvData.contact, skillsData: cvData.skills})
         .cv__column-right
-            +column-right
+            +column-right({educationData: cvData.education, softwareData: cvData.software, experienceData: cvData.experience})
