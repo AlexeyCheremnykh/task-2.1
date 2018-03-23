@@ -1,0 +1,8 @@
+mixin info-with-period({title, period, subtitle, content, titleColor = ""} = {})
+    - const titleColorClass = titleColor ? ` info-with-period__title_${titleColor}` : "";
+    article.info-with-period
+        header.info-with-period__header
+            h3(class="info-with-period__title" + titleColorClass)=title
+                span.info-with-period__period="// " + period
+            .info-with-period__subtitle=subtitle
+        p.info-with-period__content=content

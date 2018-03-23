@@ -1,7 +1,7 @@
-include ../applicant-competence/applicant-competence.pug
+include ../info-with-period/info-with-period.pug
 
 mixin list({listItems, color = ""} = {})
     ul.list
         each item in listItems
             li.list__item
-                +applicant-competence({title: item.title, period: item.period, subtitle: item.subtitle, content: item.content, titleColor: color})
+                +info-with-period({title: item.title, period: item.period, subtitle: item.subtitle, content: item.content, titleColor: color})

@@ -9,7 +9,7 @@ import './blocks/profile/profile.styl';
 import './blocks/contact/contact.styl';
 import './blocks/skills/skills.styl';
 import './blocks/column-left/column-left.styl';
-import './blocks/applicant-competence/applicant-competence.styl';
+import './blocks/info-with-period/info-with-period.styl';
 import './blocks/list/list.styl';
 import './blocks/education/education.styl';
 import './blocks/experience/experience.styl';
