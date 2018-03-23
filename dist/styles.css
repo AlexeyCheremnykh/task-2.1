@@ -218,31 +218,31 @@ html {
 .column-left__profile {
   margin-bottom: 2.3125rem;
 }
-.applicant-competence__header {
+.info-with-period__header {
   padding-left: 0.125rem;
 }
-.applicant-competence__title {
+.info-with-period__title {
   font-size: 1.75rem;
   margin: 0;
   font-weight: 700;
   text-transform: uppercase;
   word-break: break-word;
 }
-.applicant-competence__title_blue {
+.info-with-period__title_blue {
   color: #3d6cb0;
 }
-.applicant-competence__period {
+.info-with-period__period {
   text-transform: none;
   color: #000;
   font-weight: 400;
   margin-left: 1.25rem;
 }
-.applicant-competence__subtitle {
+.info-with-period__subtitle {
   font-size: 1.75rem;
   text-transform: uppercase;
   word-break: break-word;
 }
-.applicant-competence__content {
+.info-with-period__content {
   margin: 0;
   padding: 0.3125rem 1.375rem 0 0.1875rem;
 }
