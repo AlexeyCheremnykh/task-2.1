@@ -12,3 +12,4 @@ import './src/blocks/education/education.styl';
 import './src/blocks/common-list/common-list.styl';
 import './src/blocks/experience/experience.styl';
 import './src/blocks/software/software.styl';
+// useless comment
